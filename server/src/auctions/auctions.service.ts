@@ -32,7 +32,7 @@ export class AuctionsService {
 		// 	price_levels,
 		// 	status: AuctionStatus.PENDING,
 		// }
-		return await this.auctionRepository.save()
+		// return await this.auctionRepository.save()
 		// const res = await getConnection()
 		// 	.createQueryBuilder()
 		// 	.insert()
