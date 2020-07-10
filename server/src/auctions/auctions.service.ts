@@ -1,44 +1,44 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { Auction, AuctionStatus } from './auction.model';
+import { Auction } from './auction.entity';
+import { AuctionStatus } from './auction-status.enum';
 import { CreateAuctionDto } from './dto/create-auction.dto';
+import { InjectRepository } from '@nestjs/typeorm';
+import { Repository, getConnection } from 'typeorm';
 
 @Injectable()
 export class AuctionsService {
-    private auctions: Auction[] = [
-        {
-            id: 'first_id',
-            product_id: "prod_id",
-            price_levels: {},
-            status: AuctionStatus.PENDING,
-            end_date: new Date(),
-            // subscribers: 
-            supplier_id: ""
-        }
-    ]
+    constructor(
+        @InjectRepository(Auction)
+        private auctionRepository: Repository<Auction>,
+    ) {}
 
-    getAllAuctions = (): Auction[] => {
-        return this.auctions
+    getAllAuctions = (): Promise<Auction[]> => {
+        return this.auctionRepository.find()
     }
 
-    getAuctionById = (id: string): Auction => {
-        const found = this.auctions.find(auction => auction.id === id)
+    getAuctionById = (id: string): Promise<Auction> => {
+        const found = this.auctionRepository.findOne(id)
         if (!found) {
             throw new NotFoundException()
         }
         return found
     }
 
-    createAuction = (createAuctionDto: CreateAuctionDto): Auction => {
-        const { end_date, price_levels } = createAuctionDto
-        const auction = {
-            id: "",
-            product_id: "",
-            end_date: new Date(end_date),
-            price_levels,
-            status: AuctionStatus.PENDING,
-            supplier_id: ""
-        }
-        this.auctions.push(auction)
-        return auction
-    }
+	createAuction = async (createAuctionDto: CreateAuctionDto) => {
+		const { end_date, price_levels } = createAuctionDto		
+		// const auction = {
+		// 	product_id: "",
+		// 	end_date: new Date(end_date),
+		// 	price_levels,
+		// 	status: AuctionStatus.PENDING,
+		// }
+		const res = await getConnection()
+			.createQueryBuilder()
+			.insert()
+			.into(Auction)
+			.values([{ end_date: new Date(end_date), price_levels, product_id: 1, status: AuctionStatus.PENDING }])
+			.execute()
+		console.log('done inserting', res);
+		
+	}
 }

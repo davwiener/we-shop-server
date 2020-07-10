@@ -2,8 +2,8 @@ import { IsNotEmpty } from 'class-validator'
 
 export class CreateAuctionDto {
     @IsNotEmpty()
-    price_levels: object;
+    price_levels: string;
     
     @IsNotEmpty()
-    end_date: string
+    end_date: string;
 }

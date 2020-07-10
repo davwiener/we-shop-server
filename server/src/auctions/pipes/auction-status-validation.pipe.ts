@@ -1,5 +1,5 @@
 import { PipeTransform, BadRequestException } from "@nestjs/common";
-import { AuctionStatus } from "../auction.model";
+import { AuctionStatus } from "../auction-status.enum";
 
 export class AuctionStatusValidationPipe implements PipeTransform{
 	readonly allowdStatuses = [
