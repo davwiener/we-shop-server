@@ -32,13 +32,14 @@ export class AuctionsService {
 		// 	price_levels,
 		// 	status: AuctionStatus.PENDING,
 		// }
-		const res = await getConnection()
-			.createQueryBuilder()
-			.insert()
-			.into(Auction)
-			.values([{ end_date: new Date(end_date), price_levels, product_id: 1, status: AuctionStatus.PENDING }])
-			.execute()
-		console.log('done inserting', res);
+		return await this.auctionRepository.save()
+		// const res = await getConnection()
+		// 	.createQueryBuilder()
+		// 	.insert()
+		// 	.into(Auction)
+		// 	.values([{ end_date: new Date(end_date), price_levels, product_id: 1, status: AuctionStatus.PENDING }])
+		// 	.execute()
+		// console.log('done inserting', res);
 		
 	}
 }

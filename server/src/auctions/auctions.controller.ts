@@ -21,6 +21,6 @@ export class AuctionsController {
 	@Post()
 	// @UsePipes(ValidationPipe)
   createAuction(@Body() createAuctionDto: CreateAuctionDto) {
-		this.auctionsService.createAuction(createAuctionDto)
+		return this.auctionsService.createAuction(createAuctionDto)
   }
 }
