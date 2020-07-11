@@ -16,7 +16,7 @@ export class AuctionsService {
 			return this.auctionRepository.find()
 	}
 
-	getAuctionById = (id: string): Promise<Auction> => {
+	getAuctionById = (id: number): Promise<Auction> => {
 			const found = this.auctionRepository.findOne(id)
 			if (!found) {
 					throw new NotFoundException()

@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body, Param, UsePipes, ValidationPipe } from '@nestjs/common';
+import { Controller, Get, Post, Body, Param, UsePipes, ValidationPipe, ParseIntPipe } from '@nestjs/common';
 import { AuctionsService } from './auctions.service';
 import { Auction } from './auction.entity';
 import { CreateAuctionDto } from './dto/create-auction.dto';
@@ -13,7 +13,7 @@ export class AuctionsController {
 	}
 		
 	@Get('/:id')
-	getAuctionById(@Param('id') id: string): Promise<Auction> {
+	getAuctionById(@Param('id', ParseIntPipe) id: number): Promise<Auction> {
 		return this.auctionsService.getAuctionById(id)
 	}
 

@@ -5,6 +5,8 @@ import { Connection } from 'typeorm';
 import { Auction } from './auctions/auction.entity'
 import { ProductsModule } from './products/products.module';
 import { Product } from './products/product.entity';
+import { AuthModule } from './auth/auth.module';
+import { User } from './auth/user.entity';
 
 @Module({
   imports: [
@@ -15,10 +17,10 @@ import { Product } from './products/product.entity';
       username: "root",
       password: "",
       database: "we_shop",
-      entities: [Auction, Product],
+      entities: [Auction, Product, User],
       synchronize: true,
       logging: true
-  }), AuctionsModule, ProductsModule],
+  }), AuctionsModule, ProductsModule, AuthModule],
   controllers: [],
   providers: [],
 })
