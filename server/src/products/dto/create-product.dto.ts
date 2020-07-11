@@ -1,12 +1,9 @@
 import { IsNotEmpty } from 'class-validator'
 
-export class CreateAuctionDto {
+export class CreateProductDto {
     @IsNotEmpty()
-    price_levels: string;
+    name: string;
     
     @IsNotEmpty()
-    end_date: string;
-
-    name: string;
     description: string;
 }

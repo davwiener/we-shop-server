@@ -9,7 +9,6 @@ export class AuctionsController {
 
 	@Get()
 	getAllAuctions(): Promise<Auction[]> {
-		console.log('got a request');
 		return this.auctionsService.getAllAuctions()
 	}
 		
@@ -19,8 +18,8 @@ export class AuctionsController {
 	}
 
 	@Post()
-	// @UsePipes(ValidationPipe)
-  createAuction(@Body() createAuctionDto: CreateAuctionDto) {
+	@UsePipes(ValidationPipe)
+  createAuction(@Body() createAuctionDto: CreateAuctionDto): Promise<Auction> {
 		return this.auctionsService.createAuction(createAuctionDto)
   }
 }

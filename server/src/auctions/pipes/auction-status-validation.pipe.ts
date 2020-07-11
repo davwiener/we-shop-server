@@ -11,7 +11,7 @@ export class AuctionStatusValidationPipe implements PipeTransform{
 	transform(value: any) {
 		value = value.toUpperCase()
 		if (!(this.allowdStatuses.indexOf(value) >= 0)) {
-			throw new BadRequestException(`${value} is invalid`)	
+			throw new BadRequestException(`${value} is invalid`)
 		}
 	}
 }

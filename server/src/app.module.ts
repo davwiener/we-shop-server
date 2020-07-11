@@ -3,6 +3,8 @@ import { AuctionsModule } from './auctions/auctions.module';
 import { TypeOrmModule } from '@nestjs/typeorm'
 import { Connection } from 'typeorm';
 import { Auction } from './auctions/auction.entity'
+import { ProductsModule } from './products/products.module';
+import { Product } from './products/product.entity';
 
 @Module({
   imports: [
@@ -11,12 +13,12 @@ import { Auction } from './auctions/auction.entity'
       host: "localhost",
       port: 3306,
       username: "root",
-      password: "??Poi000",
+      password: "",
       database: "we_shop",
-      entities: [Auction],
+      entities: [Auction, Product],
       synchronize: true,
       logging: true
-  }), AuctionsModule],
+  }), AuctionsModule, ProductsModule],
   controllers: [],
   providers: [],
 })
