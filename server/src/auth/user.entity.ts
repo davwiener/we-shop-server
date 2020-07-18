@@ -1,6 +1,7 @@
 import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, Unique, OneToMany  } from 'typeorm'
 import * as bcrypt from 'bcrypt'
 import { Auction } from 'src/auctions/auction.entity';
+import { Product } from 'src/products/product.entity';
 
 @Entity()
 @Unique(['email'])
@@ -11,6 +12,9 @@ export class User extends BaseEntity {
 
   @OneToMany(type => Auction, auction => auction.user, { eager: true })
   auctions: Auction[]
+
+  @OneToMany(type => Product, product => product.user, { eager: true })
+  products: Product[]
 
   @Column()
   email: string;
