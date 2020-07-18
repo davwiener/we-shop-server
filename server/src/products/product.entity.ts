@@ -6,9 +6,6 @@ export class Product extends BaseEntity {
   @PrimaryGeneratedColumn()
   id: number
 
-  @ManyToOne(type => User, user => user.products, { eager: false })
-  user: User
-
   @Column()
   name: string
 
@@ -20,4 +17,7 @@ export class Product extends BaseEntity {
 
   @Column()
   userId: number
+
+  @ManyToOne(type => User, user => user.products, { eager: false })
+  user: User
 }

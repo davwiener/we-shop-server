@@ -6,15 +6,9 @@ import { Product } from 'src/products/product.entity';
 @Entity()
 @Unique(['email'])
 @Unique(['username'])
-export class User extends BaseEntity {
+export class User {
   @PrimaryGeneratedColumn()
   id: number;
-
-  @OneToMany(type => Auction, auction => auction.user, { eager: true })
-  auctions: Auction[]
-
-  @OneToMany(type => Product, product => product.user, { eager: true })
-  products: Product[]
 
   @Column()
   email: string;
@@ -43,7 +37,13 @@ export class User extends BaseEntity {
   @Column()
   created_at: Date;
 
-  validatePassword = async (password: string): Promise<boolean> => {
+  @OneToMany(type => Auction, auction => auction.user, { eager: true })
+  auctions: Auction[];
+
+  @OneToMany(type => Product, product => product.user, { eager: true })
+  products: Product[];
+
+  async validatePassword(password: string): Promise<boolean> {
     const hash = await bcrypt.hash(password, this.salt)
     return this.password === hash
   }

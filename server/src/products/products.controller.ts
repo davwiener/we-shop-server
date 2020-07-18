@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body, Param, UseGuards, Query } from '@nestjs/common';
+import { Controller, Get, Post, Body, Param, UseGuards, Query, ValidationPipe } from '@nestjs/common';
 import { ProductsService } from './products.service';
 import { Product } from './product.entity';
 import { CreateProductDto } from './dto/create-product.dto';
@@ -16,14 +16,14 @@ export class ProductsController {
   getProducts(
     @Query('filter') filter: GetProductsDto, 
     @Query('sort') sort: GetProductsDto, 
-    @GetUser() user: User): Promise<Product[]> {
+    @GetUser(ValidationPipe) user: User): Promise<Product[]> {
     return this.productsService.getProducts(user, filter, sort)
   }
 
   @Get('/:id')
   getProductById(
     @Param('id') id: number,
-    @GetUser() user: User
+    @GetUser(ValidationPipe) user: User
     ): Promise<Product> {
     return this.productsService.getProductById(id, user)
   }
