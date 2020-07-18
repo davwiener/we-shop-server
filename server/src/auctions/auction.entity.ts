@@ -1,4 +1,4 @@
-import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, ManyToOne,  } from 'typeorm'
+import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, ManyToOne } from 'typeorm'
 import { AuctionStatus } from './auction-status.enum';
 import { User } from 'src/auth/user.entity';
 
@@ -6,9 +6,6 @@ import { User } from 'src/auth/user.entity';
 export class Auction extends BaseEntity {
     @PrimaryGeneratedColumn()
     id: number;
-
-    @ManyToOne(type => User, user => user.auctions, { eager: false })
-    user: User
 
     @Column()
     product_id: number;
@@ -33,4 +30,7 @@ export class Auction extends BaseEntity {
 
     @Column()
     userId: number;
+
+    @ManyToOne(type => User, user => user.auctions, { eager: false })
+    user: User;
 }

@@ -12,14 +12,14 @@ export class AuctionsController {
 	constructor (private auctionsService: AuctionsService) {}
 
 	@Get()
-	getAllAuctions(@GetUser() user: User): Promise<Auction[]> {
+	getAllAuctions(@GetUser(ValidationPipe) user: User): Promise<Auction[]> {
 		return this.auctionsService.getAllAuctions(user)
 	}
 		
 	@Get('/:id')
 	getAuctionById(
 		@Param('id', ParseIntPipe) id: number,
-		@GetUser() user: User
+		@GetUser(ValidationPipe) user: User
 		): Promise<Auction> {
 		return this.auctionsService.getAuctionById(id, user)
 	}
@@ -28,7 +28,7 @@ export class AuctionsController {
 	@UsePipes(ValidationPipe)
   createAuction(
 		@Body() createAuctionDto: CreateAuctionDto,
-		@GetUser() user: User
+		@GetUser(ValidationPipe) user: User
 		): Promise<Auction> {
 		return this.auctionsService.createAuction(createAuctionDto, user)
   }
