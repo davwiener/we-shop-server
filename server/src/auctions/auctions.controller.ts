@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body, Param, UsePipes, ValidationPipe, ParseIntPipe, UseGuards } from '@nestjs/common';
+import { Controller, Get, Post, Body, Param, UsePipes, ValidationPipe, ParseIntPipe, UseGuards, Query } from '@nestjs/common';
 import { AuctionsService } from './auctions.service';
 import { Auction } from './auction.entity';
 import { CreateAuctionDto } from './dto/create-auction.dto';
@@ -7,13 +7,20 @@ import { GetUser } from 'src/auth/get-user.decorator';
 import { User } from 'src/auth/user.entity';
 
 @Controller('auctions')
-@UseGuards(AuthGuard())
 export class AuctionsController {
 	constructor (private auctionsService: AuctionsService) {}
+		
+	@Get('/my')
+	@UseGuards(AuthGuard())
+	getUserAuctions(@GetUser(ValidationPipe) user: User): Promise<Auction[]> {
+		return this.auctionsService.getUserAuctions(user)
+	}
 
 	@Get()
-	getAllAuctions(@GetUser(ValidationPipe) user: User): Promise<Auction[]> {
-		return this.auctionsService.getAllAuctions(user)
+	getAuctions(
+		@Query('category', ValidationPipe) categories: string
+		): Promise<Auction[]> {
+		return this.auctionsService.getAuctions(categories)
 	}
 		
 	@Get('/:id')
@@ -25,6 +32,7 @@ export class AuctionsController {
 	}
 
 	@Post()
+	@UseGuards(AuthGuard())
 	@UsePipes(ValidationPipe)
   createAuction(
 		@Body() createAuctionDto: CreateAuctionDto,

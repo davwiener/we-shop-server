@@ -9,4 +9,7 @@ export class CreateAuctionDto {
 
     name: string;
     description: string;
+
+    @IsNotEmpty()
+    productId: number
 }

@@ -4,7 +4,8 @@ import { Repository } from 'typeorm';
 import { Product } from './product.entity';
 import { CreateProductDto } from './dto/create-product.dto';
 import { User } from 'src/auth/user.entity';
-import { GetProductsDto } from './get-products.dto';
+import { GetProductsDto } from './dto/get-products.dto';
+import { Category } from 'src/categories/category.entity';
 
 @Injectable()
 export class ProductsService {
@@ -13,21 +14,20 @@ export class ProductsService {
     private productRepository: Repository<Product>
   ) {}
 
-  getProducts = (user: User, filter: GetProductsDto, sort: GetProductsDto): Promise<Product[]> => {
-    console.log('filter', filter)
-    console.log('sort', sort)
-    return this.productRepository.find({ id: user.id })
+  getProducts = async (user: User, filter: GetProductsDto, sort: GetProductsDto): Promise<Product[]> => {
+    return await this.productRepository.find()
   }
 
-  getProductById = (id: number, user: User): Promise<Product> => {
-    return this.productRepository.findOne({ where: { id, userId: user.id } })
+  getProductById = async (id: number, user: User): Promise<Product> => {
+    return await this.productRepository.findOne({ where: { id, userId: user.id } })
   }
 
   createProduct = async (createProductDto: CreateProductDto): Promise<Product> => {
-    const { name, description } = createProductDto
-    return this.productRepository.save({
+    const { name, description, categoryId } = createProductDto
+    return await this.productRepository.save({
       name,
-      description
+      description,
+      categoryId
     })
   }
 }
