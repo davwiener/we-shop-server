@@ -4,6 +4,8 @@ export class CreateProductDto {
     @IsNotEmpty()
     name: string;
     
-    @IsNotEmpty()
     description: string;
+
+    @IsNotEmpty()
+    categoryId: number
 }

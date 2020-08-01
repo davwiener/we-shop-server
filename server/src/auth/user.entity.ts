@@ -40,9 +40,6 @@ export class User {
   @OneToMany(type => Auction, auction => auction.user, { eager: true })
   auctions: Auction[];
 
-  @OneToMany(type => Product, product => product.user, { eager: true })
-  products: Product[];
-
   async validatePassword(password: string): Promise<boolean> {
     const hash = await bcrypt.hash(password, this.salt)
     return this.password === hash
