@@ -5,6 +5,7 @@ import { AuctionsModule } from './auctions/auctions.module';
 import { ProductsModule } from './products/products.module';
 import { AuthModule } from './auth/auth.module';
 import { CategoriesModule } from './categories/categories.module';
+import { AccountsModule } from './accounts/accounts.module';
 
 @Module({
   imports: [
@@ -12,7 +13,8 @@ import { CategoriesModule } from './categories/categories.module';
     AuthModule,
     AuctionsModule,
     ProductsModule,
-    CategoriesModule
+    CategoriesModule,
+    AccountsModule
   ],
   controllers: [],
   providers: [],
