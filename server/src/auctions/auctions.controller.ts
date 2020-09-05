@@ -10,7 +10,7 @@ import { User } from 'src/auth/user.entity';
 export class AuctionsController {
 	constructor (private auctionsService: AuctionsService) {}
 		
-	@Get('/my')
+	@Get('/my_auctions')
 	@UseGuards(AuthGuard())
 	getUserAuctions(@GetUser(ValidationPipe) user: User): Promise<Auction[]> {
 		return this.auctionsService.getUserAuctions(user)
