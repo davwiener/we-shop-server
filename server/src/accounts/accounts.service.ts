@@ -17,7 +17,8 @@ export class AccountsService {
     return await this.accountsRepository.findOne({ id: user.accountId })
   }
 
-  updateAccountData = async (user: User, name: string): Promise<Account> => {
-    return await this.accountsRepository.save({ id: user.accountId, name })
+  updateAccountData = async (user: User, accountName: string, userName: string): Promise<Account> => {
+    await this.userRepository.save({ id: user.id, username: userName })
+    return await this.accountsRepository.save({ id: user.accountId, name: accountName })
   }
 }

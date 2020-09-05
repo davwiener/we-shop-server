@@ -9,7 +9,7 @@ import { User } from 'src/auth/user.entity';
 export class AccountsController {
   constructor(private accountsService: AccountsService) {}
 
-  @Get('/my')
+  @Get('/my_account')
   @UseGuards(AuthGuard())
   getAccountData(@GetUser(ValidationPipe) user: User): Promise<Account> {
     return this.accountsService.getAccountData(user)
@@ -19,8 +19,9 @@ export class AccountsController {
   @UseGuards(AuthGuard())
   updateAccountData(
     @GetUser(ValidationPipe) user: User,
-    @Body('name') name: string
+    @Body('accountName') accountName: string,
+    @Body('userName') userName: string,
   ): Promise<Account> {
-    return this.accountsService.updateAccountData(user, name)
+    return this.accountsService.updateAccountData(user, accountName, userName)
   }
 }
