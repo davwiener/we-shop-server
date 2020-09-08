@@ -25,17 +25,17 @@ export class User {
   @Column()
   last_name: string;
 
-  @Column()
-  account_id: number;
+  // @Column()
+  // account_id: number;
 
-  @Column()
-  last_login: Date;
+  // @Column()
+  // last_login: Date;
 
   @Column()
   salt: string;
 
-  @Column()
-  created_at: Date;
+  // @Column()
+  // created_at: Date;
 
   @OneToMany(type => Auction, auction => auction.user, { eager: true })
   auctions: Auction[];

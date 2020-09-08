@@ -1,4 +1,4 @@
-import { IsNotEmpty } from 'class-validator'
+import { IsNotEmpty, ValidateIf } from 'class-validator'
 
 export class CreateAuctionDto {
     @IsNotEmpty()
@@ -10,3 +10,9 @@ export class CreateAuctionDto {
     name: string;
     description: string;
 }
+
+export class SearchAuctionsDto {  
+    @IsNotEmpty()
+    page: number;
+}
+
