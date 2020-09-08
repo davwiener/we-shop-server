@@ -12,7 +12,7 @@ import { GetQuery } from 'src/auth/get-query.decorator';
 export class AuctionsController {
 	constructor (private auctionsService: AuctionsService) {}
 
-	@Get('/aaa')
+	@Get('/getAllAuctions')
 	getAllAuctions(@GetUser(ValidationPipe) user: User): Promise<Auction[]> {
 		return this.auctionsService.getAllAuctions(user)
 	}
