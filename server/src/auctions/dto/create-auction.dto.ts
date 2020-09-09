@@ -9,10 +9,10 @@ export class CreateAuctionDto {
 
     name: string;
     description: string;
+    productId: number;
 }
 
 export class SearchAuctionsDto {  
     @IsNotEmpty()
     page: number;
 }
-

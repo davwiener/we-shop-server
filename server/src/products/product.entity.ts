@@ -1,5 +1,7 @@
-import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, ManyToOne } from "typeorm";
+import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToMany, OneToOne } from "typeorm";
 import { User } from "src/auth/user.entity";
+import { Category } from "src/categories/category.entity";
+import { Auction } from "src/auctions/auction.entity";
 
 @Entity()
 export class Product extends BaseEntity {
@@ -18,6 +20,12 @@ export class Product extends BaseEntity {
   @Column()
   userId: number
 
-  @ManyToOne(type => User, user => user.products, { eager: false })
-  user: User
+  @Column()
+  categoryId: number
+
+  @ManyToOne(type => Category, category => category.products, { eager: false })
+  category: Category
+
+  @OneToMany(type => Auction, auction => auction.product, { eager: true })
+  auctions: Auction[]
 }

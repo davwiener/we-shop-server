@@ -1,11 +1,11 @@
-import { Controller, Get, Post, Body, Param, UseGuards, Query, ValidationPipe } from '@nestjs/common';
+import { Controller, Get, Post, Body, Param, UseGuards, Query, ValidationPipe, UsePipes } from '@nestjs/common';
 import { ProductsService } from './products.service';
 import { Product } from './product.entity';
 import { CreateProductDto } from './dto/create-product.dto';
 import { AuthGuard } from '@nestjs/passport';
 import { GetUser } from 'src/auth/get-user.decorator';
 import { User } from 'src/auth/user.entity';
-import { GetProductsDto } from './get-products.dto';
+import { GetProductsDto } from './dto/get-products.dto';
 
 @Controller('products')
 @UseGuards(AuthGuard())
@@ -14,8 +14,8 @@ export class ProductsController {
 
   @Get()
   getProducts(
-    @Query('filter') filter: GetProductsDto, 
-    @Query('sort') sort: GetProductsDto, 
+    @Query('filter') filter: GetProductsDto,
+    @Query('sort') sort: GetProductsDto,
     @GetUser(ValidationPipe) user: User): Promise<Product[]> {
     return this.productsService.getProducts(user, filter, sort)
   }
@@ -29,6 +29,7 @@ export class ProductsController {
   }
 
   @Post()
+  @UsePipes(ValidationPipe)
   createProduct(@Body() createProductDto: CreateProductDto): Promise<Product> {
     return this.productsService.createProduct(createProductDto)
   }

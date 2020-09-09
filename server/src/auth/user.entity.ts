@@ -1,7 +1,8 @@
-import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, Unique, OneToMany  } from 'typeorm'
+import { Entity, PrimaryGeneratedColumn, Column, Unique, OneToMany, ManyToOne  } from 'typeorm'
 import * as bcrypt from 'bcryptjs'
 import { Auction } from 'src/auctions/auction.entity';
 import { Product } from 'src/products/product.entity';
+import { Account } from 'src/accounts/account.entity';
 
 @Entity()
 @Unique(['email'])
@@ -25,11 +26,11 @@ export class User {
   @Column()
   last_name: string;
 
-  // @Column()
-  // account_id: number;
+  @Column()
+  accountId: number;
 
-  // @Column()
-  // last_login: Date;
+  @Column()
+  last_login: Date;
 
   @Column()
   salt: string;
@@ -40,8 +41,8 @@ export class User {
   @OneToMany(type => Auction, auction => auction.user, { eager: true })
   auctions: Auction[];
 
-  @OneToMany(type => Product, product => product.user, { eager: true })
-  products: Product[];
+  @ManyToOne(type => Account, account => account.users, { eager: false })
+  account: Account
 
   async validatePassword(password: string): Promise<boolean> {
     const hash = await bcrypt.hash(password, this.salt)
