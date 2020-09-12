@@ -3,7 +3,7 @@ import { AuthService } from './auth.service';
 import { SignUpCredentialsDto } from './dto/sign-up-credentials.dto';
 import { SignInCredentialsDto } from './dto/sign-in-credentials.dto';
 import { Logger } from '@nestjs/common';
-@Controller('api/auth')
+@Controller('auth')
 export class AuthController {
   logger = new Logger('auth');
   constructor(private authService: AuthService) {}

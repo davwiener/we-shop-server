@@ -20,12 +20,19 @@ export class Product extends BaseEntity {
   @Column()
   userId: number
 
-  @Column()
-  categoryId: number
+  // @Column()
+  // categoryId: number
 
   @ManyToOne(type => Category, category => category.products, { eager: false })
   category: Category
 
   @OneToMany(type => Auction, auction => auction.product, { eager: true })
   auctions: Auction[]
+
+  @Column()
+  company_name: string;
+
+  @Column()
+  type: string;
+
 }

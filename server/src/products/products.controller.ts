@@ -12,7 +12,7 @@ import { GetProductsDto } from './dto/get-products.dto';
 export class ProductsController {
   constructor(private productsService: ProductsService) {}
 
-  @Get()
+  @Get("/getProducts")
   getProducts(
     @Query('filter') filter: GetProductsDto,
     @Query('sort') sort: GetProductsDto,
@@ -20,6 +20,7 @@ export class ProductsController {
     return this.productsService.getProducts(user, filter, sort)
   }
 
+  
   @Get('/:id')
   getProductById(
     @Param('id') id: number,
@@ -28,7 +29,7 @@ export class ProductsController {
     return this.productsService.getProductById(id, user)
   }
 
-  @Post()
+  @Post('/createProduct')
   @UsePipes(ValidationPipe)
   createProduct(@Body() createProductDto: CreateProductDto): Promise<Product> {
     return this.productsService.createProduct(createProductDto)

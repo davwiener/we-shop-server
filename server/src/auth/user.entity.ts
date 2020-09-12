@@ -35,8 +35,8 @@ export class User {
   @Column()
   salt: string;
 
-  // @Column()
-  // created_at: Date;
+  @Column()
+  created_at: Date;
 
   @OneToMany(type => Auction, auction => auction.user, { eager: true })
   auctions: Auction[];

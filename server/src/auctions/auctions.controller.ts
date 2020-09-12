@@ -7,7 +7,7 @@ import { GetUser } from 'src/auth/get-user.decorator';
 import { User } from 'src/auth/user.entity';
 import { GetQuery } from 'src/auth/get-query.decorator';
 
-@Controller('api/auctions')
+@Controller('auctions')
 export class AuctionsController {
 	constructor (private auctionsService: AuctionsService) {}
 		
@@ -39,7 +39,7 @@ export class AuctionsController {
 		return this.auctionsService.getAuctionById(id, user)
 	}
 
-	@Post()
+	@Post('/createAuction')
 	@UseGuards(AuthGuard())
 	@UsePipes(ValidationPipe)
   createAuction(
