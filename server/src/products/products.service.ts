@@ -15,7 +15,8 @@ export class ProductsService {
   ) {}
 
   getProducts = async (user: User, filter: GetProductsDto, sort: GetProductsDto): Promise<Product[]> => {
-    return await this.productRepository.find()
+    const products = await this.productRepository.find()
+    return products;
   }
 
   getProductById = async (id: number, user: User): Promise<Product> => {
@@ -23,11 +24,16 @@ export class ProductsService {
   }
 
   createProduct = async (createProductDto: CreateProductDto): Promise<Product> => {
-    const { name, description, categoryId } = createProductDto
+    const { name, description, company_name, type, model, userId } = createProductDto
+    const created_at = new Date()
     return await this.productRepository.save({
       name,
       description,
-      categoryId
+      type,
+      company_name,
+      model,
+      created_at,
+      userId: 1
     })
   }
 }

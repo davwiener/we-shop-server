@@ -3,9 +3,21 @@ import { IsNotEmpty } from 'class-validator'
 export class CreateProductDto {
     @IsNotEmpty()
     name: string;
-    
+
+    @IsNotEmpty()
     description: string;
 
     @IsNotEmpty()
-    categoryId: number
+    company_name: string;
+
+    @IsNotEmpty()
+    type: string;
+
+    @IsNotEmpty()
+    model: string;
+
+    //@IsNotEmpty()
+    userId: number = 1;
+    //@IsNotEmpty()
+    //categoryId: number;
 }

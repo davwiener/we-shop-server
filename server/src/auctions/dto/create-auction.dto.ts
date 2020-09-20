@@ -1,4 +1,5 @@
-import { IsNotEmpty } from 'class-validator'
+import { IsNotEmpty, ValidateIf } from 'class-validator'
+import { CreateProductDto } from 'src/products/dto/create-product.dto';
 
 export class CreateAuctionDto {
     @IsNotEmpty()
@@ -9,7 +10,12 @@ export class CreateAuctionDto {
 
     name: string;
     description: string;
+    productId: number;
+    
+    product: CreateProductDto
+}
 
+export class SearchAuctionsDto {  
     @IsNotEmpty()
-    productId: number
+    page: number;
 }

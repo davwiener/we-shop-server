@@ -17,6 +17,7 @@ export class AuthService {
   ) {}
 
   signUp = async (signUpDto: SignUpCredentialsDto): Promise<void> => {
+    console.log('gothere');
     const { email, username, password, first_name, last_name } = signUpDto
     const salt = await bcrypt.genSalt()
     const pass = await this.hashPassword(password, salt)
@@ -28,6 +29,8 @@ export class AuthService {
         first_name,
         last_name,
         salt
+      }).then(res=> {
+        return {email: res.email, username: res.username};
       })
     } catch (err) {
       if (err.code === 'ER_DUP_ENTRY') {
@@ -38,6 +41,7 @@ export class AuthService {
   }
 
   signIn = async (signInDto: SignInCredentialsDto): Promise<{ accessToken: string }> => {
+    console.log('here')
     const { email, password } = signInDto
     const user = await this.userRepository.findOne({ email })
 
