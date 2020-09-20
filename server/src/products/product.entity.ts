@@ -35,4 +35,7 @@ export class Product extends BaseEntity {
   @Column()
   type: string;
 
+  @Column()
+  model: string;
+
 }

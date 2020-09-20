@@ -17,10 +17,7 @@ export class CreateProductDto {
     model: string;
 
     //@IsNotEmpty()
-    userId: number = 1234;
+    userId: number = 1;
     //@IsNotEmpty()
     //categoryId: number;
-    
-    
-    
 }
