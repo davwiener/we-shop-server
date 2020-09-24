@@ -68,8 +68,6 @@ export class AuctionsService {
 			delete(auction.user)
 		}
 		else if(product) {
-			console.log("********************************************************************")
-			console.log('create new product ' + product);
 			const createdProduct = await this.productsService.createProduct(product);
 			  if (createdProduct) {
 				auction = await this.auctionRepository.save({
@@ -91,16 +89,39 @@ export class AuctionsService {
 		}
 		return auction
 	}
+	addProducts = async (auctions: Auction[]): Promise<Auction[]> => {
+		auctions.map(async auction => {
+			const product = await this.productRepository.find({ id: auction.productId});
+			if (auction) {
+				auction.product = product[0];
+			}
+			console.log(product);
+			console.log(auction);
+		})
+		return auctions;
+	}
 	searchAuction = async (createAuctionDto: SearchAuctionsDto): Promise<Auction | any> => {
-		console.log(createAuctionDto);
-		return new Promise((resolve, reject) => {
-			setTimeout(() => {
-			  console.log("search");
-			  const ret = Array.from(Array(20), (_, i) => i  + (createAuctionDto.page - 1) * 20);
-				console.log(ret);
-			  resolve(ret);
-			}, 1500);
-		});
+		// console.log(createAuctionDto);
+		// return new Promise((resolve, reject) => {
+		// 	setTimeout(() => {
+		// 	  console.log("search");
+		// 	  const ret = Array.from(Array(20), (_, i) => i  + (createAuctionDto.page - 1) * 20);
+		// 		console.log(ret);
+		// 	  resolve(ret);
+		// 	}, 1500);
+		// });
+		let auctions = await this.auctionRepository.find();
+		await Promise.all(auctions.map(async auction => {
+			const product = await this.productRepository.find({ id: auction.productId});
+			if (auction) {
+				auction.product = product[0];
+			}
+			console.log(product);
+			console.log(auction);
+		}))
+		console.log('ret');
+		return auctions;
+		
 	}
 
 }
