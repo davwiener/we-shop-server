@@ -101,15 +101,6 @@ export class AuctionsService {
 		return auctions;
 	}
 	searchAuction = async (createAuctionDto: SearchAuctionsDto): Promise<Auction | any> => {
-		// console.log(createAuctionDto);
-		// return new Promise((resolve, reject) => {
-		// 	setTimeout(() => {
-		// 	  console.log("search");
-		// 	  const ret = Array.from(Array(20), (_, i) => i  + (createAuctionDto.page - 1) * 20);
-		// 		console.log(ret);
-		// 	  resolve(ret);
-		// 	}, 1500);
-		// });
 		let auctions = await this.auctionRepository.find();
 		await Promise.all(auctions.map(async auction => {
 			const product = await this.productRepository.find({ id: auction.productId});
