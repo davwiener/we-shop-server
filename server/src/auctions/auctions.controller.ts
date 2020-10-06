@@ -22,8 +22,8 @@ export class AuctionsController {
 		return this.auctionsService.getAllAuctions(user)
 	}
 
-	@Post('/search')
-	searchAuctions(@Body(ValidationPipe)query: SearchAuctionsDto ,
+	@Get('/search')
+	searchAuctions(@GetQuery(ValidationPipe) query: any,
 	): Promise<Auction[]> {
 			//console.log('asdsad' + query);
 		return this.auctionsService.searchAuction(query)
