@@ -6,7 +6,7 @@ export class CreateAuctionDto {
     price_levels: string;
     
     @IsNotEmpty()
-    end_date: string;
+    end_date: any;
 
     name: string;
     description: string;
@@ -18,4 +18,15 @@ export class CreateAuctionDto {
 export class SearchAuctionsDto {  
     @IsNotEmpty()
     page: number;
+
+    name: string;
+    model: string
+    minPrice: number;
+    maxPrice: number;
+    endDate: number;
+    description: string;
+    productId: number;
+    productIds: number[];
+    type: string;
+    brand: string;
 }
