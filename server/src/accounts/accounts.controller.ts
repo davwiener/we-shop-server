@@ -4,6 +4,7 @@ import { AccountsService } from './accounts.service';
 import { AuthGuard } from '@nestjs/passport';
 import { GetUser } from 'src/auth/get-user.decorator';
 import { User } from 'src/auth/user.entity';
+import { AccountDataDto } from './dto/account-data.dto';
 
 @Controller('accounts')
 export class AccountsController {
@@ -11,7 +12,7 @@ export class AccountsController {
 
   @Get('/my_account')
   @UseGuards(AuthGuard())
-  getAccountData(@GetUser(ValidationPipe) user: User): Promise<Account> {
+  getAccountData(@GetUser(ValidationPipe) user: User): Promise<AccountDataDto> {
     return this.accountsService.getAccountData(user)
   }
 

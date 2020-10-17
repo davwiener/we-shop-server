@@ -18,4 +18,5 @@ export class CreateAuctionDto {
 export class SearchAuctionsDto {  
     @IsNotEmpty()
     page: number;
+    rbp: number
 }
