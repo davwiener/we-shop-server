@@ -7,6 +7,7 @@ import { JwtModule } from '@nestjs/jwt';
 import { PassportModule } from '@nestjs/passport'
 import { JwtStrategy } from './jwt.strategy';
 import * as config from 'config'
+import { Account } from 'src/accounts/account.entity';
 
 const jwtConfig = config.get('jwt')
 @Module({
@@ -18,7 +19,7 @@ const jwtConfig = config.get('jwt')
         expiresIn: jwtConfig.expiresIn
       }
     }),
-    TypeOrmModule.forFeature([User])
+    TypeOrmModule.forFeature([User, Account])
   ],
   controllers: [AuthController],
   providers: [AuthService, JwtStrategy],

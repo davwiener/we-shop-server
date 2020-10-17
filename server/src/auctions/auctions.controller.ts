@@ -5,6 +5,7 @@ import { CreateAuctionDto, SearchAuctionsDto } from './dto/create-auction.dto';
 import { AuthGuard } from '@nestjs/passport';
 import { GetUser } from 'src/auth/get-user.decorator';
 import { User } from 'src/auth/user.entity';
+import { GetQuery } from 'src/auth/get-query.decorator';
 
 @Controller('auctions')
 export class AuctionsController {
@@ -23,8 +24,7 @@ export class AuctionsController {
 	}
 
 	@Get('/search')
-	searchAuctions(@GetQuery(ValidationPipe) query: any,
-	): Promise<Auction[]> {
+	searchAuctions(@GetQuery(ValidationPipe) query: any): Promise<Auction[]> {
 		this.logger.log('search')
 		return this.auctionsService.searchAuction(query)
 	}
