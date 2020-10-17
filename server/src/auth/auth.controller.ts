@@ -8,7 +8,7 @@ export class AuthController {
   logger = new Logger('auth');
   constructor(private authService: AuthService) {}
   @Post('/signup')
-  signUp(@Body(ValidationPipe) signUpDto: SignUpCredentialsDto): Promise<void> {
+  signUp(@Body(ValidationPipe) signUpDto: SignUpCredentialsDto): Promise<{ firstName: string, lastName: string }> {
     this.logger.log('signup')
     return this.authService.signUp(signUpDto)
   }

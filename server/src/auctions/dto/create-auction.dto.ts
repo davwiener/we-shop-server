@@ -18,7 +18,6 @@ export class CreateAuctionDto {
 export class SearchAuctionsDto {  
     @IsNotEmpty()
     page: number;
-
     name: string;
     model: string
     minPrice: number;

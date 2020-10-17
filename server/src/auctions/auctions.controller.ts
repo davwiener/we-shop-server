@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body, Param, UsePipes, ValidationPipe, ParseIntPipe, UseGuards, Query } from '@nestjs/common';
+import { Controller, Get, Post, Body, Param, UsePipes, ValidationPipe, ParseIntPipe, UseGuards, Query, Logger } from '@nestjs/common';
 import { AuctionsService } from './auctions.service';
 import { Auction } from './auction.entity';
 import { CreateAuctionDto, SearchAuctionsDto } from './dto/create-auction.dto';
@@ -9,6 +9,7 @@ import { GetQuery } from 'src/auth/get-query.decorator';
 
 @Controller('auctions')
 export class AuctionsController {
+	logger = new Logger('Auctions');
 	constructor (private auctionsService: AuctionsService) {}
 		
 	@Get('/my_auctions')
@@ -23,14 +24,11 @@ export class AuctionsController {
 	}
 
 	@Get('/search')
-	searchAuctions(@GetQuery(ValidationPipe) query: any,
-	): Promise<Auction[]> {
-			//console.log('asdsad' + query);
+	searchAuctions(@GetQuery(ValidationPipe) query: any): Promise<Auction[]> {
+		this.logger.log('search')
 		return this.auctionsService.searchAuction(query)
 	}
 
-
-		
 	@Get('/:id')
 	getAuctionById(
 		@Param('id', ParseIntPipe) id: number,

@@ -11,9 +11,6 @@ export class SignUpCredentialsDto {
   password: string;
 
   @IsNotEmpty()
-  username: string;
-
-  @IsNotEmpty()
   first_name: string;
 
   @IsNotEmpty()

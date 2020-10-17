@@ -3,6 +3,7 @@ import { Account } from './account.entity';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { User } from 'src/auth/user.entity';
+import { AccountDataDto } from './dto/account-data.dto';
 
 @Injectable()
 export class AccountsService {
@@ -13,8 +14,12 @@ export class AccountsService {
     private userRepository: Repository<User>
   ) {}
 
-  getAccountData = async (user: User): Promise<Account> => {
-    return await this.accountsRepository.findOne({ id: user.accountId })
+  getAccountData = async (user: User): Promise<AccountDataDto> => {
+    const account = await this.accountsRepository.findOne({ id: user.accountId })
+    return {
+      accountName: account.name,
+      userName: user.username
+    } 
   }
 
   updateAccountData = async (user: User, accountName: string, userName: string): Promise<Account> => {
