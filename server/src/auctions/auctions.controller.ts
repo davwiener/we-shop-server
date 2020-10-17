@@ -24,8 +24,7 @@ export class AuctionsController {
 
 	@Get('/search')
 	searchAuctions(@GetQuery(ValidationPipe) query: any,
-	): Promise<Auction[]> {
-			//console.log('asdsad' + query);
+	): Promise<{auctions: Auction[], numberOfQueryAuctions: number, hasMore: boolean}> {
 		return this.auctionsService.searchAuction(query)
 	}
 

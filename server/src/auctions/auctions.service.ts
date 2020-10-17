@@ -110,7 +110,7 @@ export class AuctionsService {
 			productId?: FindOperator<any>;
 			end_date?: FindOperator<any>;
 			model?: FindOperator<any>;
-		} = {take: 25};
+		} = {take: searchAuctionDto.rbp};
 		if (searchAuctionDto.page > 1) {
 			req.skip = 25 * (searchAuctionDto.page - 1);
 		}
@@ -142,12 +142,18 @@ export class AuctionsService {
 
 	}
 	
-	searchAuction = async (createAuctionDto: SearchAuctionsDto): Promise<Auction | any> => {	
-		const products = await this.productsService.searchProductsInDto(createAuctionDto);
-		const productIds = products.map((prod: Product) => prod.id);
-		createAuctionDto = {...createAuctionDto, productIds}
+	searchAuction = async (createAuctionDto: SearchAuctionsDto): Promise<{auctions: Auction[], numberOfQueryAuctions: number, hasMore: boolean}> => {	
+		if (this.productsService.haveProductFilters(createAuctionDto)) {
+			const products = await this.productsService.searchProductsInDto(createAuctionDto);
+			const productIds = products.map((prod: Product) => prod.id);
+			if(productIds.length) {
+				createAuctionDto = {...createAuctionDto, productIds} 
+			} else {
+				return {auctions: [], numberOfQueryAuctions: 0, hasMore: false}
+			}
+		}
 		const [auctions, numberOfQueryAuctions] = await this.searchAuctionInDto(createAuctionDto);
-		const hasMore = auctions.length < numberOfQueryAuctions
+		const hasMore = auctions.length === Number(createAuctionDto.rbp) && auctions.length < numberOfQueryAuctions
 		return {auctions, numberOfQueryAuctions, hasMore};
 		
 	}

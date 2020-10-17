@@ -10,7 +10,16 @@ import { SearchAuctionsDto } from 'src/auctions/dto/create-auction.dto';
 
 @Injectable()
 export class ProductsService {
-  searchProductsInDto = async (searchAuctionDto: SearchAuctionsDto): Promise<Product | any> => {
+
+  haveProductFilters = (searchAuctionDto: SearchAuctionsDto): boolean => {
+    if (searchAuctionDto.model || searchAuctionDto.brand || searchAuctionDto.type) {
+      return true;
+    } else {
+      false;
+    }
+  }
+
+  searchProductsInDto = async (searchAuctionDto: SearchAuctionsDto): Promise<Product[]> => {
     const req: {
       type?: FindOperator<string>
 			brand?: FindOperator<string>;

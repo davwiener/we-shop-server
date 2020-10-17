@@ -18,7 +18,8 @@ export class CreateAuctionDto {
 export class SearchAuctionsDto {  
     @IsNotEmpty()
     page: number;
-
+    @IsNotEmpty()
+    rbp: number;
     name: string;
     model: string
     minPrice: number;
@@ -29,4 +30,5 @@ export class SearchAuctionsDto {
     productIds: number[];
     type: string;
     brand: string;
+ 
 }
