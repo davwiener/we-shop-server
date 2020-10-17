@@ -2,7 +2,6 @@ db:
   type: 'mysql'
   port: 3306
   database: 'we_shop'
-
 server:
   port: 5000
 
