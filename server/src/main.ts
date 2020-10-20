@@ -11,7 +11,7 @@ async function bootstrap() {
 
   // if (process.env.NODE_ENV === 'development') {
     app.enableCors()
-  // } else {
+  // } else {gi
     // app.enableCors({ origin: serverConfig.origin })
   // }
   app.setGlobalPrefix('api');
