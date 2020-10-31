@@ -1,12 +1,12 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { FindOperator, Like, Repository } from 'typeorm';
+import {Like, Repository } from 'typeorm';
 import { Product } from './product.entity';
 import { CreateProductDto } from './dto/create-product.dto';
 import { User } from 'src/auth/user.entity';
 import { GetProductsDto } from './dto/get-products.dto';
-import { Category } from 'src/categories/category.entity';
 import { SearchAuctionsDto } from 'src/auctions/dto/create-auction.dto';
+import { QueryFilterDto } from './dto/query-filter.dto';
 
 @Injectable()
 export class ProductsService {
@@ -19,12 +19,12 @@ export class ProductsService {
     }
   }
 
-  searchProductsInDto = async (searchAuctionDto: SearchAuctionsDto): Promise<Product[]> => {
-    const req: {
-      type?: FindOperator<string>
-			brand?: FindOperator<string>;
-			model?: FindOperator<string>
-		} = {};
+  /**
+   * search for products in data base
+   * @param searchAuctionDto the received request.
+   */
+  searchProductsInDto = async (searchAuctionDto: SearchAuctionsDto, selection?: string[]): Promise<any[]> => {
+    const req: QueryFilterDto = {};
 	  if (searchAuctionDto.model) {
 			req.model = Like("%" + searchAuctionDto.model + "%")
     }
@@ -34,7 +34,11 @@ export class ProductsService {
     if (searchAuctionDto.type) {
 			req.brand = Like("%" + searchAuctionDto.type + "%")
     }
+    
     if (Object.keys(req).length) {
+      if (selection) {
+        req.select = selection;
+      }
       return await this.productRepository.find(req);
     } else {
       return await Promise.resolve([]);
