@@ -14,10 +14,10 @@ export class ProductsController {
 
   @Get("/getProducts")
   getProducts(
-    @Query('filter') filter: GetProductsDto,
+    @Query('category') categoryId: number,
     @Query('sort') sort: GetProductsDto,
     @GetUser(ValidationPipe) user: User): Promise<Product[]> {
-    return this.productsService.getProducts(user, filter, sort)
+    return this.productsService.getProducts(user, categoryId, sort)
   }
 
   
