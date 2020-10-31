@@ -3,11 +3,12 @@ import { Auction } from './auction.entity';
 import { AuctionStatus } from './auction-status.enum';
 import { CreateAuctionDto, SearchAuctionsDto } from './dto/create-auction.dto';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository, In, Not, LessThan, FindOperator, Like, Equal, LessThanOrEqual, Between } from 'typeorm';
+import { Repository, In, Not, LessThan, FindOperator, Like, Equal, LessThanOrEqual, Between, OrderByCondition } from 'typeorm';
 import { User } from 'src/auth/user.entity';
 import { async } from 'rxjs/internal/scheduler/async';
 import { Product } from 'src/products/product.entity';
 import { ProductsService } from 'src/products/products.service';
+import { QueryFilterDto } from './dto/query-filter.dto';
 
 @Injectable()
 export class AuctionsService {
@@ -85,6 +86,7 @@ export class AuctionsService {
 		}
 		return auction
 	}
+
 	addProducts = async (auctions: Auction[]): Promise<Auction[]> => {
 		auctions.map(async auction => {
 			const product = await this.productRepository.find({ id: auction.productId});
@@ -96,17 +98,21 @@ export class AuctionsService {
 		})
 		return auctions;
 	}
-	searchAuctionInDto = async (searchAuctionDto: SearchAuctionsDto): Promise<[Auction[], number]> => {
-		const req: {
-			take: number;
-			skip?: number;
-			price_levels?: FindOperator<any>;
-			name?: FindOperator<any>;
-			date?: FindOperator<any>;
-			productId?: FindOperator<any>;
-			end_date?: FindOperator<any>;
-			model?: FindOperator<any>;
-		} = {take: searchAuctionDto.rbp};
+	/**
+	 * create a query for search in data base.
+	 * @param searchAuctionDto - the received request.
+	 */
+	private createQuery = (searchAuctionDto: SearchAuctionsDto): QueryFilterDto =>  {
+		const req: QueryFilterDto = {
+			take: searchAuctionDto.rbp, order:  {
+			price_levels: 'ASC'
+		}};
+		if (searchAuctionDto.sortBy) {
+			const obj = {}
+			obj[searchAuctionDto.sortBy] = 'ASC'
+			req.order =  obj;
+		}
+		
 		if (searchAuctionDto.page > 1) {
 			req.skip = 25 * (searchAuctionDto.page - 1);
 		}
@@ -134,13 +140,25 @@ export class AuctionsService {
 		if (searchAuctionDto.endDate) {
 			req.end_date = LessThan(searchAuctionDto.endDate/3600);
 		}
-		return await this.auctionRepository.findAndCount(req);
+		return req;
+	}
 
+	/**
+	 * search auctions in data base.
+	 * @param searchAuctionDto - the received request.
+	 */
+	searchAuctionInDto = async (searchAuctionDto: SearchAuctionsDto): Promise<[Auction[], number]> => {
+		const req: QueryFilterDto = this.createQuery(searchAuctionDto);
+		return await this.auctionRepository.findAndCount(req);
 	}
 	
+	/**
+	 * search auctions.
+	 * @param searchAuctionDto - the received request.
+	 */
 	searchAuction = async (createAuctionDto: SearchAuctionsDto): Promise<{auctions: Auction[], numberOfQueryAuctions: number, hasMore: boolean}> => {	
 		if (this.productsService.haveProductFilters(createAuctionDto)) {
-			const products = await this.productsService.searchProductsInDto(createAuctionDto);
+			const products = await this.productsService.searchProductsInDto(createAuctionDto, ['id']);
 			const productIds = products.map((prod: Product) => prod.id);
 			if(productIds.length) {
 				createAuctionDto = {...createAuctionDto, productIds} 
@@ -151,7 +169,5 @@ export class AuctionsService {
 		const [auctions, numberOfQueryAuctions] = await this.searchAuctionInDto(createAuctionDto);
 		const hasMore = auctions.length === Number(createAuctionDto.rbp) && auctions.length < numberOfQueryAuctions
 		return {auctions, numberOfQueryAuctions, hasMore};
-		
 	}
-
 }

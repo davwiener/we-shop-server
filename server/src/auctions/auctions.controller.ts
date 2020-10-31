@@ -7,7 +7,7 @@ import { GetUser } from 'src/auth/get-user.decorator';
 import { User } from 'src/auth/user.entity';
 import { GetQuery } from 'src/auth/get-query.decorator';
 
-@Controller('/auctions')
+@Controller('auctions')
 export class AuctionsController {
 	logger = new Logger('Auctions');
 	constructor (private auctionsService: AuctionsService) {}

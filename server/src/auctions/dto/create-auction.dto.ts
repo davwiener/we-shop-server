@@ -30,4 +30,5 @@ export class SearchAuctionsDto {
     productIds: number[];
     type: string;
     brand: string;
+    sortBy: string;
 }
