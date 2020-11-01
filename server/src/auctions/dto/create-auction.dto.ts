@@ -1,10 +1,12 @@
 import { IsNotEmpty, ValidateIf } from 'class-validator'
 import { CreateProductDto } from 'src/products/dto/create-product.dto';
+import { PriceLevels } from '../auction.entity';
+
+
 
 export class CreateAuctionDto {
     @IsNotEmpty()
-    price_levels: string;
-    
+    price_levels: PriceLevels;
     @IsNotEmpty()
     end_date: any;
 

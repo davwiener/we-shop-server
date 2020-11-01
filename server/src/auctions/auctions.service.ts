@@ -53,11 +53,13 @@ export class AuctionsService {
 
 	createAuction = async (createAuctionDto: CreateAuctionDto, user: User): Promise<Auction> => {
 		const { end_date, price_levels, name, description, productId, product } = createAuctionDto;
-		let auction
+		let auction;
+		const currentPrice = price_levels.first.price;
 		if (productId) {
 			auction = await this.auctionRepository.save({
 				end_date: Date.parse(end_date) / 3600,
-				price_levels,
+				price_levels: JSON.stringify(price_levels),
+				currentPrice,
 				name,
 				description,
 				user,
@@ -73,9 +75,10 @@ export class AuctionsService {
 			  if (createdProduct) {
 				auction = await this.auctionRepository.save({
 					end_date,
-					price_levels,
+					price_levels: JSON.stringify(price_levels),
 					name,
 					description,
+					currentPrice,
 					user,
 					status: AuctionStatus.PENDING,
 					productId: createdProduct.id,
