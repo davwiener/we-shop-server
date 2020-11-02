@@ -1,10 +1,6 @@
-import { ValidateIf, IsObject } from 'class-validator'
-import { Transform } from 'class-transformer'
+import { ValidateIf } from 'class-validator'
 
 export class GetProductsDto {
-
-  // @ValidateIf(obj => obj.filter)
-  // @IsObject()
   filter: string;
 
   @ValidateIf(obj => obj.sort)
