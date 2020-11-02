@@ -3,6 +3,15 @@ import { AuctionStatus } from './auction-status.enum';
 import { User } from 'src/auth/user.entity';
 import { Product } from 'src/products/product.entity';
 
+export interface PriceLevel {
+    price: number;
+    minSubscribers: number;
+}
+export interface PriceLevels {
+    first: PriceLevel,
+    seconed: PriceLevel,
+    third?: PriceLevel
+}
 @Entity()
 export class Auction extends BaseEntity {
     @PrimaryGeneratedColumn()
@@ -12,8 +21,12 @@ export class Auction extends BaseEntity {
     @Index()
     productId: number;
 
+
     @Column()
     @Index()
+    currentPrice: number ;
+
+    @Column()
     price_levels: string;
 
     @Column()
