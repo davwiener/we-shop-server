@@ -19,10 +19,6 @@ export class AuctionsService {
 			private productRepository: Repository<Product>,
 			private productsService: ProductsService 
 	) {}
-	
-	getAllAuctions = async (user: User): Promise<Auction[]> => {
-		return await this.auctionRepository.find({ id: user.id })
-	}
 
 	getAuctions = async (categories: string): Promise<Auction[]> => {
 		const activeStatus = { status: Not(In([AuctionStatus.PENDING, AuctionStatus.ENDED])) }
@@ -48,7 +44,7 @@ export class AuctionsService {
 	}
 
 	getUserAuctions = async (user: User): Promise<Auction[]> => {
-		return await this.auctionRepository.find({ userId: user.id })
+		return await this.auctionRepository.find({ select: ['id', 'productId', 'name', 'status'], where: { userId: user.id } })
 	}
 
 	createAuction = async (createAuctionDto: CreateAuctionDto, user: User): Promise<Auction> => {

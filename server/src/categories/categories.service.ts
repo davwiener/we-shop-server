@@ -13,7 +13,7 @@ export class CategoriesService {
 ) {}
 
 getCategories = async (): Promise<Category[]> => {
-  return await this.categoryRepository.find({ select: ['id', 'name'] })
+  return await this.categoryRepository.find({ select: ['id', 'name'], order: { name: 'ASC' } })
 }
 
 createCategory = async (createCategory: CreateCategoryDto): Promise<Category> => {

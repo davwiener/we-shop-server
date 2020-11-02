@@ -49,8 +49,8 @@ export class ProductsService {
     private productRepository: Repository<Product>
   ) {}
 
-  getProducts = async (user: User, filter: GetProductsDto, sort: GetProductsDto): Promise<Product[]> => {
-    const products = await this.productRepository.find()
+  getProducts = async (user: User, categoryId: number, sort: GetProductsDto): Promise<Product[]> => {
+    const products = await this.productRepository.find({ where: { category: categoryId } })
     return products;
   }
 

@@ -12,15 +12,10 @@ export class AuctionsController {
 	logger = new Logger('Auctions');
 	constructor (private auctionsService: AuctionsService) {}
 		
-	@Get('/my_auctions')
+	@Get('/')
 	@UseGuards(AuthGuard())
 	getUserAuctions(@GetUser(ValidationPipe) user: User): Promise<Auction[]> {
 		return this.auctionsService.getUserAuctions(user)
-	}
-
-	@Get('/getAllAuctions')
-	getAllAuctions(@GetUser(ValidationPipe) user: User): Promise<Auction[]> {
-		return this.auctionsService.getAllAuctions(user)
 	}
 
 	@Get('/search')
