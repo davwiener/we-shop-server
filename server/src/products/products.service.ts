@@ -39,7 +39,7 @@ export class ProductsService {
       if (selection) {
         req.select = selection;
       }
-      return await this.productRepository.find(req);
+      // return await this.productRepository.find(req);
     } else {
       return await Promise.resolve([]);
     }
@@ -59,16 +59,14 @@ export class ProductsService {
   }
 
   createProduct = async (createProductDto: CreateProductDto): Promise<Product> => {
-    const { name, description, brand, type, model, userId } = createProductDto
+    const { name, description, brandId, modelId } = createProductDto
     const created_at = new Date()
     return await this.productRepository.save({
       name,
       description,
-      type,
-      brand,
-      model,
+      brandId,
+      modelId,
       created_at,
-      userId: 1
     })
   }
 }

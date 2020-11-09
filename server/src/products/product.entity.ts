@@ -2,6 +2,8 @@ import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToMan
 import { User } from "src/auth/user.entity";
 import { Category } from "src/categories/category.entity";
 import { Auction } from "src/auctions/auction.entity";
+import { Model } from "src/models/models.entity";
+import { Brand } from "src/brands/brand.entity";
 
 @Entity()
 export class Product extends BaseEntity {
@@ -18,28 +20,12 @@ export class Product extends BaseEntity {
   @Column()
   created_at: Date
 
-  @Column()
-  userId: number
-
-  // @Column()
-  // categoryId: number
-
-  @ManyToOne(type => Category, category => category.products, { eager: false })
+  @ManyToOne(() => Category, category => category.products)
   category: Category
 
-  @OneToMany(type => Auction, auction => auction.product, { eager: false })
+  @OneToMany(() => Auction, auction => auction.product, { eager: false })
   auctions: Auction[]
 
-  @Column()
-  @Index()
-  brand: string;
-
-  @Column()
-  @Index()
-  type: string;
-
-  @Column()
-  @Index()
-  model: string;
-
+  @ManyToOne(() => Brand, brand => brand.products, { eager: true })
+  brand: Brand;
 }

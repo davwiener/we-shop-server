@@ -11,18 +11,9 @@ export class CreateProductDto {
 
     @IsNotEmpty()
     @Index()
-    brand: string;
+    brandId: string;
 
     @IsNotEmpty()
     @Index()
-    type: string;
-
-    @IsNotEmpty()
-    @Index()
-    model: string;
-
-    //@IsNotEmpty()
-    userId: number = 1;
-    //@IsNotEmpty()
-    //categoryId: number;
+    modelId: string;
 }

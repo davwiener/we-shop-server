@@ -44,7 +44,7 @@ export class AuctionsService {
 	}
 
 	getUserAuctions = async (user: User): Promise<Auction[]> => {
-		return await this.auctionRepository.find({ select: ['id', 'productId', 'name', 'status'], where: { userId: user.id } })
+		return await this.auctionRepository.find({ select: ['id', 'product', 'name', 'status'], where: { user: user.id } })
 	}
 
 	createAuction = async (createAuctionDto: CreateAuctionDto, user: User): Promise<Auction> => {
@@ -90,17 +90,17 @@ export class AuctionsService {
 		return auction
 	}
 
-	addProducts = async (auctions: Auction[]): Promise<Auction[]> => {
-		auctions.map(async auction => {
-			const product = await this.productRepository.find({ id: auction.productId});
-			if (auction) {
-				auction.product = product[0];
-			}
-			console.log(product);
-			console.log(auction);
-		})
-		return auctions;
-	}
+	// addProducts = async (auctions: Auction[]): Promise<Auction[]> => {
+	// 	// auctions.map(async auction => {
+	// 	// 	const product = await this.productRepository.find({ id: auction.productId});
+	// 	// 	if (auction) {
+	// 	// 		auction.product = product[0];
+	// 	// 	}
+	// 	// 	console.log(product);
+	// 	// 	console.log(auction);
+	// 	// })
+	// 	// return auctions;
+	// }
 	/**
 	 * create a query for search in data base.
 	 * @param searchAuctionDto - the received request.
