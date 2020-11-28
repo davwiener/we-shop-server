@@ -1,7 +1,6 @@
-import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, Index, OneToMany, ManyToMany, JoinTable } from 'typeorm'
+import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, Index, OneToMany } from 'typeorm'
 import { Model } from 'src/models/models.entity';
 import { Product } from 'src/products/product.entity';
-import { Category } from 'src/categories/category.entity';
 
 @Entity()
 export class Brand extends BaseEntity {
@@ -20,8 +19,4 @@ export class Brand extends BaseEntity {
 
     @OneToMany(() => Product, product => product.brand)
     products: Product[];
-
-    @ManyToMany(() => Category)
-    @JoinTable()
-    categories: Category[]
 }
