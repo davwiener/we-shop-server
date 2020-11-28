@@ -20,7 +20,6 @@ export class ProductsController {
     return this.productsService.getProducts(user, categoryId, sort)
   }
 
-  
   @Get('/:id')
   getProductById(
     @Param('id') id: number,
@@ -29,7 +28,7 @@ export class ProductsController {
     return this.productsService.getProductById(id, user)
   }
 
-  @Post('/createProduct')
+  @Post('/save')
   @UsePipes(ValidationPipe)
   createProduct(@Body() createProductDto: CreateProductDto): Promise<Product> {
     return this.productsService.createProduct(createProductDto)

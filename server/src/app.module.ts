@@ -6,6 +6,9 @@ import { ProductsModule } from './products/products.module';
 import { AuthModule } from './auth/auth.module';
 import { CategoriesModule } from './categories/categories.module';
 import { AccountsModule } from './accounts/accounts.module';
+import { BrandsModule } from './brands/brands.module';
+import { ModelsModule } from './models/models.module';
+import { SubCategoriesModule } from './sub-categories/sub-categories.module';
 
 @Module({
   imports: [
@@ -14,7 +17,10 @@ import { AccountsModule } from './accounts/accounts.module';
     AuctionsModule,
     ProductsModule,
     CategoriesModule,
-    AccountsModule
+    AccountsModule,
+    BrandsModule,
+    ModelsModule,
+    SubCategoriesModule
   ],
   controllers: [],
   providers: [],

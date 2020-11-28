@@ -1,7 +1,8 @@
-import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToOne, Index } from 'typeorm'
+import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, ManyToOne, Index } from 'typeorm'
 import { AuctionStatus } from './auction-status.enum';
 import { User } from 'src/auth/user.entity';
 import { Product } from 'src/products/product.entity';
+import { Category } from 'src/categories/category.entity';
 
 export interface PriceLevel {
     price: number;
@@ -16,11 +17,6 @@ export interface PriceLevels {
 export class Auction extends BaseEntity {
     @PrimaryGeneratedColumn()
     id: number;
-
-    @Column()
-    @Index()
-    productId: number;
-
 
     @Column()
     @Index()
@@ -47,12 +43,12 @@ export class Auction extends BaseEntity {
     @Column()
     created_at: Date;
 
-    @Column()
-    userId: number;
-
-    @ManyToOne(type => User, user => user.auctions, { eager: false })
+    @ManyToOne(() => User, user => user.auctions, { eager: false })
     user: User;
 
-    @ManyToOne(type => Product, product => product.auctions, { eager: true })
-    product: Product;
+    @ManyToOne(() => Category, category => category.auctions, { eager: false })
+    category: Category
+
+    @ManyToOne(() => Product, product => product.auctions, { eager: false })
+    product: Product
 }
