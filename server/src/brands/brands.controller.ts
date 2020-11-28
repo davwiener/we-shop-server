@@ -25,4 +25,9 @@ export class BrandsController {
   createBrand(@Body() createBrandDto: CreateBrandDto): Promise<Brand> {
     return this.brandsService.createBrand(createBrandDto)
   }
+
+  @Post('/create_brands_from_json')
+  createBrandsFromJson(): Promise<Brand[]>{
+    return this.brandsService.createBrandsFromJson();
+  }
 }

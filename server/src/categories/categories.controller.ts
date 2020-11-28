@@ -38,4 +38,8 @@ export class CategoriesController {
     return this.categoryService.createCategory(createCategoryDto)
   }
 
+  @Post('/create_category_from_json')
+  createCategoryFromJson(): Promise<Category> {
+    return this.categoryService.createCategoryFromJson()
+  }
 }
