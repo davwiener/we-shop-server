@@ -15,4 +15,6 @@ export class SignUpCredentialsDto {
 
   @IsNotEmpty()
   last_name: string;
+
+  last_login: Date;
 }

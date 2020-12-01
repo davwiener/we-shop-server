@@ -1,5 +1,7 @@
 import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, ManyToOne, Index } from 'typeorm'
 import { Brand } from 'src/brands/brand.entity';
+import { Category } from 'src/categories/category.entity';
+import { SubCategory } from 'src/sub-categories/sub_category.entity';
 
 @Entity()
 export class Model extends BaseEntity {
@@ -13,6 +15,22 @@ export class Model extends BaseEntity {
     @Column()
     created_at: Date;
 
-    @ManyToOne(() => Brand, brand => brand.models, { eager: false })
-    brand: Brand
+    @ManyToOne(() => Category, category => category.models, {
+        eager: false,
+        cascade: true
+    })
+    category: Category;
+
+    @ManyToOne(() => SubCategory, sub_category => sub_category.models, {
+        eager: false,
+        cascade: true
+    })
+    sub_category: SubCategory;
+
+    @ManyToOne(() => Category, brand => brand.models, {
+        eager: false,
+        cascade: true
+    })
+    brand: Brand;
+
 }

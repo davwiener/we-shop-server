@@ -6,7 +6,7 @@ import { CreateCategoryDto } from './dto/create-category.dto';
 import { GetCategoryProductsDto } from './dto/categoryProducts.dto';
 import { GetCategoryBrandsDto } from './dto/categoryBrands.dto';
 import { Product } from 'src/products/product.entity';
-
+import * as fs from 'fs';
 @Injectable()
 export class CategoriesService {
   constructor(
@@ -20,12 +20,27 @@ getCategories = async (): Promise<Category[]> => {
   return await this.categoryRepository.find({ select: ['id', 'name'], order: { name: 'ASC' } })
 }
 
+getDetailCategories = async (): Promise<Category[]> => {
+  return await this.categoryRepository.find({order: { name: 'ASC' } })
+}
+
 createCategory = async (createCategory: CreateCategoryDto): Promise<Category> => {
    const { name } = createCategory
    return await this.categoryRepository.save({
      name
    })
  }
+
+ createCategoryFromJson = async (): Promise<Category> => {
+  let obj = JSON.parse(fs.readFileSync('./data/categories.json', 'utf8'));
+  obj = obj.filter(entry => !entry.isHighlighted).map(entry => ({
+      id: entry.value,
+      name: entry.text,
+      created_at: new Date()
+  }))
+  return await this.categoryRepository.save(obj);
+}
+
 
  getCategoryProducts = async (getCategoryProducts: GetCategoryProductsDto): Promise<{ id: number, name: string, brand: number }[]> => {
    const { category } = getCategoryProducts

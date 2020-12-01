@@ -22,7 +22,8 @@ export class AuthService {
 
   signUp = async (signUpDto: SignUpCredentialsDto): Promise<{firstName: string, lastName: string}> => {
     const { email, password, first_name, last_name } = signUpDto
-    const created_at = moment().format('YYYY-MM-DD HH:mm:ss')
+    const created_at = moment().format('YYYY-MM-DD HH:mm:ss');
+    const last_login = moment().format('YYYY-MM-DD HH:mm:ss')
     const username = `${first_name.toLowerCase()}_${last_name.toLowerCase()}`
     try {
       const account_created = await this.accountRepository.save({
@@ -40,6 +41,7 @@ export class AuthService {
           salt,
           accountId: account_created.id,
           username,
+          last_login,
           created_at
         }).then(res=> {
           return { firstName: res.first_name, lastName: res.last_name };

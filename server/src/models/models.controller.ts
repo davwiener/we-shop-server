@@ -18,4 +18,11 @@ export class ModelsController {
   createBrand(@Body() createModelDto: CreateModelDto): Promise<Model> {
     return this.modelsService.createModel(createModelDto)
   }
+
+  @Post('/create_models_from_json')
+  @UsePipes(ValidationPipe)
+  createModelsFromJson(): Promise<Model[]> {
+    return this.modelsService.createModelsFromJson()
+  }
+  
 }

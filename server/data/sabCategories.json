@@ -1,0 +1,8262 @@
+
+[
+  {
+    "value": "7",
+    "text": "מקרר",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "1",
+    "text": "טלויזיה",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "5",
+    "text": "מכונת כביסה",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "4",
+    "text": "מזגן",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "255",
+    "text": "מכונת קפה",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "2",
+    "text": "DVD",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "317",
+    "text": "אופה לחם",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "330",
+    "text": "בלנדר ומיקסר",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "3",
+    "text": "וידאו",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "474",
+    "text": "זרוע לטלוויזיה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "332",
+    "text": "טוחן אשפה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "333",
+    "text": "טוסטר",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "720",
+    "text": "טוסטר אובן",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "1",
+    "text": "טלויזיה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "218",
+    "text": "טלפונים ואביזרים",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "268",
+    "text": "כיריים",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "471",
+    "text": "מאוורר",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "313",
+    "text": "מגהץ",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "170",
+    "text": "מדיח כלים",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "4",
+    "text": "מזגן",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "877",
+    "text": "מחברים וכבלים",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "334",
+    "text": "מטחנת בשר",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "813",
+    "text": "מטחנת קפה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "898",
+    "text": "מטען לסוללות",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "689",
+    "text": "מיחם לשבת",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "155",
+    "text": "מייבש כביסה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "158",
+    "text": "מיקרוגל",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "331",
+    "text": "מכונת גלידה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "5",
+    "text": "מכונת כביסה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "255",
+    "text": "מכונת קפה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "314",
+    "text": "מכונת תפירה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "157",
+    "text": "מכשירי פקס",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "744",
+    "text": "מנגל",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "335",
+    "text": "מסחטה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "329",
+    "text": "מעבד מזון",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "561",
+    "text": "מפזר חום",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "319",
+    "text": "מקפיא",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "227",
+    "text": "מקרן",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "7",
+    "text": "מקרר",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "846",
+    "text": "מקרר יינות",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "316",
+    "text": "מקרר מיני בר",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "560",
+    "text": "מתקני / מטהרי מים",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "468",
+    "text": "ניקוי בקיטור",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "899",
+    "text": "סדין חשמלי",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "811",
+    "text": "סטרימר",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "336",
+    "text": "סיר בישול",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "337",
+    "text": "סיר טיגון",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "338",
+    "text": "פלטה חשמלית",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "269",
+    "text": "קולט אדים",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "318",
+    "text": "קומקום חשמלי",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "356",
+    "text": "רדיאטור",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "234",
+    "text": "שואבי אבק",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "876",
+    "text": "שלטים",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "6",
+    "text": "תנור אפייה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "156",
+    "text": "תנור חימום",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "8",
+    "text": "אחר",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "320",
+    "text": "פינת אוכל",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "11",
+    "text": "סלון",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "12",
+    "text": "ספות",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "171",
+    "text": "ארונות",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "173",
+    "text": "מזנון / ויטרינה",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "171",
+    "text": "ארונות",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "966",
+    "text": "בר",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "343",
+    "text": "דלתות",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "198",
+    "text": "חדרי שינה",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "812",
+    "text": "כוורת",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "837",
+    "text": "כורסאות",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "17",
+    "text": "כורסאות  טלויזיה",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "675",
+    "text": "כורסאות ומושבי עיסוי",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "672",
+    "text": "כיסא נדנדה",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "166",
+    "text": "כסאות",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "666",
+    "text": "מדפים",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "765",
+    "text": "מוטות תלייה",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "173",
+    "text": "מזנון / ויטרינה",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "863",
+    "text": "מזרנים",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "16",
+    "text": "מטבח",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "13",
+    "text": "מיטות",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "617",
+    "text": "מעמד לדיסקים",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "616",
+    "text": "מראה",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "11",
+    "text": "סלון",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "12",
+    "text": "ספות",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "172",
+    "text": "ספריה",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "221",
+    "text": "ענתיקות",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "804",
+    "text": "פוף",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "320",
+    "text": "פינת אוכל",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "727",
+    "text": "ריהוט לגינה",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "9",
+    "text": "ריהוט לחדרי ילדים",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "251",
+    "text": "ריהוט משרדי",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "322",
+    "text": "שולחן טלוויזיה",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "327",
+    "text": "שולחן מחשב",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "14",
+    "text": "שולחנות",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "15",
+    "text": "שטיחים",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "18",
+    "text": "שידות",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "618",
+    "text": "שעון קיר",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "199",
+    "text": "תכולת דירה",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "167",
+    "text": "אחר",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "288",
+    "text": "אופנה וביגוד",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "623",
+    "text": "אינטרנט ודומיינים",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "305",
+    "text": "אירועים",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "303",
+    "text": "בידור ומוסיקה",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "981",
+    "text": "בית מלון",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "302",
+    "text": "בתי קפה ומסעדות",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "289",
+    "text": "הזדמנויות עסקיות",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "291",
+    "text": "הייטק",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "988",
+    "text": "זכות ציבורית למונית",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "290",
+    "text": "זכיינות",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "292",
+    "text": "חנויות",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "293",
+    "text": "חקלאות",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "625",
+    "text": "טיפוח וקוסמטיקה",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "294",
+    "text": "ייצור",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "705",
+    "text": "מוסכים",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "706",
+    "text": "מועדונים וברים",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "301",
+    "text": "מזון",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "883",
+    "text": "מינימרקט/סופרמרקט",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "295",
+    "text": "מסחר",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "296",
+    "text": "משקיעים פוטנציאלים",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "592",
+    "text": "מתקני ילדים",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "297",
+    "text": "עבודה מהבית",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "298",
+    "text": "עסקים בחו\"ל",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "882",
+    "text": "פיצוציה/קיוסק",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "304",
+    "text": "קווי חלוקה",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "630",
+    "text": "קליניקה",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "299",
+    "text": "שותפות",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "300",
+    "text": "תעשייה",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "241",
+    "text": "כללי",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "481",
+    "text": "אחר",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "880",
+    "text": "ספורט ימי",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "97",
+    "text": "מכשירי כושר ביתיים",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "357",
+    "text": "מכונית על שלט רחוק",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "307",
+    "text": "טיסנים ומסוקים",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "900",
+    "text": "שעוני דופק/פולאר",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "949",
+    "text": "אביזרים לסנפלינג",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "815",
+    "text": "אומנויות לחימה",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "86",
+    "text": "ביגוד ונעליים מקצועיות",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "819",
+    "text": "ג'אגלינג/להטוטנות",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "872",
+    "text": "גולף",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "814",
+    "text": "הוקי",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "793",
+    "text": "וויקבורד",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "307",
+    "text": "טיסנים ומסוקים",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "946",
+    "text": "טרמפולינה",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "588",
+    "text": "מחבטי טניס",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "970",
+    "text": "מטקות",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "357",
+    "text": "מכונית על שלט רחוק",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "97",
+    "text": "מכשירי כושר ביתיים",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "742",
+    "text": "מנוי לחדר כושר",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "796",
+    "text": "סנובורד",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "880",
+    "text": "ספורט ימי",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "263",
+    "text": "סקייטבורד",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "757",
+    "text": "עפיפונים",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "507",
+    "text": "ציוד דיג",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "1000",
+    "text": "ציוד לאגרוף",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "781",
+    "text": "ציוד לכדורגל",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "971",
+    "text": "ציוד לכדורסל",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "93",
+    "text": "ציוד צלילה",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "613",
+    "text": "צניחה",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "244",
+    "text": "רולר בליידס וגלגיליות",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "284",
+    "text": "שולחנות משחק",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "900",
+    "text": "שעוני דופק/פולאר",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "1001",
+    "text": "שק אגרוף",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "83",
+    "text": "אביזרי ספורט",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "220",
+    "text": "אביזרים לסקי",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "98",
+    "text": "אחר",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "29",
+    "text": "מכשיר סלולרי",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "סלולרי"
+    ],
+    "categoryId": "5"
+  },
+  {
+    "value": "458",
+    "text": "אביזרים",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "סלולרי"
+    ],
+    "categoryId": "5"
+  },
+  {
+    "value": "354",
+    "text": "מספרי זהב",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "סלולרי"
+    ],
+    "categoryId": "5"
+  },
+  {
+    "value": "29",
+    "text": "מכשיר סלולרי",
+    "breadcrumbs": [
+      "סלולרי"
+    ],
+    "categoryId": "5"
+  },
+  {
+    "value": "458",
+    "text": "אביזרים",
+    "breadcrumbs": [
+      "סלולרי"
+    ],
+    "categoryId": "5"
+  },
+  {
+    "value": "27",
+    "text": "כרטיס סים",
+    "breadcrumbs": [
+      "סלולרי"
+    ],
+    "categoryId": "5"
+  },
+  {
+    "value": "822",
+    "text": "מודם סלולרי",
+    "breadcrumbs": [
+      "סלולרי"
+    ],
+    "categoryId": "5"
+  },
+  {
+    "value": "354",
+    "text": "מספרי זהב",
+    "breadcrumbs": [
+      "סלולרי"
+    ],
+    "categoryId": "5"
+  },
+  {
+    "value": "963",
+    "text": "Smartwatch",
+    "breadcrumbs": [
+      "סלולרי"
+    ],
+    "categoryId": "5"
+  },
+  {
+    "value": "32",
+    "text": "אחר",
+    "breadcrumbs": [
+      "סלולרי"
+    ],
+    "categoryId": "5"
+  },
+  {
+    "value": "75",
+    "text": "עגלות ועגלות טיול",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "76",
+    "text": "מיטות ולולים",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "380",
+    "text": "ממונעים לילדים",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "214",
+    "text": "שידות החתלה / שידות",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "79",
+    "text": "משחקים וצעצועים",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "748",
+    "text": "אביזרי בטיחות",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "747",
+    "text": "אביזרים ללידה ולהנקה",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "278",
+    "text": "אוניברסיטה",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "918",
+    "text": "אופני ילדים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "610",
+    "text": "אמבטיה\\ כלי אמבטיה",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "78",
+    "text": "ביגוד והנעלה",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "253",
+    "text": "בייביסנס ומוניטורים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "741",
+    "text": "הופעות לילדים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "490",
+    "text": "הליכונים ובימבות",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "277",
+    "text": "טרמפולינה",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "622",
+    "text": "כורסת הנקה",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "745",
+    "text": "כלי אוכל",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "711",
+    "text": "כלי מיטה",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "154",
+    "text": "כסא לאוכל",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "80",
+    "text": "כסא לרכב",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "279",
+    "text": "מובייל",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "76",
+    "text": "מיטות ולולים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "282",
+    "text": "מכשיר אדים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "380",
+    "text": "ממונעים לילדים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "77",
+    "text": "מנשאים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "79",
+    "text": "משחקים וצעצועים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "1022",
+    "text": "משטחי/מזרני פעילות",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "593",
+    "text": "מתקני ג'ימבורי",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "280",
+    "text": "נדנדה",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "276",
+    "text": "סלקל",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "153",
+    "text": "ספרי ילדים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "75",
+    "text": "עגלות ועגלות טיול",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "873",
+    "text": "פורים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "678",
+    "text": "ציורים ותמונות",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "746",
+    "text": "קישוטים ואביזרים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "226",
+    "text": "קלטות ו-DVD",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "214",
+    "text": "שידות החתלה / שידות",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "283",
+    "text": "תיקים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "81",
+    "text": "אחר",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "212",
+    "text": "משחקים",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "952",
+    "text": "פלייסטיישן 4",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "404",
+    "text": "פלייסטיישן 3",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "208",
+    "text": "פלייסטיישן 2",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "207",
+    "text": "פלייסטיישן 1",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "884",
+    "text": "PS vita",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "240",
+    "text": "PSP",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "953",
+    "text": "X-Box One",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "265",
+    "text": "X-Box360",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "209",
+    "text": "X-Box",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "954",
+    "text": "Wii U",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "492",
+    "text": "WII",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "252",
+    "text": "גיימבוי",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "210",
+    "text": "גיימקיוב",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "594",
+    "text": "נינטנדו",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "1018",
+    "text": "נינטנדו Switch",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "463",
+    "text": "אביזרים",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "211",
+    "text": "אחר",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "34",
+    "text": "מחשב נייד",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "33",
+    "text": "מחשב שולחני",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "800",
+    "text": "Tablet - טאבלט",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "174",
+    "text": "חומרה",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "782",
+    "text": "Ebook Reader",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "800",
+    "text": "Tablet - טאבלט",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "968",
+    "text": "google glass",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "682",
+    "text": "אביזרים",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "977",
+    "text": "אייפד אייר 2 ipad air",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "1025",
+    "text": "אייפד אייר 3 iPad Air",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "950",
+    "text": "אייפד אייר ipad air",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "930",
+    "text": "אייפד מיני iPad mini",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "951",
+    "text": "אייפד מיני iPad mini 2",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "980",
+    "text": "אייפד מיני iPad mini 3",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "990",
+    "text": "אייפד מיני iPad mini 4",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "1013",
+    "text": "אייפד פרו iPad Pro 9.7",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "987",
+    "text": "אייפד פרו iPadPro",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "750",
+    "text": "אייפד1 iPad1",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "816",
+    "text": "אייפד2 iPad2",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "879",
+    "text": "אייפד3 iPad3",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "929",
+    "text": "אייפד4 iPad4",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "174",
+    "text": "חומרה",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "39",
+    "text": "מדפסות",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "35",
+    "text": "מחשב כף יד",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "34",
+    "text": "מחשב נייד",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "33",
+    "text": "מחשב שולחני",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "632",
+    "text": "מילון אלקטרוני",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "36",
+    "text": "מסכים",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "42",
+    "text": "משחקי מחשב",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "619",
+    "text": "ניווט GPS",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "37",
+    "text": "סורקים",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "841",
+    "text": "עט דיגיטלי",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "40",
+    "text": "צורבים",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "723",
+    "text": "שרתים",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "175",
+    "text": "תוכנות",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "43",
+    "text": "אחר",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "760",
+    "text": "ברזנטים",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "439",
+    "text": "בריכה",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "440",
+    "text": "חפצי נוי",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "436",
+    "text": "כלי עבודה",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "441",
+    "text": "מחסן",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "437",
+    "text": "מכסחת דשא",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "820",
+    "text": "ממטרות ומערכות השקיה",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "726",
+    "text": "מנגל",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "681",
+    "text": "נדנדות וערסל",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "904",
+    "text": "סוכות",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "612",
+    "text": "עצי זית עתיקים",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "435",
+    "text": "עצים ועציצים",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "631",
+    "text": "פרגולות",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "679",
+    "text": "צמחיה מלאכותית",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "438",
+    "text": "ריהוט לגינה",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "749",
+    "text": "תאורת גן",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "576",
+    "text": "אחר",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "925",
+    "text": "הופעות ילדים",
+    "breadcrumbs": [
+      "חנוכה"
+    ],
+    "categoryId": "73"
+  },
+  {
+    "value": "923",
+    "text": "חנוכיות",
+    "breadcrumbs": [
+      "חנוכה"
+    ],
+    "categoryId": "73"
+  },
+  {
+    "value": "1045",
+    "text": "יודאיקה",
+    "breadcrumbs": [
+      "חנוכה"
+    ],
+    "categoryId": "73"
+  },
+  {
+    "value": "924",
+    "text": "כרטיסים לפסטיגלים",
+    "breadcrumbs": [
+      "חנוכה"
+    ],
+    "categoryId": "73"
+  },
+  {
+    "value": "1048",
+    "text": "למסירה - הכל בחינם",
+    "breadcrumbs": [
+      "חנוכה"
+    ],
+    "categoryId": "73"
+  },
+  {
+    "value": "1047",
+    "text": "משחקים וצעצועים",
+    "breadcrumbs": [
+      "חנוכה"
+    ],
+    "categoryId": "73"
+  },
+  {
+    "value": "1046",
+    "text": "קונסולות משחק",
+    "breadcrumbs": [
+      "חנוכה"
+    ],
+    "categoryId": "73"
+  },
+  {
+    "value": "1044",
+    "text": "כללי",
+    "breadcrumbs": [
+      "מכשירי עיסוי"
+    ],
+    "categoryId": "82"
+  },
+  {
+    "value": "792",
+    "text": "סוכה",
+    "breadcrumbs": [
+      "סוכות"
+    ],
+    "categoryId": "64"
+  },
+  {
+    "value": "786",
+    "text": "סוכת נחלים",
+    "breadcrumbs": [
+      "סוכות"
+    ],
+    "categoryId": "64"
+  },
+  {
+    "value": "785",
+    "text": "סוכת עץ",
+    "breadcrumbs": [
+      "סוכות"
+    ],
+    "categoryId": "64"
+  },
+  {
+    "value": "784",
+    "text": "סכך",
+    "breadcrumbs": [
+      "סוכות"
+    ],
+    "categoryId": "64"
+  },
+  {
+    "value": "790",
+    "text": "ארבעת המינים",
+    "breadcrumbs": [
+      "סוכות"
+    ],
+    "categoryId": "64"
+  },
+  {
+    "value": "788",
+    "text": "בדים לסוכה",
+    "breadcrumbs": [
+      "סוכות"
+    ],
+    "categoryId": "64"
+  },
+  {
+    "value": "787",
+    "text": "מוטות לסוכה",
+    "breadcrumbs": [
+      "סוכות"
+    ],
+    "categoryId": "64"
+  },
+  {
+    "value": "789",
+    "text": "קישוטים",
+    "breadcrumbs": [
+      "סוכות"
+    ],
+    "categoryId": "64"
+  },
+  {
+    "value": "791",
+    "text": "אחר",
+    "breadcrumbs": [
+      "סוכות"
+    ],
+    "categoryId": "64"
+  },
+  {
+    "value": "948",
+    "text": "כללי",
+    "breadcrumbs": [
+      "גראג' סייל"
+    ],
+    "categoryId": "76"
+  },
+  {
+    "value": "635",
+    "text": "אומנות",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "636",
+    "text": "אופניים",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "637",
+    "text": "אספנות",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "638",
+    "text": "ביגוד",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "639",
+    "text": "יודאיקה",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "640",
+    "text": "כלי נגינה",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "641",
+    "text": "כלי עבודה",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "642",
+    "text": "כלים סניטריים",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "643",
+    "text": "לבית",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "644",
+    "text": "לגינה",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "645",
+    "text": "לתינוק ולילד",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "646",
+    "text": "מוסיקה וסרטים",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "647",
+    "text": "מוצרי חשמל",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "648",
+    "text": "מחשבים וציוד נלווה",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "649",
+    "text": "מנויים וכרטיסים",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "650",
+    "text": "סטריאו",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "651",
+    "text": "סלולרי",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "652",
+    "text": "ספורט",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "821",
+    "text": "ספרות ומאמרים",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "653",
+    "text": "ציוד לעסקים",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "654",
+    "text": "ציוד לתעשייה",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "655",
+    "text": "ציוד סעודי\\ רפואי",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "656",
+    "text": "צילום",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "657",
+    "text": "קוסמטיקה",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "658",
+    "text": "ריהוט",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "1015",
+    "text": "תאורה ונברשות",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "659",
+    "text": "תכשיטים",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "660",
+    "text": "תקשורת",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "661",
+    "text": "אחר",
+    "breadcrumbs": [
+      "למסירה - הכל בחינם"
+    ],
+    "categoryId": "59"
+  },
+  {
+    "value": "1038",
+    "text": "בדים",
+    "breadcrumbs": [
+      "אומנות"
+    ],
+    "categoryId": "42"
+  },
+  {
+    "value": "443",
+    "text": "כדים וקערות",
+    "breadcrumbs": [
+      "אומנות"
+    ],
+    "categoryId": "42"
+  },
+  {
+    "value": "629",
+    "text": "חפצי נוי",
+    "breadcrumbs": [
+      "אומנות"
+    ],
+    "categoryId": "42"
+  },
+  {
+    "value": "751",
+    "text": "פוסטרים",
+    "breadcrumbs": [
+      "אומנות"
+    ],
+    "categoryId": "42"
+  },
+  {
+    "value": "309",
+    "text": "פסלים",
+    "breadcrumbs": [
+      "אומנות"
+    ],
+    "categoryId": "42"
+  },
+  {
+    "value": "470",
+    "text": "פוחלצים",
+    "breadcrumbs": [
+      "אומנות"
+    ],
+    "categoryId": "42"
+  },
+  {
+    "value": "377",
+    "text": "ציוד לאומנות",
+    "breadcrumbs": [
+      "אומנות"
+    ],
+    "categoryId": "42"
+  },
+  {
+    "value": "308",
+    "text": "ציורים",
+    "breadcrumbs": [
+      "אומנות"
+    ],
+    "categoryId": "42"
+  },
+  {
+    "value": "312",
+    "text": "קריסטלים",
+    "breadcrumbs": [
+      "אומנות"
+    ],
+    "categoryId": "42"
+  },
+  {
+    "value": "310",
+    "text": "תמונות",
+    "breadcrumbs": [
+      "אומנות"
+    ],
+    "categoryId": "42"
+  },
+  {
+    "value": "353",
+    "text": "אחר",
+    "breadcrumbs": [
+      "אומנות"
+    ],
+    "categoryId": "42"
+  },
+  {
+    "value": "798",
+    "text": "אופניים חשמליים",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "487",
+    "text": "הרים שיכוך מלא",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "257",
+    "text": "אופני - ילדים",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "256",
+    "text": "הרים זנב קשיח",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "694",
+    "text": "הרים 29\"",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "684",
+    "text": "אביזרים",
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "256",
+    "text": "הרים זנב קשיח",
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "487",
+    "text": "הרים שיכוך מלא",
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "694",
+    "text": "הרים 29\"",
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "1040",
+    "text": "הרים חשמליים",
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "626",
+    "text": "סינגלספיד",
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "259",
+    "text": "אופני כביש",
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "798",
+    "text": "אופניים חשמליים",
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "778",
+    "text": "נג\"ש וטריאתלון",
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "257",
+    "text": "אופני - ילדים",
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "558",
+    "text": "אופני נשים",
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "590",
+    "text": "אופני עיר",
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "258",
+    "text": "אופני פעלולים / BMX",
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "627",
+    "text": "אופניים מתקפלים",
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "264",
+    "text": "תלת אופן",
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "589",
+    "text": "אופניים מיוחדים",
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "103",
+    "text": "אחר",
+    "breadcrumbs": [
+      "אופניים"
+    ],
+    "categoryId": "14"
+  },
+  {
+    "value": "892",
+    "text": "אוספים שונים",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "869",
+    "text": "בובות",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "123",
+    "text": "בולים,מעטפות וגלויות",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "385",
+    "text": "דגמי מכוניות",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "867",
+    "text": "חפצי נוי",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "587",
+    "text": "טלפונים",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "767",
+    "text": "כלי נגינה",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "383",
+    "text": "כלים",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "378",
+    "text": "כרטיסי חיוג טלכרד",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "887",
+    "text": "לבית",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "995",
+    "text": "מגהץ",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "976",
+    "text": "מדליות",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "888",
+    "text": "מוצרי ילדות",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "891",
+    "text": "מוצרי קוקה קולה",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "868",
+    "text": "מזוודות וקופסאות",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "124",
+    "text": "מטבעות ושטרות",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "388",
+    "text": "מכונות כתיבה",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "382",
+    "text": "מכונות תפירה",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "389",
+    "text": "מצלמות",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "993",
+    "text": "משקל",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "994",
+    "text": "סיפולוקס/סיפון",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "516",
+    "text": "עטים",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "126",
+    "text": "עיתונים ומגזינים",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "384",
+    "text": "פטיפונים וטייפיים",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "144",
+    "text": "פריטים ארכיאולוגים",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "125",
+    "text": "קומיקס",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "387",
+    "text": "רדיו",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "586",
+    "text": "ריהוט",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "178",
+    "text": "שעונים",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "287",
+    "text": "תמונות",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "127",
+    "text": "תקליטים\\ דיסקים",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "129",
+    "text": "אחר",
+    "breadcrumbs": [
+      "אספנות"
+    ],
+    "categoryId": "24"
+  },
+  {
+    "value": "1026",
+    "text": "בגדים",
+    "breadcrumbs": [
+      "אופנה וטיפוח"
+    ],
+    "categoryId": "18"
+  },
+  {
+    "value": "1030",
+    "text": "נעליים",
+    "breadcrumbs": [
+      "אופנה וטיפוח"
+    ],
+    "categoryId": "18"
+  },
+  {
+    "value": "1033",
+    "text": "תיקים וארנקים",
+    "breadcrumbs": [
+      "אופנה וטיפוח"
+    ],
+    "categoryId": "18"
+  },
+  {
+    "value": "1034",
+    "text": "אקססוריז",
+    "breadcrumbs": [
+      "אופנה וטיפוח"
+    ],
+    "categoryId": "18"
+  },
+  {
+    "value": "1031",
+    "text": "כובעים, פאות ואביזרי שיער",
+    "breadcrumbs": [
+      "אופנה וטיפוח"
+    ],
+    "categoryId": "18"
+  },
+  {
+    "value": "1035",
+    "text": "ביוטי",
+    "breadcrumbs": [
+      "אופנה וטיפוח"
+    ],
+    "categoryId": "18"
+  },
+  {
+    "value": "1032",
+    "text": "תחפושות",
+    "breadcrumbs": [
+      "אופנה וטיפוח"
+    ],
+    "categoryId": "18"
+  },
+  {
+    "value": "1036",
+    "text": "ספורט",
+    "breadcrumbs": [
+      "אופנה וטיפוח"
+    ],
+    "categoryId": "18"
+  },
+  {
+    "value": "1042",
+    "text": "גרביים וגרביונים",
+    "breadcrumbs": [
+      "אופנה וטיפוח"
+    ],
+    "categoryId": "18"
+  },
+  {
+    "value": "151",
+    "text": "אחר",
+    "breadcrumbs": [
+      "אופנה וטיפוח"
+    ],
+    "categoryId": "18"
+  },
+  {
+    "value": "230",
+    "text": "אומנות",
+    "breadcrumbs": [
+      "יודאיקה"
+    ],
+    "categoryId": "34"
+  },
+  {
+    "value": "922",
+    "text": "חנוכיות",
+    "breadcrumbs": [
+      "יודאיקה"
+    ],
+    "categoryId": "34"
+  },
+  {
+    "value": "231",
+    "text": "כלי כסף",
+    "breadcrumbs": [
+      "יודאיקה"
+    ],
+    "categoryId": "34"
+  },
+  {
+    "value": "229",
+    "text": "ספרים ומאמרים",
+    "breadcrumbs": [
+      "יודאיקה"
+    ],
+    "categoryId": "34"
+  },
+  {
+    "value": "674",
+    "text": "ציוד לבית כנסת",
+    "breadcrumbs": [
+      "יודאיקה"
+    ],
+    "categoryId": "34"
+  },
+  {
+    "value": "228",
+    "text": "תשמישי קדושה",
+    "breadcrumbs": [
+      "יודאיקה"
+    ],
+    "categoryId": "34"
+  },
+  {
+    "value": "232",
+    "text": "אחר",
+    "breadcrumbs": [
+      "יודאיקה"
+    ],
+    "categoryId": "34"
+  },
+  {
+    "value": "20",
+    "text": "כלי מיתר",
+    "breadcrumbs": [
+      "כלי נגינה"
+    ],
+    "categoryId": "4"
+  },
+  {
+    "value": "23",
+    "text": "כלי הקשה ותופים",
+    "breadcrumbs": [
+      "כלי נגינה"
+    ],
+    "categoryId": "4"
+  },
+  {
+    "value": "368",
+    "text": "מגבר",
+    "breadcrumbs": [
+      "כלי נגינה"
+    ],
+    "categoryId": "4"
+  },
+  {
+    "value": "369",
+    "text": "אורגן",
+    "breadcrumbs": [
+      "כלי נגינה"
+    ],
+    "categoryId": "4"
+  },
+  {
+    "value": "222",
+    "text": "פסנתר",
+    "breadcrumbs": [
+      "כלי נגינה"
+    ],
+    "categoryId": "4"
+  },
+  {
+    "value": "22",
+    "text": "כלי נשיפה",
+    "breadcrumbs": [
+      "כלי נגינה"
+    ],
+    "categoryId": "4"
+  },
+  {
+    "value": "21",
+    "text": "קלידים",
+    "breadcrumbs": [
+      "כלי נגינה"
+    ],
+    "categoryId": "4"
+  },
+  {
+    "value": "24",
+    "text": "ספרי תווים",
+    "breadcrumbs": [
+      "כלי נגינה"
+    ],
+    "categoryId": "4"
+  },
+  {
+    "value": "366",
+    "text": "אקורדיון",
+    "breadcrumbs": [
+      "כלי נגינה"
+    ],
+    "categoryId": "4"
+  },
+  {
+    "value": "152",
+    "text": "אביזרים נלווים",
+    "breadcrumbs": [
+      "כלי נגינה"
+    ],
+    "categoryId": "4"
+  },
+  {
+    "value": "25",
+    "text": "אחר",
+    "breadcrumbs": [
+      "כלי נגינה"
+    ],
+    "categoryId": "4"
+  },
+  {
+    "value": "477",
+    "text": "CZ",
+    "breadcrumbs": [
+      "כלי נשק"
+    ],
+    "categoryId": "27"
+  },
+  {
+    "value": "195",
+    "text": "smith & Wesson",
+    "breadcrumbs": [
+      "כלי נשק"
+    ],
+    "categoryId": "27"
+  },
+  {
+    "value": "842",
+    "text": "אקדח FN",
+    "breadcrumbs": [
+      "כלי נשק"
+    ],
+    "categoryId": "27"
+  },
+  {
+    "value": "273",
+    "text": "אקדח אויר",
+    "breadcrumbs": [
+      "כלי נשק"
+    ],
+    "categoryId": "27"
+  },
+  {
+    "value": "190",
+    "text": "בול",
+    "breadcrumbs": [
+      "כלי נשק"
+    ],
+    "categoryId": "27"
+  },
+  {
+    "value": "191",
+    "text": "ברטה",
+    "breadcrumbs": [
+      "כלי נשק"
+    ],
+    "categoryId": "27"
+  },
+  {
+    "value": "192",
+    "text": "גלוק",
+    "breadcrumbs": [
+      "כלי נשק"
+    ],
+    "categoryId": "27"
+  },
+  {
+    "value": "870",
+    "text": "הגנה עצמית",
+    "breadcrumbs": [
+      "כלי נשק"
+    ],
+    "categoryId": "27"
+  },
+  {
+    "value": "472",
+    "text": "וולטר",
+    "breadcrumbs": [
+      "כלי נשק"
+    ],
+    "categoryId": "27"
+  },
+  {
+    "value": "476",
+    "text": "זיג זאוור",
+    "breadcrumbs": [
+      "כלי נשק"
+    ],
+    "categoryId": "27"
+  },
+  {
+    "value": "193",
+    "text": "טנפוליו",
+    "breadcrumbs": [
+      "כלי נשק"
+    ],
+    "categoryId": "27"
+  },
+  {
+    "value": "194",
+    "text": "יריחו",
+    "breadcrumbs": [
+      "כלי נשק"
+    ],
+    "categoryId": "27"
+  },
+  {
+    "value": "450",
+    "text": "נשק קר",
+    "breadcrumbs": [
+      "כלי נשק"
+    ],
+    "categoryId": "27"
+  },
+  {
+    "value": "475",
+    "text": "קולט",
+    "breadcrumbs": [
+      "כלי נשק"
+    ],
+    "categoryId": "27"
+  },
+  {
+    "value": "274",
+    "text": "רובה אויר / איירסופט",
+    "breadcrumbs": [
+      "כלי נשק"
+    ],
+    "categoryId": "27"
+  },
+  {
+    "value": "451",
+    "text": "אביזרים",
+    "breadcrumbs": [
+      "כלי נשק"
+    ],
+    "categoryId": "27"
+  },
+  {
+    "value": "196",
+    "text": "אחר",
+    "breadcrumbs": [
+      "כלי נשק"
+    ],
+    "categoryId": "27"
+  },
+  {
+    "value": "905",
+    "text": "חומרי עבודה",
+    "breadcrumbs": [
+      "כלי עבודה"
+    ],
+    "categoryId": "9"
+  },
+  {
+    "value": "736",
+    "text": "כלי עבודה",
+    "breadcrumbs": [
+      "כלי עבודה"
+    ],
+    "categoryId": "9"
+  },
+  {
+    "value": "921",
+    "text": "כלי עבודה לגינה",
+    "breadcrumbs": [
+      "כלי עבודה"
+    ],
+    "categoryId": "9"
+  },
+  {
+    "value": "213",
+    "text": "כלים לנגרות",
+    "breadcrumbs": [
+      "כלי עבודה"
+    ],
+    "categoryId": "9"
+  },
+  {
+    "value": "65",
+    "text": "כלים לעבודת מכונאות",
+    "breadcrumbs": [
+      "כלי עבודה"
+    ],
+    "categoryId": "9"
+  },
+  {
+    "value": "906",
+    "text": "כלים לשרברבות",
+    "breadcrumbs": [
+      "כלי עבודה"
+    ],
+    "categoryId": "9"
+  },
+  {
+    "value": "874",
+    "text": "גנרטורים",
+    "breadcrumbs": [
+      "כלי עבודה"
+    ],
+    "categoryId": "9"
+  },
+  {
+    "value": "68",
+    "text": "אחר",
+    "breadcrumbs": [
+      "כלי עבודה"
+    ],
+    "categoryId": "9"
+  },
+  {
+    "value": "920",
+    "text": "ארונות מטבח",
+    "breadcrumbs": [
+      "כלים סניטריים"
+    ],
+    "categoryId": "32"
+  },
+  {
+    "value": "396",
+    "text": "ברזים",
+    "breadcrumbs": [
+      "כלים סניטריים"
+    ],
+    "categoryId": "32"
+  },
+  {
+    "value": "399",
+    "text": "ג'קוזי",
+    "breadcrumbs": [
+      "כלים סניטריים"
+    ],
+    "categoryId": "32"
+  },
+  {
+    "value": "395",
+    "text": "כיורים",
+    "breadcrumbs": [
+      "כלים סניטריים"
+    ],
+    "categoryId": "32"
+  },
+  {
+    "value": "691",
+    "text": "לאמבטיה ולשירותים",
+    "breadcrumbs": [
+      "כלים סניטריים"
+    ],
+    "categoryId": "32"
+  },
+  {
+    "value": "402",
+    "text": "מקלחונים",
+    "breadcrumbs": [
+      "כלים סניטריים"
+    ],
+    "categoryId": "32"
+  },
+  {
+    "value": "398",
+    "text": "סאונה",
+    "breadcrumbs": [
+      "כלים סניטריים"
+    ],
+    "categoryId": "32"
+  },
+  {
+    "value": "919",
+    "text": "שיש",
+    "breadcrumbs": [
+      "כלים סניטריים"
+    ],
+    "categoryId": "32"
+  },
+  {
+    "value": "575",
+    "text": "אחר",
+    "breadcrumbs": [
+      "כלים סניטריים"
+    ],
+    "categoryId": "32"
+  },
+  {
+    "value": "753",
+    "text": "ארגזי אחסון",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "466",
+    "text": "בלוני גז",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "453",
+    "text": "בר מים",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "730",
+    "text": "ברזים",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "469",
+    "text": "דוד חימום",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "795",
+    "text": "הרחקת מזיקים",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "564",
+    "text": "וילונות",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "768",
+    "text": "חימום על גז",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "777",
+    "text": "חימום על סולר",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "634",
+    "text": "חלונות ותריסים",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "359",
+    "text": "חפצי נוי",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "997",
+    "text": "טאבון",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "890",
+    "text": "ידיות",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "731",
+    "text": "כיורים",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "363",
+    "text": "כלי אוכל",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "360",
+    "text": "כלי מיטה",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "680",
+    "text": "כלי עבודה",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "740",
+    "text": "כספת",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "894",
+    "text": "כריות נוי",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "732",
+    "text": "לאמבטיה ולשירותים",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "733",
+    "text": "למטבח",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "761",
+    "text": "מדרגות מתקפלות",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "752",
+    "text": "מטהרי אוויר לבית",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "910",
+    "text": "מכשירי סודה",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "362",
+    "text": "מנגל",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "734",
+    "text": "מקלחונים",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "361",
+    "text": "משקל",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "912",
+    "text": "מתקן ייבוש כלים",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "893",
+    "text": "מתקן עיתונים",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "797",
+    "text": "סולמות",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "739",
+    "text": "סורגים",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "358",
+    "text": "סכו«ם",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "756",
+    "text": "עגלת קניות",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "1039",
+    "text": "עיצוב הבית ואביזרים",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "1017",
+    "text": "פאנלים סולאריים",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "911",
+    "text": "פחי אשפה",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "707",
+    "text": "פרקטים",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "1037",
+    "text": "קולבים",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "710",
+    "text": "קמין",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "889",
+    "text": "קרש גיהוץ",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "735",
+    "text": "ריצוף וחיפוי",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "728",
+    "text": "תמונות",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "709",
+    "text": "תנור נפט",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "372",
+    "text": "אחר",
+    "breadcrumbs": [
+      "לבית"
+    ],
+    "categoryId": "45"
+  },
+  {
+    "value": "760",
+    "text": "ברזנטים",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "439",
+    "text": "בריכה",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "440",
+    "text": "חפצי נוי",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "436",
+    "text": "כלי עבודה",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "441",
+    "text": "מחסן",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "437",
+    "text": "מכסחת דשא",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "820",
+    "text": "ממטרות ומערכות השקיה",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "726",
+    "text": "מנגל",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "681",
+    "text": "נדנדות וערסל",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "904",
+    "text": "סוכות",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "612",
+    "text": "עצי זית עתיקים",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "435",
+    "text": "עצים ועציצים",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "631",
+    "text": "פרגולות",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "679",
+    "text": "צמחיה מלאכותית",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "438",
+    "text": "ריהוט לגינה",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "749",
+    "text": "תאורת גן",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "576",
+    "text": "אחר",
+    "breadcrumbs": [
+      "לגינה"
+    ],
+    "categoryId": "49"
+  },
+  {
+    "value": "495",
+    "text": "אוהלים",
+    "breadcrumbs": [
+      "למטייל ולמתגייס"
+    ],
+    "categoryId": "51"
+  },
+  {
+    "value": "499",
+    "text": "אולרים וסכינים",
+    "breadcrumbs": [
+      "למטייל ולמתגייס"
+    ],
+    "categoryId": "51"
+  },
+  {
+    "value": "500",
+    "text": "ביגוד למטייל",
+    "breadcrumbs": [
+      "למטייל ולמתגייס"
+    ],
+    "categoryId": "51"
+  },
+  {
+    "value": "497",
+    "text": "גזיה",
+    "breadcrumbs": [
+      "למטייל ולמתגייס"
+    ],
+    "categoryId": "51"
+  },
+  {
+    "value": "896",
+    "text": "גלאי מתכות",
+    "breadcrumbs": [
+      "למטייל ולמתגייס"
+    ],
+    "categoryId": "51"
+  },
+  {
+    "value": "774",
+    "text": "חרמונית",
+    "breadcrumbs": [
+      "למטייל ולמתגייס"
+    ],
+    "categoryId": "51"
+  },
+  {
+    "value": "498",
+    "text": "כלי אוכל ובישול",
+    "breadcrumbs": [
+      "למטייל ולמתגייס"
+    ],
+    "categoryId": "51"
+  },
+  {
+    "value": "508",
+    "text": "מזוודות ותיקים",
+    "breadcrumbs": [
+      "למטייל ולמתגייס"
+    ],
+    "categoryId": "51"
+  },
+  {
+    "value": "897",
+    "text": "מחצלת",
+    "breadcrumbs": [
+      "למטייל ולמתגייס"
+    ],
+    "categoryId": "51"
+  },
+  {
+    "value": "895",
+    "text": "מצפנים",
+    "breadcrumbs": [
+      "למטייל ולמתגייס"
+    ],
+    "categoryId": "51"
+  },
+  {
+    "value": "595",
+    "text": "משקפת \\ טלסקופ",
+    "breadcrumbs": [
+      "למטייל ולמתגייס"
+    ],
+    "categoryId": "51"
+  },
+  {
+    "value": "505",
+    "text": "נעלי טרקים וסנדלים",
+    "breadcrumbs": [
+      "למטייל ולמתגייס"
+    ],
+    "categoryId": "51"
+  },
+  {
+    "value": "503",
+    "text": "ספרים ומפות",
+    "breadcrumbs": [
+      "למטייל ולמתגייס"
+    ],
+    "categoryId": "51"
+  },
+  {
+    "value": "501",
+    "text": "פנסים",
+    "breadcrumbs": [
+      "למטייל ולמתגייס"
+    ],
+    "categoryId": "51"
+  },
+  {
+    "value": "695",
+    "text": "צידניות",
+    "breadcrumbs": [
+      "למטייל ולמתגייס"
+    ],
+    "categoryId": "51"
+  },
+  {
+    "value": "504",
+    "text": "קמפינג- כסאות ושולחנות",
+    "breadcrumbs": [
+      "למטייל ולמתגייס"
+    ],
+    "categoryId": "51"
+  },
+  {
+    "value": "494",
+    "text": "שק שינה ומזרנים",
+    "breadcrumbs": [
+      "למטייל ולמתגייס"
+    ],
+    "categoryId": "51"
+  },
+  {
+    "value": "496",
+    "text": "תרמילים",
+    "breadcrumbs": [
+      "למטייל ולמתגייס"
+    ],
+    "categoryId": "51"
+  },
+  {
+    "value": "512",
+    "text": "אחר",
+    "breadcrumbs": [
+      "למטייל ולמתגייס"
+    ],
+    "categoryId": "51"
+  },
+  {
+    "value": "75",
+    "text": "עגלות ועגלות טיול",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "76",
+    "text": "מיטות ולולים",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "380",
+    "text": "ממונעים לילדים",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "214",
+    "text": "שידות החתלה / שידות",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "79",
+    "text": "משחקים וצעצועים",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "748",
+    "text": "אביזרי בטיחות",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "747",
+    "text": "אביזרים ללידה ולהנקה",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "278",
+    "text": "אוניברסיטה",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "918",
+    "text": "אופני ילדים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "610",
+    "text": "אמבטיה\\ כלי אמבטיה",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "78",
+    "text": "ביגוד והנעלה",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "253",
+    "text": "בייביסנס ומוניטורים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "741",
+    "text": "הופעות לילדים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "490",
+    "text": "הליכונים ובימבות",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "277",
+    "text": "טרמפולינה",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "622",
+    "text": "כורסת הנקה",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "745",
+    "text": "כלי אוכל",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "711",
+    "text": "כלי מיטה",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "154",
+    "text": "כסא לאוכל",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "80",
+    "text": "כסא לרכב",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "279",
+    "text": "מובייל",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "76",
+    "text": "מיטות ולולים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "282",
+    "text": "מכשיר אדים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "380",
+    "text": "ממונעים לילדים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "77",
+    "text": "מנשאים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "79",
+    "text": "משחקים וצעצועים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "1022",
+    "text": "משטחי/מזרני פעילות",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "593",
+    "text": "מתקני ג'ימבורי",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "280",
+    "text": "נדנדה",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "276",
+    "text": "סלקל",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "153",
+    "text": "ספרי ילדים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "75",
+    "text": "עגלות ועגלות טיול",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "873",
+    "text": "פורים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "678",
+    "text": "ציורים ותמונות",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "746",
+    "text": "קישוטים ואביזרים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "226",
+    "text": "קלטות ו-DVD",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "214",
+    "text": "שידות החתלה / שידות",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "283",
+    "text": "תיקים",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "81",
+    "text": "אחר",
+    "breadcrumbs": [
+      "לתינוק ולילד"
+    ],
+    "categoryId": "11"
+  },
+  {
+    "value": "667",
+    "text": "צימר",
+    "breadcrumbs": [
+      "מבנים ניידים"
+    ],
+    "categoryId": "61"
+  },
+  {
+    "value": "669",
+    "text": "קראוון",
+    "breadcrumbs": [
+      "מבנים ניידים"
+    ],
+    "categoryId": "61"
+  },
+  {
+    "value": "670",
+    "text": "שירותים ניידים",
+    "breadcrumbs": [
+      "מבנים ניידים"
+    ],
+    "categoryId": "61"
+  },
+  {
+    "value": "671",
+    "text": "אחר",
+    "breadcrumbs": [
+      "מבנים ניידים"
+    ],
+    "categoryId": "61"
+  },
+  {
+    "value": "204",
+    "text": "CD's",
+    "breadcrumbs": [
+      "מוסיקה וסרטים"
+    ],
+    "categoryId": "29"
+  },
+  {
+    "value": "202",
+    "text": "DVD",
+    "breadcrumbs": [
+      "מוסיקה וסרטים"
+    ],
+    "categoryId": "29"
+  },
+  {
+    "value": "203",
+    "text": "וידאו",
+    "breadcrumbs": [
+      "מוסיקה וסרטים"
+    ],
+    "categoryId": "29"
+  },
+  {
+    "value": "205",
+    "text": "קלטות",
+    "breadcrumbs": [
+      "מוסיקה וסרטים"
+    ],
+    "categoryId": "29"
+  },
+  {
+    "value": "206",
+    "text": "תקליטים",
+    "breadcrumbs": [
+      "מוסיקה וסרטים"
+    ],
+    "categoryId": "29"
+  },
+  {
+    "value": "513",
+    "text": "אחר",
+    "breadcrumbs": [
+      "מוסיקה וסרטים"
+    ],
+    "categoryId": "29"
+  },
+  {
+    "value": "7",
+    "text": "מקרר",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "1",
+    "text": "טלויזיה",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "5",
+    "text": "מכונת כביסה",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "4",
+    "text": "מזגן",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "255",
+    "text": "מכונת קפה",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "2",
+    "text": "DVD",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "317",
+    "text": "אופה לחם",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "330",
+    "text": "בלנדר ומיקסר",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "3",
+    "text": "וידאו",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "474",
+    "text": "זרוע לטלוויזיה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "332",
+    "text": "טוחן אשפה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "333",
+    "text": "טוסטר",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "720",
+    "text": "טוסטר אובן",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "1",
+    "text": "טלויזיה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "218",
+    "text": "טלפונים ואביזרים",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "268",
+    "text": "כיריים",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "471",
+    "text": "מאוורר",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "313",
+    "text": "מגהץ",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "170",
+    "text": "מדיח כלים",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "4",
+    "text": "מזגן",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "877",
+    "text": "מחברים וכבלים",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "334",
+    "text": "מטחנת בשר",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "813",
+    "text": "מטחנת קפה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "898",
+    "text": "מטען לסוללות",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "689",
+    "text": "מיחם לשבת",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "155",
+    "text": "מייבש כביסה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "158",
+    "text": "מיקרוגל",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "331",
+    "text": "מכונת גלידה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "5",
+    "text": "מכונת כביסה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "255",
+    "text": "מכונת קפה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "314",
+    "text": "מכונת תפירה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "157",
+    "text": "מכשירי פקס",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "744",
+    "text": "מנגל",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "335",
+    "text": "מסחטה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "329",
+    "text": "מעבד מזון",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "561",
+    "text": "מפזר חום",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "319",
+    "text": "מקפיא",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "227",
+    "text": "מקרן",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "7",
+    "text": "מקרר",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "846",
+    "text": "מקרר יינות",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "316",
+    "text": "מקרר מיני בר",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "560",
+    "text": "מתקני / מטהרי מים",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "468",
+    "text": "ניקוי בקיטור",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "899",
+    "text": "סדין חשמלי",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "811",
+    "text": "סטרימר",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "336",
+    "text": "סיר בישול",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "337",
+    "text": "סיר טיגון",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "338",
+    "text": "פלטה חשמלית",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "269",
+    "text": "קולט אדים",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "318",
+    "text": "קומקום חשמלי",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "356",
+    "text": "רדיאטור",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "234",
+    "text": "שואבי אבק",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "876",
+    "text": "שלטים",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "6",
+    "text": "תנור אפייה",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "156",
+    "text": "תנור חימום",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "8",
+    "text": "אחר",
+    "breadcrumbs": [
+      "מוצרי-חשמל"
+    ],
+    "categoryId": "1"
+  },
+  {
+    "value": "34",
+    "text": "מחשב נייד",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "33",
+    "text": "מחשב שולחני",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "800",
+    "text": "Tablet - טאבלט",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "174",
+    "text": "חומרה",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "782",
+    "text": "Ebook Reader",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "800",
+    "text": "Tablet - טאבלט",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "968",
+    "text": "google glass",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "682",
+    "text": "אביזרים",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "977",
+    "text": "אייפד אייר 2 ipad air",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "1025",
+    "text": "אייפד אייר 3 iPad Air",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "950",
+    "text": "אייפד אייר ipad air",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "930",
+    "text": "אייפד מיני iPad mini",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "951",
+    "text": "אייפד מיני iPad mini 2",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "980",
+    "text": "אייפד מיני iPad mini 3",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "990",
+    "text": "אייפד מיני iPad mini 4",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "1013",
+    "text": "אייפד פרו iPad Pro 9.7",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "987",
+    "text": "אייפד פרו iPadPro",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "750",
+    "text": "אייפד1 iPad1",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "816",
+    "text": "אייפד2 iPad2",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "879",
+    "text": "אייפד3 iPad3",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "929",
+    "text": "אייפד4 iPad4",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "174",
+    "text": "חומרה",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "39",
+    "text": "מדפסות",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "35",
+    "text": "מחשב כף יד",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "34",
+    "text": "מחשב נייד",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "33",
+    "text": "מחשב שולחני",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "632",
+    "text": "מילון אלקטרוני",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "36",
+    "text": "מסכים",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "42",
+    "text": "משחקי מחשב",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "619",
+    "text": "ניווט GPS",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "37",
+    "text": "סורקים",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "841",
+    "text": "עט דיגיטלי",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "40",
+    "text": "צורבים",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "723",
+    "text": "שרתים",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "175",
+    "text": "תוכנות",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "43",
+    "text": "אחר",
+    "breadcrumbs": [
+      "מחשבים וציוד נלווה"
+    ],
+    "categoryId": "6"
+  },
+  {
+    "value": "344",
+    "text": "אזעקה",
+    "breadcrumbs": [
+      "מיגון לבית ולעסק"
+    ],
+    "categoryId": "43"
+  },
+  {
+    "value": "794",
+    "text": "אינטרקום",
+    "breadcrumbs": [
+      "מיגון לבית ולעסק"
+    ],
+    "categoryId": "43"
+  },
+  {
+    "value": "345",
+    "text": "כספת",
+    "breadcrumbs": [
+      "מיגון לבית ולעסק"
+    ],
+    "categoryId": "43"
+  },
+  {
+    "value": "810",
+    "text": "מכשיר ציתות והאזנה",
+    "breadcrumbs": [
+      "מיגון לבית ולעסק"
+    ],
+    "categoryId": "43"
+  },
+  {
+    "value": "346",
+    "text": "מצלמות וטלוויזיה במעגל סגור",
+    "breadcrumbs": [
+      "מיגון לבית ולעסק"
+    ],
+    "categoryId": "43"
+  },
+  {
+    "value": "347",
+    "text": "סורגים",
+    "breadcrumbs": [
+      "מיגון לבית ולעסק"
+    ],
+    "categoryId": "43"
+  },
+  {
+    "value": "467",
+    "text": "ציוד כיבוי אש",
+    "breadcrumbs": [
+      "מיגון לבית ולעסק"
+    ],
+    "categoryId": "43"
+  },
+  {
+    "value": "409",
+    "text": "שער",
+    "breadcrumbs": [
+      "מיגון לבית ולעסק"
+    ],
+    "categoryId": "43"
+  },
+  {
+    "value": "577",
+    "text": "אחר",
+    "breadcrumbs": [
+      "מיגון לבית ולעסק"
+    ],
+    "categoryId": "43"
+  },
+  {
+    "value": "569",
+    "text": "הצגות חנוכה",
+    "breadcrumbs": [
+      "מנויים וכרטיסים"
+    ],
+    "categoryId": "54"
+  },
+  {
+    "value": "580",
+    "text": "מנויים לחדר כושר",
+    "breadcrumbs": [
+      "מנויים וכרטיסים"
+    ],
+    "categoryId": "54"
+  },
+  {
+    "value": "581",
+    "text": "מנוי לתיאטרון",
+    "breadcrumbs": [
+      "מנויים וכרטיסים"
+    ],
+    "categoryId": "54"
+  },
+  {
+    "value": "582",
+    "text": "מנוי למשחקי ספורט",
+    "breadcrumbs": [
+      "מנויים וכרטיסים"
+    ],
+    "categoryId": "54"
+  },
+  {
+    "value": "584",
+    "text": "מנוי לחוגי ספורט",
+    "breadcrumbs": [
+      "מנויים וכרטיסים"
+    ],
+    "categoryId": "54"
+  },
+  {
+    "value": "585",
+    "text": "מנוי לקאנטרי\\ בריכה",
+    "breadcrumbs": [
+      "מנויים וכרטיסים"
+    ],
+    "categoryId": "54"
+  },
+  {
+    "value": "567",
+    "text": "הצגות תיאטרון",
+    "breadcrumbs": [
+      "מנויים וכרטיסים"
+    ],
+    "categoryId": "54"
+  },
+  {
+    "value": "568",
+    "text": "הופעות מוסיקליות",
+    "breadcrumbs": [
+      "מנויים וכרטיסים"
+    ],
+    "categoryId": "54"
+  },
+  {
+    "value": "571",
+    "text": "מופעי מחול וריקוד",
+    "breadcrumbs": [
+      "מנויים וכרטיסים"
+    ],
+    "categoryId": "54"
+  },
+  {
+    "value": "574",
+    "text": "מופעים לילדים",
+    "breadcrumbs": [
+      "מנויים וכרטיסים"
+    ],
+    "categoryId": "54"
+  },
+  {
+    "value": "572",
+    "text": "כרטיס משחקי ספורט",
+    "breadcrumbs": [
+      "מנויים וכרטיסים"
+    ],
+    "categoryId": "54"
+  },
+  {
+    "value": "809",
+    "text": "כרטיס קולנוע",
+    "breadcrumbs": [
+      "מנויים וכרטיסים"
+    ],
+    "categoryId": "54"
+  },
+  {
+    "value": "570",
+    "text": "סטנד אפ  / בידור",
+    "breadcrumbs": [
+      "מנויים וכרטיסים"
+    ],
+    "categoryId": "54"
+  },
+  {
+    "value": "583",
+    "text": "פארקים ואטרקציות",
+    "breadcrumbs": [
+      "מנויים וכרטיסים"
+    ],
+    "categoryId": "54"
+  },
+  {
+    "value": "573",
+    "text": "אחר",
+    "breadcrumbs": [
+      "מנויים וכרטיסים"
+    ],
+    "categoryId": "54"
+  },
+  {
+    "value": "865",
+    "text": "צעצועים לבוגרים",
+    "breadcrumbs": [
+      "משחקים וצעצועים"
+    ],
+    "categoryId": "71"
+  },
+  {
+    "value": "864",
+    "text": "צעצועים לילדים",
+    "breadcrumbs": [
+      "משחקים וצעצועים"
+    ],
+    "categoryId": "71"
+  },
+  {
+    "value": "270",
+    "text": "כללי",
+    "breadcrumbs": [
+      "סטוקים"
+    ],
+    "categoryId": "40"
+  },
+  {
+    "value": "456",
+    "text": "אביזרים",
+    "breadcrumbs": [
+      "סטריאו"
+    ],
+    "categoryId": "8"
+  },
+  {
+    "value": "972",
+    "text": "ציוד לקריוקי",
+    "breadcrumbs": [
+      "סטריאו"
+    ],
+    "categoryId": "8"
+  },
+  {
+    "value": "217",
+    "text": "אייפוד iPod",
+    "breadcrumbs": [
+      "סטריאו"
+    ],
+    "categoryId": "8"
+  },
+  {
+    "value": "563",
+    "text": "אקולייזר",
+    "breadcrumbs": [
+      "סטריאו"
+    ],
+    "categoryId": "8"
+  },
+  {
+    "value": "55",
+    "text": "דיסקמן",
+    "breadcrumbs": [
+      "סטריאו"
+    ],
+    "categoryId": "8"
+  },
+  {
+    "value": "608",
+    "text": "טייפ",
+    "breadcrumbs": [
+      "סטריאו"
+    ],
+    "categoryId": "8"
+  },
+  {
+    "value": "375",
+    "text": "טייפ מנהלים",
+    "breadcrumbs": [
+      "סטריאו"
+    ],
+    "categoryId": "8"
+  },
+  {
+    "value": "57",
+    "text": "מגבר",
+    "breadcrumbs": [
+      "סטריאו"
+    ],
+    "categoryId": "8"
+  },
+  {
+    "value": "61",
+    "text": "מיני דיסק",
+    "breadcrumbs": [
+      "סטריאו"
+    ],
+    "categoryId": "8"
+  },
+  {
+    "value": "62",
+    "text": "מערכות סטריאו",
+    "breadcrumbs": [
+      "סטריאו"
+    ],
+    "categoryId": "8"
+  },
+  {
+    "value": "163",
+    "text": "מערכת קולנוע ביתית",
+    "breadcrumbs": [
+      "סטריאו"
+    ],
+    "categoryId": "8"
+  },
+  {
+    "value": "58",
+    "text": "נגן דיסקים",
+    "breadcrumbs": [
+      "סטריאו"
+    ],
+    "categoryId": "8"
+  },
+  {
+    "value": "56",
+    "text": "נגני mp3 / mp4",
+    "breadcrumbs": [
+      "סטריאו"
+    ],
+    "categoryId": "8"
+  },
+  {
+    "value": "562",
+    "text": "פטיפון",
+    "breadcrumbs": [
+      "סטריאו"
+    ],
+    "categoryId": "8"
+  },
+  {
+    "value": "374",
+    "text": "רדיו טייפ\\ דיסק",
+    "breadcrumbs": [
+      "סטריאו"
+    ],
+    "categoryId": "8"
+  },
+  {
+    "value": "169",
+    "text": "רמקולים",
+    "breadcrumbs": [
+      "סטריאו"
+    ],
+    "categoryId": "8"
+  },
+  {
+    "value": "591",
+    "text": "רסיבר",
+    "breadcrumbs": [
+      "סטריאו"
+    ],
+    "categoryId": "8"
+  },
+  {
+    "value": "63",
+    "text": "אחר",
+    "breadcrumbs": [
+      "סטריאו"
+    ],
+    "categoryId": "8"
+  },
+  {
+    "value": "29",
+    "text": "מכשיר סלולרי",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "סלולרי"
+    ],
+    "categoryId": "5"
+  },
+  {
+    "value": "458",
+    "text": "אביזרים",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "סלולרי"
+    ],
+    "categoryId": "5"
+  },
+  {
+    "value": "354",
+    "text": "מספרי זהב",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "סלולרי"
+    ],
+    "categoryId": "5"
+  },
+  {
+    "value": "29",
+    "text": "מכשיר סלולרי",
+    "breadcrumbs": [
+      "סלולרי"
+    ],
+    "categoryId": "5"
+  },
+  {
+    "value": "458",
+    "text": "אביזרים",
+    "breadcrumbs": [
+      "סלולרי"
+    ],
+    "categoryId": "5"
+  },
+  {
+    "value": "27",
+    "text": "כרטיס סים",
+    "breadcrumbs": [
+      "סלולרי"
+    ],
+    "categoryId": "5"
+  },
+  {
+    "value": "822",
+    "text": "מודם סלולרי",
+    "breadcrumbs": [
+      "סלולרי"
+    ],
+    "categoryId": "5"
+  },
+  {
+    "value": "354",
+    "text": "מספרי זהב",
+    "breadcrumbs": [
+      "סלולרי"
+    ],
+    "categoryId": "5"
+  },
+  {
+    "value": "963",
+    "text": "Smartwatch",
+    "breadcrumbs": [
+      "סלולרי"
+    ],
+    "categoryId": "5"
+  },
+  {
+    "value": "32",
+    "text": "אחר",
+    "breadcrumbs": [
+      "סלולרי"
+    ],
+    "categoryId": "5"
+  },
+  {
+    "value": "880",
+    "text": "ספורט ימי",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "97",
+    "text": "מכשירי כושר ביתיים",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "357",
+    "text": "מכונית על שלט רחוק",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "307",
+    "text": "טיסנים ומסוקים",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "900",
+    "text": "שעוני דופק/פולאר",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "949",
+    "text": "אביזרים לסנפלינג",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "815",
+    "text": "אומנויות לחימה",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "86",
+    "text": "ביגוד ונעליים מקצועיות",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "819",
+    "text": "ג'אגלינג/להטוטנות",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "872",
+    "text": "גולף",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "814",
+    "text": "הוקי",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "793",
+    "text": "וויקבורד",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "307",
+    "text": "טיסנים ומסוקים",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "946",
+    "text": "טרמפולינה",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "588",
+    "text": "מחבטי טניס",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "970",
+    "text": "מטקות",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "357",
+    "text": "מכונית על שלט רחוק",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "97",
+    "text": "מכשירי כושר ביתיים",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "742",
+    "text": "מנוי לחדר כושר",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "796",
+    "text": "סנובורד",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "880",
+    "text": "ספורט ימי",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "263",
+    "text": "סקייטבורד",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "757",
+    "text": "עפיפונים",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "507",
+    "text": "ציוד דיג",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "1000",
+    "text": "ציוד לאגרוף",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "781",
+    "text": "ציוד לכדורגל",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "971",
+    "text": "ציוד לכדורסל",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "93",
+    "text": "ציוד צלילה",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "613",
+    "text": "צניחה",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "244",
+    "text": "רולר בליידס וגלגיליות",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "284",
+    "text": "שולחנות משחק",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "900",
+    "text": "שעוני דופק/פולאר",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "1001",
+    "text": "שק אגרוף",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "83",
+    "text": "אביזרי ספורט",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "220",
+    "text": "אביזרים לסקי",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "98",
+    "text": "אחר",
+    "breadcrumbs": [
+      "ספורט"
+    ],
+    "categoryId": "12"
+  },
+  {
+    "value": "491",
+    "text": "אינצקלופדיה",
+    "breadcrumbs": [
+      "ספרות וחומרי לימוד"
+    ],
+    "categoryId": "19"
+  },
+  {
+    "value": "108",
+    "text": "מאמרים",
+    "breadcrumbs": [
+      "ספרות וחומרי לימוד"
+    ],
+    "categoryId": "19"
+  },
+  {
+    "value": "901",
+    "text": "מילונים",
+    "breadcrumbs": [
+      "ספרות וחומרי לימוד"
+    ],
+    "categoryId": "19"
+  },
+  {
+    "value": "109",
+    "text": "סיפרות",
+    "breadcrumbs": [
+      "ספרות וחומרי לימוד"
+    ],
+    "categoryId": "19"
+  },
+  {
+    "value": "110",
+    "text": "ספרות מקצועית",
+    "breadcrumbs": [
+      "ספרות וחומרי לימוד"
+    ],
+    "categoryId": "19"
+  },
+  {
+    "value": "766",
+    "text": "ספרי אומנות",
+    "breadcrumbs": [
+      "ספרות וחומרי לימוד"
+    ],
+    "categoryId": "19"
+  },
+  {
+    "value": "903",
+    "text": "ספרי בישול",
+    "breadcrumbs": [
+      "ספרות וחומרי לימוד"
+    ],
+    "categoryId": "19"
+  },
+  {
+    "value": "738",
+    "text": "ספרי ילדים",
+    "breadcrumbs": [
+      "ספרות וחומרי לימוד"
+    ],
+    "categoryId": "19"
+  },
+  {
+    "value": "107",
+    "text": "ספרי לימוד",
+    "breadcrumbs": [
+      "ספרות וחומרי לימוד"
+    ],
+    "categoryId": "19"
+  },
+  {
+    "value": "902",
+    "text": "ספרי עיון ואלבומים",
+    "breadcrumbs": [
+      "ספרות וחומרי לימוד"
+    ],
+    "categoryId": "19"
+  },
+  {
+    "value": "729",
+    "text": "ספרים ומאמרים",
+    "breadcrumbs": [
+      "ספרות וחומרי לימוד"
+    ],
+    "categoryId": "19"
+  },
+  {
+    "value": "737",
+    "text": "ספרים ומפות",
+    "breadcrumbs": [
+      "ספרות וחומרי לימוד"
+    ],
+    "categoryId": "19"
+  },
+  {
+    "value": "111",
+    "text": "שפה זרה",
+    "breadcrumbs": [
+      "ספרות וחומרי לימוד"
+    ],
+    "categoryId": "19"
+  },
+  {
+    "value": "112",
+    "text": "אחר",
+    "breadcrumbs": [
+      "ספרות וחומרי לימוד"
+    ],
+    "categoryId": "19"
+  },
+  {
+    "value": "288",
+    "text": "אופנה וביגוד",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "623",
+    "text": "אינטרנט ודומיינים",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "305",
+    "text": "אירועים",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "303",
+    "text": "בידור ומוסיקה",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "981",
+    "text": "בית מלון",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "302",
+    "text": "בתי קפה ומסעדות",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "289",
+    "text": "הזדמנויות עסקיות",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "291",
+    "text": "הייטק",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "988",
+    "text": "זכות ציבורית למונית",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "290",
+    "text": "זכיינות",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "292",
+    "text": "חנויות",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "293",
+    "text": "חקלאות",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "625",
+    "text": "טיפוח וקוסמטיקה",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "294",
+    "text": "ייצור",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "705",
+    "text": "מוסכים",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "706",
+    "text": "מועדונים וברים",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "301",
+    "text": "מזון",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "883",
+    "text": "מינימרקט/סופרמרקט",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "295",
+    "text": "מסחר",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "296",
+    "text": "משקיעים פוטנציאלים",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "592",
+    "text": "מתקני ילדים",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "297",
+    "text": "עבודה מהבית",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "298",
+    "text": "עסקים בחו\"ל",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "882",
+    "text": "פיצוציה/קיוסק",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "304",
+    "text": "קווי חלוקה",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "630",
+    "text": "קליניקה",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "299",
+    "text": "שותפות",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "300",
+    "text": "תעשייה",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "241",
+    "text": "כללי",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "481",
+    "text": "אחר",
+    "breadcrumbs": [
+      "עסקים למכירה/מסירה"
+    ],
+    "categoryId": "37"
+  },
+  {
+    "value": "847",
+    "text": "אביזרי עיצוב",
+    "breadcrumbs": [
+      "ציוד לאירועים"
+    ],
+    "categoryId": "69"
+  },
+  {
+    "value": "848",
+    "text": "אוהל",
+    "breadcrumbs": [
+      "ציוד לאירועים"
+    ],
+    "categoryId": "69"
+  },
+  {
+    "value": "853",
+    "text": "בר",
+    "breadcrumbs": [
+      "ציוד לאירועים"
+    ],
+    "categoryId": "69"
+  },
+  {
+    "value": "849",
+    "text": "חופה",
+    "breadcrumbs": [
+      "ציוד לאירועים"
+    ],
+    "categoryId": "69"
+  },
+  {
+    "value": "850",
+    "text": "כיסא כלה",
+    "breadcrumbs": [
+      "ציוד לאירועים"
+    ],
+    "categoryId": "69"
+  },
+  {
+    "value": "851",
+    "text": "עגלת מזון",
+    "breadcrumbs": [
+      "ציוד לאירועים"
+    ],
+    "categoryId": "69"
+  },
+  {
+    "value": "881",
+    "text": "ציוד הגברה",
+    "breadcrumbs": [
+      "ציוד לאירועים"
+    ],
+    "categoryId": "69"
+  },
+  {
+    "value": "992",
+    "text": "ציוד לאטרקציות",
+    "breadcrumbs": [
+      "ציוד לאירועים"
+    ],
+    "categoryId": "69"
+  },
+  {
+    "value": "852",
+    "text": "אחר",
+    "breadcrumbs": [
+      "ציוד לאירועים"
+    ],
+    "categoryId": "69"
+  },
+  {
+    "value": "484",
+    "text": "אביזרים",
+    "breadcrumbs": [
+      "ציוד לדי.ג'י. ולאולפנים"
+    ],
+    "categoryId": "33"
+  },
+  {
+    "value": "985",
+    "text": "כרטיס קול",
+    "breadcrumbs": [
+      "ציוד לדי.ג'י. ולאולפנים"
+    ],
+    "categoryId": "33"
+  },
+  {
+    "value": "485",
+    "text": "פלטות די. ג'יי",
+    "breadcrumbs": [
+      "ציוד לדי.ג'י. ולאולפנים"
+    ],
+    "categoryId": "33"
+  },
+  {
+    "value": "722",
+    "text": "פנס / מצביע  לייזר",
+    "breadcrumbs": [
+      "ציוד לדי.ג'י. ולאולפנים"
+    ],
+    "categoryId": "33"
+  },
+  {
+    "value": "482",
+    "text": "ציוד הגברה",
+    "breadcrumbs": [
+      "ציוד לדי.ג'י. ולאולפנים"
+    ],
+    "categoryId": "33"
+  },
+  {
+    "value": "621",
+    "text": "ציוד לאולפנים",
+    "breadcrumbs": [
+      "ציוד לדי.ג'י. ולאולפנים"
+    ],
+    "categoryId": "33"
+  },
+  {
+    "value": "483",
+    "text": "תאורה",
+    "breadcrumbs": [
+      "ציוד לדי.ג'י. ולאולפנים"
+    ],
+    "categoryId": "33"
+  },
+  {
+    "value": "685",
+    "text": "מיקרופון",
+    "breadcrumbs": [
+      "ציוד לדי.ג'י. ולאולפנים"
+    ],
+    "categoryId": "33"
+  },
+  {
+    "value": "225",
+    "text": "אחר",
+    "breadcrumbs": [
+      "ציוד לדי.ג'י. ולאולפנים"
+    ],
+    "categoryId": "33"
+  },
+  {
+    "value": "763",
+    "text": "בובות ראווה",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "956",
+    "text": "חדר קירור",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "423",
+    "text": "טלפון שקלים",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "836",
+    "text": "כלי צורפות",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "764",
+    "text": "ליצנות וקרקס",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "421",
+    "text": "מזון ומשקאות",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "418",
+    "text": "מטבח תעשייתי",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "673",
+    "text": "מכונות קרח",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "412",
+    "text": "מכונת מזון",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "683",
+    "text": "מכונת סיגריות",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "411",
+    "text": "מכונת שתייה",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "417",
+    "text": "מכונת תפירה",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "321",
+    "text": "מקפיא",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "416",
+    "text": "מקרר",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "413",
+    "text": "משקל",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "420",
+    "text": "מתנפחים",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "805",
+    "text": "ציוד אלקטרוניקה",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "974",
+    "text": "ציוד לגני ילדים",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "1023",
+    "text": "ציוד לדיג'יי ואולפנים",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "442",
+    "text": "ציוד לחדרי כושר",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "1012",
+    "text": "ציוד לחנות ביגוד",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "426",
+    "text": "ציוד לחקלאות",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "410",
+    "text": "ציוד למוסך",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "422",
+    "text": "ציוד למסעדות/בתי קפה",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "419",
+    "text": "ציוד למספרה",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "1019",
+    "text": "ציוד לנקיון",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "473",
+    "text": "ציוד לקליניקות ומרפאות",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "762",
+    "text": "ציוד תפירה",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "780",
+    "text": "קונדטוריות ומאפיות",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "414",
+    "text": "קופה רושמת",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "415",
+    "text": "ריהוט לעסקים",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "427",
+    "text": "תנור תעשייתי",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "201",
+    "text": "אחר",
+    "breadcrumbs": [
+      "ציוד לעסקים"
+    ],
+    "categoryId": "28"
+  },
+  {
+    "value": "606",
+    "text": "גנרטורים תעשייתים",
+    "breadcrumbs": [
+      "ציוד לתעשייה"
+    ],
+    "categoryId": "56"
+  },
+  {
+    "value": "969",
+    "text": "דפוס",
+    "breadcrumbs": [
+      "ציוד לתעשייה"
+    ],
+    "categoryId": "56"
+  },
+  {
+    "value": "838",
+    "text": "מיכלים וחביות",
+    "breadcrumbs": [
+      "ציוד לתעשייה"
+    ],
+    "categoryId": "56"
+  },
+  {
+    "value": "605",
+    "text": "מכולות",
+    "breadcrumbs": [
+      "ציוד לתעשייה"
+    ],
+    "categoryId": "56"
+  },
+  {
+    "value": "604",
+    "text": "מכונות",
+    "breadcrumbs": [
+      "ציוד לתעשייה"
+    ],
+    "categoryId": "56"
+  },
+  {
+    "value": "907",
+    "text": "מכונות בטון",
+    "breadcrumbs": [
+      "ציוד לתעשייה"
+    ],
+    "categoryId": "56"
+  },
+  {
+    "value": "607",
+    "text": "מסועים",
+    "breadcrumbs": [
+      "ציוד לתעשייה"
+    ],
+    "categoryId": "56"
+  },
+  {
+    "value": "603",
+    "text": "משאבות",
+    "breadcrumbs": [
+      "ציוד לתעשייה"
+    ],
+    "categoryId": "56"
+  },
+  {
+    "value": "1043",
+    "text": "עגלות משטחים / מלגזה ידנית",
+    "breadcrumbs": [
+      "ציוד לתעשייה"
+    ],
+    "categoryId": "56"
+  },
+  {
+    "value": "875",
+    "text": "פיגומים",
+    "breadcrumbs": [
+      "ציוד לתעשייה"
+    ],
+    "categoryId": "56"
+  },
+  {
+    "value": "843",
+    "text": "קומפרסור/מדחס",
+    "breadcrumbs": [
+      "ציוד לתעשייה"
+    ],
+    "categoryId": "56"
+  },
+  {
+    "value": "908",
+    "text": "רתכות",
+    "breadcrumbs": [
+      "ציוד לתעשייה"
+    ],
+    "categoryId": "56"
+  },
+  {
+    "value": "714",
+    "text": "ציוד כללי לתעשייה",
+    "breadcrumbs": [
+      "ציוד לתעשייה"
+    ],
+    "categoryId": "56"
+  },
+  {
+    "value": "960",
+    "text": "ביגוד ואביזרים",
+    "breadcrumbs": [
+      "ציוד להשכרה"
+    ],
+    "categoryId": "77"
+  },
+  {
+    "value": "958",
+    "text": "כלי עבודה",
+    "breadcrumbs": [
+      "ציוד להשכרה"
+    ],
+    "categoryId": "77"
+  },
+  {
+    "value": "959",
+    "text": "ציוד לאירועים",
+    "breadcrumbs": [
+      "ציוד להשכרה"
+    ],
+    "categoryId": "77"
+  },
+  {
+    "value": "961",
+    "text": "ציוד לעסקים",
+    "breadcrumbs": [
+      "ציוד להשכרה"
+    ],
+    "categoryId": "77"
+  },
+  {
+    "value": "957",
+    "text": "אחר",
+    "breadcrumbs": [
+      "ציוד להשכרה"
+    ],
+    "categoryId": "77"
+  },
+  {
+    "value": "1003",
+    "text": "אטבים",
+    "breadcrumbs": [
+      "מתלי בגדים וכביסה"
+    ],
+    "categoryId": "78"
+  },
+  {
+    "value": "1004",
+    "text": "חבל כביסה",
+    "breadcrumbs": [
+      "מתלי בגדים וכביסה"
+    ],
+    "categoryId": "78"
+  },
+  {
+    "value": "1005",
+    "text": "מעמד",
+    "breadcrumbs": [
+      "מתלי בגדים וכביסה"
+    ],
+    "categoryId": "78"
+  },
+  {
+    "value": "1006",
+    "text": "מקפל בגדים",
+    "breadcrumbs": [
+      "מתלי בגדים וכביסה"
+    ],
+    "categoryId": "78"
+  },
+  {
+    "value": "1007",
+    "text": "מתלה",
+    "breadcrumbs": [
+      "מתלי בגדים וכביסה"
+    ],
+    "categoryId": "78"
+  },
+  {
+    "value": "1008",
+    "text": "מתקן תלייה",
+    "breadcrumbs": [
+      "מתלי בגדים וכביסה"
+    ],
+    "categoryId": "78"
+  },
+  {
+    "value": "1009",
+    "text": "סל כביסה",
+    "breadcrumbs": [
+      "מתלי בגדים וכביסה"
+    ],
+    "categoryId": "78"
+  },
+  {
+    "value": "1010",
+    "text": "עגלת כביסה",
+    "breadcrumbs": [
+      "מתלי בגדים וכביסה"
+    ],
+    "categoryId": "78"
+  },
+  {
+    "value": "1011",
+    "text": "קולב",
+    "breadcrumbs": [
+      "מתלי בגדים וכביסה"
+    ],
+    "categoryId": "78"
+  },
+  {
+    "value": "840",
+    "text": "גליוטינות",
+    "breadcrumbs": [
+      "ציוד משרדי"
+    ],
+    "categoryId": "25"
+  },
+  {
+    "value": "755",
+    "text": "כלי כתיבה",
+    "breadcrumbs": [
+      "ציוד משרדי"
+    ],
+    "categoryId": "25"
+  },
+  {
+    "value": "131",
+    "text": "מגרסות",
+    "breadcrumbs": [
+      "ציוד משרדי"
+    ],
+    "categoryId": "25"
+  },
+  {
+    "value": "323",
+    "text": "מחשבונים",
+    "breadcrumbs": [
+      "ציוד משרדי"
+    ],
+    "categoryId": "25"
+  },
+  {
+    "value": "135",
+    "text": "מכונת צילום",
+    "breadcrumbs": [
+      "ציוד משרדי"
+    ],
+    "categoryId": "25"
+  },
+  {
+    "value": "839",
+    "text": "מכשירי כריכה ולמינציה",
+    "breadcrumbs": [
+      "ציוד משרדי"
+    ],
+    "categoryId": "25"
+  },
+  {
+    "value": "325",
+    "text": "מרכזיות",
+    "breadcrumbs": [
+      "ציוד משרדי"
+    ],
+    "categoryId": "25"
+  },
+  {
+    "value": "324",
+    "text": "עמדת קבלה",
+    "breadcrumbs": [
+      "ציוד משרדי"
+    ],
+    "categoryId": "25"
+  },
+  {
+    "value": "424",
+    "text": "פקס",
+    "breadcrumbs": [
+      "ציוד משרדי"
+    ],
+    "categoryId": "25"
+  },
+  {
+    "value": "326",
+    "text": "שולחן משרדי",
+    "breadcrumbs": [
+      "ציוד משרדי"
+    ],
+    "categoryId": "25"
+  },
+  {
+    "value": "376",
+    "text": "תכולת משרד",
+    "breadcrumbs": [
+      "ציוד משרדי"
+    ],
+    "categoryId": "25"
+  },
+  {
+    "value": "132",
+    "text": "אחר",
+    "breadcrumbs": [
+      "ציוד משרדי"
+    ],
+    "categoryId": "25"
+  },
+  {
+    "value": "247",
+    "text": "הליכון",
+    "breadcrumbs": [
+      "ציוד סיעודי/ רפואי"
+    ],
+    "categoryId": "38"
+  },
+  {
+    "value": "246",
+    "text": "כסא גלגלים",
+    "breadcrumbs": [
+      "ציוד סיעודי/ רפואי"
+    ],
+    "categoryId": "38"
+  },
+  {
+    "value": "978",
+    "text": "כסא טיפולי",
+    "breadcrumbs": [
+      "ציוד סיעודי/ רפואי"
+    ],
+    "categoryId": "38"
+  },
+  {
+    "value": "999",
+    "text": "מד לחץ דם",
+    "breadcrumbs": [
+      "ציוד סיעודי/ רפואי"
+    ],
+    "categoryId": "38"
+  },
+  {
+    "value": "979",
+    "text": "מוצרי ספיגה למבוגרים",
+    "breadcrumbs": [
+      "ציוד סיעודי/ רפואי"
+    ],
+    "categoryId": "38"
+  },
+  {
+    "value": "1024",
+    "text": "מחולל חמצן",
+    "breadcrumbs": [
+      "ציוד סיעודי/ רפואי"
+    ],
+    "categoryId": "38"
+  },
+  {
+    "value": "249",
+    "text": "מיטה",
+    "breadcrumbs": [
+      "ציוד סיעודי/ רפואי"
+    ],
+    "categoryId": "38"
+  },
+  {
+    "value": "721",
+    "text": "מיטת עיסוי",
+    "breadcrumbs": [
+      "ציוד סיעודי/ רפואי"
+    ],
+    "categoryId": "38"
+  },
+  {
+    "value": "1041",
+    "text": "מסכה",
+    "breadcrumbs": [
+      "ציוד סיעודי/ רפואי"
+    ],
+    "categoryId": "38"
+  },
+  {
+    "value": "998",
+    "text": "מעלון",
+    "breadcrumbs": [
+      "ציוד סיעודי/ רפואי"
+    ],
+    "categoryId": "38"
+  },
+  {
+    "value": "776",
+    "text": "עזרי שמיעה",
+    "breadcrumbs": [
+      "ציוד סיעודי/ רפואי"
+    ],
+    "categoryId": "38"
+  },
+  {
+    "value": "984",
+    "text": "עמידון",
+    "breadcrumbs": [
+      "ציוד סיעודי/ רפואי"
+    ],
+    "categoryId": "38"
+  },
+  {
+    "value": "248",
+    "text": "קלנועית",
+    "breadcrumbs": [
+      "ציוד סיעודי/ רפואי"
+    ],
+    "categoryId": "38"
+  },
+  {
+    "value": "609",
+    "text": "ציוד נלווה",
+    "breadcrumbs": [
+      "ציוד סיעודי/ רפואי"
+    ],
+    "categoryId": "38"
+  },
+  {
+    "value": "250",
+    "text": "אחר",
+    "breadcrumbs": [
+      "ציוד סיעודי/ רפואי"
+    ],
+    "categoryId": "38"
+  },
+  {
+    "value": "991",
+    "text": "מצלמת רחפן",
+    "breadcrumbs": [
+      "צילום"
+    ],
+    "categoryId": "20"
+  },
+  {
+    "value": "165",
+    "text": "אביזרים",
+    "breadcrumbs": [
+      "צילום"
+    ],
+    "categoryId": "20"
+  },
+  {
+    "value": "973",
+    "text": "מצלמות אקסטרים",
+    "breadcrumbs": [
+      "צילום"
+    ],
+    "categoryId": "20"
+  },
+  {
+    "value": "113",
+    "text": "מצלמה דיגיטלית",
+    "breadcrumbs": [
+      "צילום"
+    ],
+    "categoryId": "20"
+  },
+  {
+    "value": "114",
+    "text": "מצלמת פילם",
+    "breadcrumbs": [
+      "צילום"
+    ],
+    "categoryId": "20"
+  },
+  {
+    "value": "272",
+    "text": "מצלמת רפלקס דיג'י",
+    "breadcrumbs": [
+      "צילום"
+    ],
+    "categoryId": "20"
+  },
+  {
+    "value": "115",
+    "text": "מצלמת וידאו",
+    "breadcrumbs": [
+      "צילום"
+    ],
+    "categoryId": "20"
+  },
+  {
+    "value": "817",
+    "text": "עדשות",
+    "breadcrumbs": [
+      "צילום"
+    ],
+    "categoryId": "20"
+  },
+  {
+    "value": "117",
+    "text": "אחר",
+    "breadcrumbs": [
+      "צילום"
+    ],
+    "categoryId": "20"
+  },
+  {
+    "value": "212",
+    "text": "משחקים",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "952",
+    "text": "פלייסטיישן 4",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "404",
+    "text": "פלייסטיישן 3",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "208",
+    "text": "פלייסטיישן 2",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "207",
+    "text": "פלייסטיישן 1",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "884",
+    "text": "PS vita",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "240",
+    "text": "PSP",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "953",
+    "text": "X-Box One",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "265",
+    "text": "X-Box360",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "209",
+    "text": "X-Box",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "954",
+    "text": "Wii U",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "492",
+    "text": "WII",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "252",
+    "text": "גיימבוי",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "210",
+    "text": "גיימקיוב",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "594",
+    "text": "נינטנדו",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "1018",
+    "text": "נינטנדו Switch",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "463",
+    "text": "אביזרים",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "211",
+    "text": "אחר",
+    "breadcrumbs": [
+      "קונסולות משחק"
+    ],
+    "categoryId": "30"
+  },
+  {
+    "value": "799",
+    "text": "אביזרים",
+    "breadcrumbs": [
+      "קורקינטים"
+    ],
+    "categoryId": "39"
+  },
+  {
+    "value": "1002",
+    "text": "הוברבורד",
+    "breadcrumbs": [
+      "קורקינטים"
+    ],
+    "categoryId": "39"
+  },
+  {
+    "value": "845",
+    "text": "סגווי",
+    "breadcrumbs": [
+      "קורקינטים"
+    ],
+    "categoryId": "39"
+  },
+  {
+    "value": "260",
+    "text": "קורקינט",
+    "breadcrumbs": [
+      "קורקינטים"
+    ],
+    "categoryId": "39"
+  },
+  {
+    "value": "261",
+    "text": "קורקינט בנזין",
+    "breadcrumbs": [
+      "קורקינטים"
+    ],
+    "categoryId": "39"
+  },
+  {
+    "value": "262",
+    "text": "קורקינט חשמלי",
+    "breadcrumbs": [
+      "קורקינטים"
+    ],
+    "categoryId": "39"
+  },
+  {
+    "value": "578",
+    "text": "אחר",
+    "breadcrumbs": [
+      "קורקינטים"
+    ],
+    "categoryId": "39"
+  },
+  {
+    "value": "320",
+    "text": "פינת אוכל",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "11",
+    "text": "סלון",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "12",
+    "text": "ספות",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "171",
+    "text": "ארונות",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "173",
+    "text": "מזנון / ויטרינה",
+    "isHighlighted": true,
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "171",
+    "text": "ארונות",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "966",
+    "text": "בר",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "343",
+    "text": "דלתות",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "198",
+    "text": "חדרי שינה",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "812",
+    "text": "כוורת",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "837",
+    "text": "כורסאות",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "17",
+    "text": "כורסאות  טלויזיה",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "675",
+    "text": "כורסאות ומושבי עיסוי",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "672",
+    "text": "כיסא נדנדה",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "166",
+    "text": "כסאות",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "666",
+    "text": "מדפים",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "765",
+    "text": "מוטות תלייה",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "173",
+    "text": "מזנון / ויטרינה",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "863",
+    "text": "מזרנים",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "16",
+    "text": "מטבח",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "13",
+    "text": "מיטות",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "617",
+    "text": "מעמד לדיסקים",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "616",
+    "text": "מראה",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "11",
+    "text": "סלון",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "12",
+    "text": "ספות",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "172",
+    "text": "ספריה",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "221",
+    "text": "ענתיקות",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "804",
+    "text": "פוף",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "320",
+    "text": "פינת אוכל",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "727",
+    "text": "ריהוט לגינה",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "9",
+    "text": "ריהוט לחדרי ילדים",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "251",
+    "text": "ריהוט משרדי",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "322",
+    "text": "שולחן טלוויזיה",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "327",
+    "text": "שולחן מחשב",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "14",
+    "text": "שולחנות",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "15",
+    "text": "שטיחים",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "18",
+    "text": "שידות",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "618",
+    "text": "שעון קיר",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "199",
+    "text": "תכולת דירה",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "167",
+    "text": "אחר",
+    "breadcrumbs": [
+      "ריהוט"
+    ],
+    "categoryId": "2"
+  },
+  {
+    "value": "725",
+    "text": "זיכויים ושוברים",
+    "breadcrumbs": [
+      "שוברי זיכוי \\ תלושים \\ שונות"
+    ],
+    "categoryId": "23"
+  },
+  {
+    "value": "754",
+    "text": "כרטיסי חנייה",
+    "breadcrumbs": [
+      "שוברי זיכוי \\ תלושים \\ שונות"
+    ],
+    "categoryId": "23"
+  },
+  {
+    "value": "122",
+    "text": "מיוחדים",
+    "breadcrumbs": [
+      "שוברי זיכוי \\ תלושים \\ שונות"
+    ],
+    "categoryId": "23"
+  },
+  {
+    "value": "121",
+    "text": "סדנאות",
+    "breadcrumbs": [
+      "שוברי זיכוי \\ תלושים \\ שונות"
+    ],
+    "categoryId": "23"
+  },
+  {
+    "value": "871",
+    "text": "קופונים",
+    "breadcrumbs": [
+      "שוברי זיכוי \\ תלושים \\ שונות"
+    ],
+    "categoryId": "23"
+  },
+  {
+    "value": "120",
+    "text": "קורסים",
+    "breadcrumbs": [
+      "שוברי זיכוי \\ תלושים \\ שונות"
+    ],
+    "categoryId": "23"
+  },
+  {
+    "value": "465",
+    "text": "תלושים ותווי שי",
+    "breadcrumbs": [
+      "שוברי זיכוי \\ תלושים \\ שונות"
+    ],
+    "categoryId": "23"
+  },
+  {
+    "value": "168",
+    "text": "אחר",
+    "breadcrumbs": [
+      "שוברי זיכוי \\ תלושים \\ שונות"
+    ],
+    "categoryId": "23"
+  },
+  {
+    "value": "518",
+    "text": "אנטנות/צלחות לווין/ממירים",
+    "breadcrumbs": [
+      "תקשורת"
+    ],
+    "categoryId": "36"
+  },
+  {
+    "value": "519",
+    "text": "ארונות תקשורת",
+    "breadcrumbs": [
+      "תקשורת"
+    ],
+    "categoryId": "36"
+  },
+  {
+    "value": "633",
+    "text": "חבילות תקשורת",
+    "breadcrumbs": [
+      "תקשורת"
+    ],
+    "categoryId": "36"
+  },
+  {
+    "value": "517",
+    "text": "מכשירי כריזה",
+    "breadcrumbs": [
+      "תקשורת"
+    ],
+    "categoryId": "36"
+  },
+  {
+    "value": "238",
+    "text": "מכשירי קשר ואלחוט",
+    "breadcrumbs": [
+      "תקשורת"
+    ],
+    "categoryId": "36"
+  },
+  {
+    "value": "620",
+    "text": "עזרי שמיעה",
+    "breadcrumbs": [
+      "תקשורת"
+    ],
+    "categoryId": "36"
+  },
+  {
+    "value": "579",
+    "text": "אחר",
+    "breadcrumbs": [
+      "תקשורת"
+    ],
+    "categoryId": "36"
+  },
+  {
+    "value": "828",
+    "text": "יומנים",
+    "breadcrumbs": [
+      "ציוד לבית ספר"
+    ],
+    "categoryId": "67"
+  },
+  {
+    "value": "824",
+    "text": "ילקוט",
+    "breadcrumbs": [
+      "ציוד לבית ספר"
+    ],
+    "categoryId": "67"
+  },
+  {
+    "value": "827",
+    "text": "לוח",
+    "breadcrumbs": [
+      "ציוד לבית ספר"
+    ],
+    "categoryId": "67"
+  },
+  {
+    "value": "825",
+    "text": "מחברות",
+    "breadcrumbs": [
+      "ציוד לבית ספר"
+    ],
+    "categoryId": "67"
+  },
+  {
+    "value": "829",
+    "text": "מילון כיס",
+    "breadcrumbs": [
+      "ציוד לבית ספר"
+    ],
+    "categoryId": "67"
+  },
+  {
+    "value": "830",
+    "text": "קלמר",
+    "breadcrumbs": [
+      "ציוד לבית ספר"
+    ],
+    "categoryId": "67"
+  },
+  {
+    "value": "826",
+    "text": "תלבושת אחידה",
+    "breadcrumbs": [
+      "ציוד לבית ספר"
+    ],
+    "categoryId": "67"
+  },
+  {
+    "value": "861",
+    "text": "אביזרים",
+    "breadcrumbs": [
+      "תאורה ונברשות"
+    ],
+    "categoryId": "70"
+  },
+  {
+    "value": "855",
+    "text": "אהילים",
+    "breadcrumbs": [
+      "תאורה ונברשות"
+    ],
+    "categoryId": "70"
+  },
+  {
+    "value": "860",
+    "text": "בתי מנורה",
+    "breadcrumbs": [
+      "תאורה ונברשות"
+    ],
+    "categoryId": "70"
+  },
+  {
+    "value": "996",
+    "text": "גופי תאורה",
+    "breadcrumbs": [
+      "תאורה ונברשות"
+    ],
+    "categoryId": "70"
+  },
+  {
+    "value": "982",
+    "text": "מנורת שולחן",
+    "breadcrumbs": [
+      "תאורה ונברשות"
+    ],
+    "categoryId": "70"
+  },
+  {
+    "value": "858",
+    "text": "נברשות",
+    "breadcrumbs": [
+      "תאורה ונברשות"
+    ],
+    "categoryId": "70"
+  },
+  {
+    "value": "962",
+    "text": "נורות",
+    "breadcrumbs": [
+      "תאורה ונברשות"
+    ],
+    "categoryId": "70"
+  },
+  {
+    "value": "859",
+    "text": "נורות ומנורות",
+    "breadcrumbs": [
+      "תאורה ונברשות"
+    ],
+    "categoryId": "70"
+  },
+  {
+    "value": "866",
+    "text": "ספוטים",
+    "breadcrumbs": [
+      "תאורה ונברשות"
+    ],
+    "categoryId": "70"
+  },
+  {
+    "value": "856",
+    "text": "תאורת גן",
+    "breadcrumbs": [
+      "תאורה ונברשות"
+    ],
+    "categoryId": "70"
+  },
+  {
+    "value": "857",
+    "text": "תאורת לילה",
+    "breadcrumbs": [
+      "תאורה ונברשות"
+    ],
+    "categoryId": "70"
+  },
+  {
+    "value": "862",
+    "text": "אחר",
+    "breadcrumbs": [
+      "תאורה ונברשות"
+    ],
+    "categoryId": "70"
+  }
+]
