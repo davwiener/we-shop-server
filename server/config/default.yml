@@ -1,7 +1,7 @@
 db:
   type: 'mysql'
   port: 3306
-  password: '12345678'
+ 
   database: 'we_shop'
 server:
   port: 5000
