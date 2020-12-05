@@ -129,8 +129,6 @@ export class ProductsService {
       product.created_at = new Date();
       products.push(product)
     })
-    console.log(subCategories);
-    console.log(categories);
     return await this.productRepository.save([])
    
   }

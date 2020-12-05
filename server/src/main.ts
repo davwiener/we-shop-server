@@ -41,7 +41,6 @@ async function bootstrap() {
       productsService.creatAllProducts();
     }
   }
-  //console.log({ myVar: process.env.npm_config_myVar })
   logger.log(`app is renning on port ${serverConfig.port}`)
 }
 bootstrap();
