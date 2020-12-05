@@ -1,7 +1,8 @@
-import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, ManyToOne, Index } from 'typeorm'
+import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, ManyToOne, Index, OneToMany } from 'typeorm'
 import { Brand } from 'src/brands/brand.entity';
 import { Category } from 'src/categories/category.entity';
 import { SubCategory } from 'src/sub-categories/sub_category.entity';
+import { Product } from 'src/products/product.entity';
 
 @Entity()
 export class Model extends BaseEntity {
@@ -32,5 +33,10 @@ export class Model extends BaseEntity {
         cascade: true
     })
     brand: Brand;
+
+    @OneToMany(() => Product, product => product.brand)
+    products: Product[];
+ 
+    
 
 }

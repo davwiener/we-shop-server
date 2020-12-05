@@ -7,9 +7,22 @@ import { User } from 'src/auth/user.entity';
 import { GetProductsDto } from './dto/get-products.dto';
 import { SearchAuctionsDto } from 'src/auctions/dto/create-auction.dto';
 import { QueryFilterDto } from './dto/query-filter.dto';
+import { CategoriesService } from 'src/categories/categories.service';
+import {SubCategoriesService} from 'src/sub-categories/sub-categories.service'
+import { SubCategory } from 'src/sub-categories/sub_category.entity';
+import { Model } from 'src/models/models.entity';
+import { ModelsService } from 'src/models/models.service';
+import { Brand } from 'src/brands/brand.entity';
 
 @Injectable()
 export class ProductsService {
+  constructor(
+    @InjectRepository(Product)
+    private productRepository: Repository<Product>,
+    private categoriesService: CategoriesService,
+    private subCategoriesService: SubCategoriesService,
+    private modelService: ModelsService
+  ) {}
 
   haveProductFilters = (searchAuctionDto: SearchAuctionsDto): boolean => {
     if (searchAuctionDto.model || searchAuctionDto.brand || searchAuctionDto.type) {
@@ -44,10 +57,7 @@ export class ProductsService {
       return await Promise.resolve([]);
     }
   }
-  constructor(
-    @InjectRepository(Product)
-    private productRepository: Repository<Product>
-  ) {}
+
 
   getProducts = async (user: User, categoryId: number, sort: GetProductsDto): Promise<Product[]> => {
     const products = await this.productRepository.find({ where: { category: categoryId } })
@@ -68,5 +78,58 @@ export class ProductsService {
       modelId,
       created_at,
     })
+  }
+
+  creatAllProducts = async () => {
+    const categories = await this.categoriesService.getDetailCategories();
+    const products: Product[] = [];
+    let subCategoriesId = [];
+    const subCatIdToCat = {}
+    categories.forEach(cat => {
+      subCategoriesId = subCategoriesId.concat(cat.sub_categories.filter((subCat: SubCategory) => !subCategoriesId.find(id => id === subCat.id)).map
+        ((sc: SubCategory) => { 
+          subCatIdToCat[sc.id] = cat;
+          return sc.id 
+        }));
+    })
+    const subCategories = await this.subCategoriesService.getDetailSubCategoriesByIds(subCategoriesId);
+    const models = await this.modelService.fetchDetailModels();
+    let brands = [];
+    //let models = [];
+    subCategories.forEach(subCat => {
+      brands = brands.concat(subCat.brands.filter((currBrand: Brand) => !brands.find(br => br.id === currBrand.id)).map(
+        br => ({
+          ...br,
+          subCategory: subCat
+        })
+      ))
+      //models = models.concat(subCat.models.filter((currModels: Model) => !models.find(id => id === currModels.id)))
+    });
+    brands = brands.filter(br => !models.find(model => model.brand.id === br.id));
+    brands.forEach(br => {
+      const product: Product = <Product>{};
+      product.name = br.name;
+      product.id = products.length + 1;
+      product.description = '';
+      product.category = subCatIdToCat[br.subCategory.id];
+      product.subCategory = br.subCategory;
+      product.brand = br;
+      product.created_at = new Date();
+      products.push(product)
+    });
+    models.forEach(model => {
+      const product: Product = <Product>{};
+      product.name = model.name;
+      product.id = products.length + 1;
+      product.description = '';
+      product.category = model.category
+      product.subCategory = model.sub_category;
+      product.brand = model.brand;
+      product.model = model;
+      product.created_at = new Date();
+      products.push(product)
+    })
+    return await this.productRepository.save([])
+   
   }
 }
