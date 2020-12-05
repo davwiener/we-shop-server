@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { SubCategory } from './sub_category.entity';
-import { Repository } from 'typeorm';
+import { In, Repository } from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
 import * as fs from 'fs';
 import { CategoriesService } from 'src/categories/categories.service';
@@ -19,7 +19,12 @@ export class SubCategoriesService {
   }
 
   getDetailSubCategories = async (): Promise<SubCategory[]> => {
-    return await this.subCategoryRepository.find()
+    return await this.subCategoryRepository.find({relations: ["brands", "models", "category"]})
+  }
+
+  getDetailSubCategoriesByIds = async (ids: number[]): Promise<SubCategory[]> => {
+    const req = {id: In(ids)}
+    return await this.subCategoryRepository.find({...req, relations: ["brands", "models"]})
   }
 
   createSubCategoryFromJson = async (): Promise<SubCategory[]> => {

@@ -1,4 +1,4 @@
-import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, OneToMany, ManyToOne, ManyToMany, JoinTable } from 'typeorm'
+import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, OneToMany, ManyToOne, ManyToMany, JoinTable, Index } from 'typeorm'
 import { Product } from 'src/products/product.entity';
 import { Auction } from 'src/auctions/auction.entity';
 import { Brand } from 'src/brands/brand.entity';
@@ -8,9 +8,11 @@ import { Model } from 'src/models/models.entity';
 @Entity()
 export class SubCategory extends BaseEntity {
     @PrimaryGeneratedColumn()
+    @Index()
     id: number;
 
     @Column()
+    @Index()
     name: string;
 
     @Column()
@@ -26,6 +28,9 @@ export class SubCategory extends BaseEntity {
     @JoinTable()
     brands: Brand[]
 
-    @OneToMany(() => Model, models => models.sub_category , { eager: true })
+    @OneToMany(() => Model, models => models.sub_category)
     models: Model[];
+
+    @OneToMany(() => Product, product => product.category, { eager: false })
+    products: Product[];
 }

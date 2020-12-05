@@ -1,4 +1,4 @@
-import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, OneToMany, ManyToMany, JoinTable } from 'typeorm'
+import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, OneToMany, ManyToMany, JoinTable, Index } from 'typeorm'
 import { Product } from 'src/products/product.entity';
 import { Auction } from 'src/auctions/auction.entity';
 import { Brand } from 'src/brands/brand.entity';
@@ -11,6 +11,7 @@ export class Category extends BaseEntity {
     id: number;
 
     @Column()
+    @Index()
     name: string;
 
     @Column()
@@ -23,12 +24,13 @@ export class Category extends BaseEntity {
     products: Product[];
 
     @OneToMany(() => SubCategory, sub_category => sub_category.category, { eager: true })
-    sub_categories: SubCategory[];
 
+    sub_categories: SubCategory[];
     @ManyToMany(() => Brand)
     @JoinTable()
     brands: Brand[]
 
     @OneToMany(() => Model, models => models.category , { eager: true })
+
     models: Model[];
 }
