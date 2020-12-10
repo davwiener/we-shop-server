@@ -3,12 +3,12 @@ import { Auction } from './auction.entity';
 import { AuctionStatus } from './auction-status.enum';
 import { CreateAuctionDto, SearchAuctionsDto } from './dto/create-auction.dto';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository, In, Not, LessThan, FindOperator, Like, Equal, LessThanOrEqual, Between, OrderByCondition } from 'typeorm';
+import { Repository, In, Not, LessThan, Like, Equal, LessThanOrEqual, Between } from 'typeorm';
 import { User } from 'src/auth/user.entity';
-import { async } from 'rxjs/internal/scheduler/async';
 import { Product } from 'src/products/product.entity';
 import { ProductsService } from 'src/products/products.service';
 import { QueryFilterDto } from './dto/query-filter.dto';
+import * as moment from 'moment'
 
 @Injectable()
 export class AuctionsService {
@@ -48,59 +48,27 @@ export class AuctionsService {
 	}
 
 	createAuction = async (createAuctionDto: CreateAuctionDto, user: User): Promise<Auction> => {
-		const { end_date, price_levels, name, description, productId, product } = createAuctionDto;
-		let auction;
-		const currentPrice = price_levels.first.price;
-		if (productId) {
-			auction = await this.auctionRepository.save({
-				end_date: Date.parse(end_date) / 3600,
-				price_levels: JSON.stringify(price_levels),
-				currentPrice,
-				name,
-				description,
-				user,
-				status: AuctionStatus.PENDING,
-				productId, 
-				created_at: new Date(),
-				userId: 1
-			})
-			delete(auction.user)
+		const { endDate, priceLevels, name, category, subCategory, product } = createAuctionDto;
+		const formatedPriceLevels = priceLevels.reduce((acc: any, curr: any, index: any) => {
+			acc[index] = curr
+			return acc
+		}, {})
+		console.log('end date 2', moment(endDate).format('DD-MM-YYYY HH:mm:ss'))
+		const auction = {
+			end_date: moment(endDate).format('DD-MM-YYYY HH:mm:ss'),
+			price_levels: JSON.stringify(formatedPriceLevels),
+			currentPrice: 1,
+			name,
+			status: AuctionStatus.PENDING,
+			categoryId: category,
+			// subCategoryId: subCategory,
+			productId: product, 
+			created_at: new Date(),
+			userId: 1
 		}
-		else if(product) {
-			const createdProduct = await this.productsService.createProduct(product);
-			  if (createdProduct) {
-				auction = await this.auctionRepository.save({
-					end_date,
-					price_levels: JSON.stringify(price_levels),
-					name,
-					description,
-					currentPrice,
-					user,
-					status: AuctionStatus.PENDING,
-					productId: createdProduct.id,
-					created_at: new Date(),
-					userId: 1
-				})
-				delete(auction.user)
-			  }
-		} else {
-			console.log(product);
-			console.log('error');
-		}
-		return auction
+		return await this.auctionRepository.save(auction)
 	}
 
-	// addProducts = async (auctions: Auction[]): Promise<Auction[]> => {
-	// 	// auctions.map(async auction => {
-	// 	// 	const product = await this.productRepository.find({ id: auction.productId});
-	// 	// 	if (auction) {
-	// 	// 		auction.product = product[0];
-	// 	// 	}
-	// 	// 	console.log(product);
-	// 	// 	console.log(auction);
-	// 	// })
-	// 	// return auctions;
-	// }
 	/**
 	 * create a query for search in data base.
 	 * @param searchAuctionDto - the received request.

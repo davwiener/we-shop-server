@@ -29,7 +29,7 @@ export class CategoriesController {
 
   @Get('/sub_categories')
   getCategorySubCategories(@Query() getCategorySubCategoriesDto: GetCategorySubCategoriesDto): Promise<{ id: number, name: string }[]> {
-    return this.categoryService.getCategorySubCategoriesDto(getCategorySubCategoriesDto)
+    return this.categoryService.getCategorySubCategories(getCategorySubCategoriesDto)
   }
 
   @Post()

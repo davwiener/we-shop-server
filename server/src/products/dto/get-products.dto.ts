@@ -5,4 +5,7 @@ export class GetProductsDto {
 
   @ValidateIf(obj => obj.sort)
   sort: Map<string, string>
+
+  category: number;
+  sub_category: number;
 }

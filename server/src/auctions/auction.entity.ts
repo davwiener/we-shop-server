@@ -31,7 +31,7 @@ export class Auction extends BaseEntity {
 
     @Column()
     @Index()
-    end_date: number;
+    end_date: string;
 
     @Column()
     description: string;

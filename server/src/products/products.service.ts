@@ -4,9 +4,9 @@ import {Like, Repository } from 'typeorm';
 import { Product } from './product.entity';
 import { CreateProductDto } from './dto/create-product.dto';
 import { User } from 'src/auth/user.entity';
-import { GetProductsDto } from './dto/get-products.dto';
 import { SearchAuctionsDto } from 'src/auctions/dto/create-auction.dto';
 import { QueryFilterDto } from './dto/query-filter.dto';
+import { Category } from 'src/categories/category.entity';
 
 @Injectable()
 export class ProductsService {
@@ -46,12 +46,14 @@ export class ProductsService {
   }
   constructor(
     @InjectRepository(Product)
-    private productRepository: Repository<Product>
+    private productRepository: Repository<Product>,
+    @InjectRepository(Category)
+    private categoryRepository: Repository<Category>
   ) {}
 
-  getProducts = async (user: User, categoryId: number, sort: GetProductsDto): Promise<Product[]> => {
-    const products = await this.productRepository.find({ where: { category: categoryId } })
-    return products;
+  getProducts = async (user: User, categoryId: string): Promise<{ id: number, name: string }[]> => {
+    const products = await this.productRepository.find({ where: { category: categoryId }})
+    return products.map(product => ({ id: product.id, name: product.name }))
   }
 
   getProductById = async (id: number, user: User): Promise<Product> => {

@@ -54,9 +54,9 @@ createCategory = async (createCategory: CreateCategoryDto): Promise<Category> =>
    return result.brands.map(brand => ({ id: brand.id, name: brand.name }))
  }
 
- getCategorySubCategoriesDto = async (getCategoryProducts: GetCategoryProductsDto): Promise<{ id: number, name: string }[]> => {
-   const { category } = getCategoryProducts
-   const result = await this.categoryRepository.findOne(category, { relations: ['sub_categories'] })
+ getCategorySubCategories = async (getCategoryProductsDto: GetCategoryProductsDto): Promise<{ id: number, name: string }[]> => {
+   const { category } = getCategoryProductsDto
+   const result = await this.categoryRepository.findOne(category)
    return result.sub_categories.map(sub_category => ({ id: sub_category.id, name: sub_category.name }))
  }
 }

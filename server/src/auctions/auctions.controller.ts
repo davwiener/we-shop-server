@@ -32,7 +32,7 @@ export class AuctionsController {
 		return this.auctionsService.getAuctionById(id, user)
 	}
 
-	@Post('/createAuction')
+	@Post('/create')
 	@UseGuards(AuthGuard())
 	@UsePipes(ValidationPipe)
   createAuction(
