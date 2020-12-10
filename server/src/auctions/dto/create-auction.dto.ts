@@ -1,20 +1,16 @@
-import { IsNotEmpty, ValidateIf } from 'class-validator'
+import { IsNotEmpty, ValidateIf, IsArray } from 'class-validator'
 import { CreateProductDto } from 'src/products/dto/create-product.dto';
 import { PriceLevels } from '../auction.entity';
 
 
 
 export class CreateAuctionDto {
-    @IsNotEmpty()
-    price_levels: PriceLevels;
-    @IsNotEmpty()
-    end_date: any;
-
+    priceLevels: [];
+    endDate: string;
     name: string;
-    description: string;
-    productId: number;
-    
-    product: CreateProductDto
+    category: string
+    subCategory: string
+    product: number
 }
 
 export class SearchAuctionsDto {  
