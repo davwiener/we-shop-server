@@ -8,7 +8,6 @@ import { User } from 'src/auth/user.entity';
 import { GetProductsDto } from './dto/get-products.dto';
 
 @Controller('products')
-@UseGuards(AuthGuard())
 export class ProductsController {
   constructor(private productsService: ProductsService) {}
 
@@ -32,5 +31,10 @@ export class ProductsController {
   @UsePipes(ValidationPipe)
   createProduct(@Body() createProductDto: CreateProductDto): Promise<Product> {
     return this.productsService.createProduct(createProductDto)
+  }
+
+  @Post('/create-all-products')
+  creatAllProducts(): any {
+    return this.productsService.creatAllProducts();
   }
 }

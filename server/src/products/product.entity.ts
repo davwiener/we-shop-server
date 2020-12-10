@@ -4,6 +4,7 @@ import { Category } from "src/categories/category.entity";
 import { Auction } from "src/auctions/auction.entity";
 import { Model } from "src/models/models.entity";
 import { Brand } from "src/brands/brand.entity";
+import { SubCategory } from "src/sub-categories/sub_category.entity";
 
 @Entity()
 export class Product extends BaseEntity {
@@ -15,6 +16,7 @@ export class Product extends BaseEntity {
   name: string
 
   @Column()
+  @Index()
   description: string
 
   @Column()
@@ -23,9 +25,19 @@ export class Product extends BaseEntity {
   @ManyToOne(() => Category, category => category.products)
   category: Category
 
-  @OneToMany(() => Auction, auction => auction.product, { eager: false })
-  auctions: Auction[]
+  @ManyToOne(() => SubCategory, subCategory => subCategory.products)
+  subCategory: SubCategory
 
   @ManyToOne(() => Brand, brand => brand.products, { eager: true })
   brand: Brand;
+
+  @ManyToOne(() => Model, model => model.products, { eager: true })
+  model: Model;
+
+  @OneToMany(() => Auction, auction => auction.product, { eager: false })
+  auctions: Auction[]
+
+
+
+
 }

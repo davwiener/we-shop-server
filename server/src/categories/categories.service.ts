@@ -21,7 +21,7 @@ getCategories = async (): Promise<Category[]> => {
 }
 
 getDetailCategories = async (): Promise<Category[]> => {
-  return await this.categoryRepository.find({order: { name: 'ASC' } })
+  return await this.categoryRepository.find()
 }
 
 createCategory = async (createCategory: CreateCategoryDto): Promise<Category> => {
@@ -38,6 +38,8 @@ createCategory = async (createCategory: CreateCategoryDto): Promise<Category> =>
       name: entry.text,
       created_at: new Date()
   }))
+  obj = [];
+  console.log('here');
   return await this.categoryRepository.save(obj);
 }
 

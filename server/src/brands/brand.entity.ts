@@ -7,6 +7,7 @@ import { SubCategory } from 'src/sub-categories/sub_category.entity';
 @Entity()
 export class Brand extends BaseEntity {
     @PrimaryGeneratedColumn()
+    @Index()
     id: number;
 
     @Column()
@@ -28,6 +29,9 @@ export class Brand extends BaseEntity {
     sub_categories: SubCategory[];
 
     @OneToMany(() => Model, models => models.brand , { eager: true })
+
     models: Model[];
+
+    
     
 }

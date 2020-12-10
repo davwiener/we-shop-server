@@ -29,7 +29,7 @@ export class ModelsService {
   }
 
   fetchDetailModels = async (): Promise<Model[]> => {
-    return await this.modelsRepository.find({order: { name: 'ASC' } })
+    return await this.modelsRepository.find({order: { name: 'ASC' },  relations: ['category', 'sub_category', 'brand']})
   }
 
 
