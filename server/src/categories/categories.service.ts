@@ -1,12 +1,13 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository } from 'typeorm';
+import { Like, Repository } from 'typeorm';
 import { Category } from './category.entity';
 import { CreateCategoryDto } from './dto/create-category.dto';
 import { GetCategoryProductsDto } from './dto/categoryProducts.dto';
 import { GetCategoryBrandsDto } from './dto/categoryBrands.dto';
 import { Product } from 'src/products/product.entity';
 import * as fs from 'fs';
+import { GetCategorySubCategoriesDto } from './dto/categorySubCategories.dto';
 @Injectable()
 export class CategoriesService {
   constructor(
@@ -16,8 +17,20 @@ export class CategoriesService {
     private productRepository: Repository<Product>
 ) {}
 
-getCategories = async (): Promise<Category[]> => {
-  return await this.categoryRepository.find({ select: ['id', 'name'], order: { name: 'ASC' } })
+getCategories = async (page: number, rbp: number, searchWord: string): Promise<{
+  categories: Category[], 
+  hasMore: boolean
+}> => {
+  return await this.categoryRepository.findAndCount({ 
+      take: rbp ,
+      skip: rbp * (page -1),
+      select: ['id', 'name'],
+      order: { name: 'ASC'},
+      where: `Category.name LIKE '%${searchWord}%'`
+    }).then(([categories, numberOfcategories]: [Category[], number]) => {
+      const hasMore = categories.length === Number(rbp) && categories.length < numberOfcategories
+      return {categories, hasMore}
+    })
 }
 
 getDetailCategories = async (): Promise<Category[]> => {
@@ -56,9 +69,8 @@ createCategory = async (createCategory: CreateCategoryDto): Promise<Category> =>
    return result.brands.map(brand => ({ id: brand.id, name: brand.name }))
  }
 
- getCategorySubCategories = async (getCategoryProductsDto: GetCategoryProductsDto): Promise<{ id: number, name: string }[]> => {
-   const { category } = getCategoryProductsDto
-   const result = await this.categoryRepository.findOne(category)
+ getCategorySubCategories = async (getCategoryProductsDto: GetCategorySubCategoriesDto): Promise<{ id: number, name: string }[]> => {
+   const result = await this.categoryRepository.findOne(getCategoryProductsDto.id)
    return result.sub_categories.map(sub_category => ({ id: sub_category.id, name: sub_category.name }))
  }
 }

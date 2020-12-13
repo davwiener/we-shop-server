@@ -96,7 +96,7 @@ export class AuctionsService {
 			req.productId = In(searchAuctionDto.productIds);
 		}
 		if (searchAuctionDto.description) {
-			req.name = Like("%" + searchAuctionDto.name + " #%")
+			req.name = Like("%" + searchAuctionDto.description + " #%")
 		}
 		if (searchAuctionDto.minPrice && searchAuctionDto.maxPrice) {
 			req.price_levels = Between(searchAuctionDto.minPrice, searchAuctionDto.maxPrice)

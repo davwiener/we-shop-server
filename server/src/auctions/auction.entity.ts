@@ -26,7 +26,7 @@ export class Auction extends BaseEntity {
     price_levels: string;
 
     @Column()
-    @Index()
+    @Index() 
     status: AuctionStatus;
 
     @Column()

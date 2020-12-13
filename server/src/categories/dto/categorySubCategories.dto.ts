@@ -4,4 +4,6 @@ export class GetCategorySubCategoriesDto {
     @IsNotEmpty()
     @IsNumberString()
     category: string;
+    @IsNumberString()
+    id: number
 }

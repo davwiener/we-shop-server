@@ -7,14 +7,18 @@ import { Product } from 'src/products/product.entity';
 import { GetCategoryProductsDto } from './dto/categoryProducts.dto';
 import { GetCategoryBrandsDto } from './dto/categoryBrands.dto';
 import { GetCategorySubCategoriesDto } from './dto/categorySubCategories.dto';
+import { GetQuery } from 'src/auth/get-query.decorator';
 
 @Controller('categories')
 export class CategoriesController {
   constructor(private categoryService: CategoriesService) {}
 
   @Get('/')
-  getAllCategories(getCategoriesDto: GetCategoriesDto): Promise<Category[]> {
-    return this.categoryService.getCategories()
+  getAllCategories(@GetQuery() getCategoriesDto: GetCategoriesDto): Promise<{
+    categories: Category[], 
+    hasMore: boolean
+  }>{
+    return this.categoryService.getCategories(getCategoriesDto.page, getCategoriesDto.rbp, getCategoriesDto.searchWord)
   }
 
   @Get('/products')

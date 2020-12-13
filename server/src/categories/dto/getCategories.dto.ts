@@ -6,4 +6,10 @@ export class GetCategoriesDto {
   
   @ValidateIf(obj => obj.sort)
   sort: Map<string, string>
+
+  page: number;
+
+  rbp: number;
+
+  searchWord: string
 }
