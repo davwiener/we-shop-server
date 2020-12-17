@@ -22,14 +22,17 @@ export class SubCategoriesService {
     subCategories: SubCategory[], 
     hasMore: boolean
   }> => {
-    return await this.subCategoryRepository.findAndCount({ 
-        take: rbp ,
-        skip: rbp * (page -1),
-        select: ['id', 'name'],
-        order: { name: 'ASC'},
-        where: `SubCategory.name LIKE '%${searchWord}%'`
-      }).then(([subCategories, numberOfcategories]: [SubCategory[], number]) => {
-        const hasMore = subCategories.length === Number(rbp) && subCategories.length < numberOfcategories
+    const query = this.subCategoryRepository.createQueryBuilder('subCategory').
+    limit(Number(rbp) + 1).
+    offset(rbp * (page -1)).
+    select(['subCategory.id', 'subCategory.name']).
+    where(`subCategory.name LIKE '%${searchWord}%'`)
+    if(categoryId > 0) {
+      query.andWhere("subCategory.categoryId = :categoryId", {categoryId})
+    }
+    return query.getMany().then((subCategories: SubCategory[]) => {
+        const hasMore = subCategories.length > Number(rbp)
+        subCategories.pop()
         return {subCategories, hasMore}
       })
   }

@@ -11,12 +11,12 @@ import { GetProductsDto } from './dto/get-products.dto';
 export class ProductsController {
   constructor(private productsService: ProductsService) {}
 
-  @Get("/getProducts")
-  getProducts(
-    @Query('category') category: string,
-    @Query('sort') sort: GetProductsDto,
-    @GetUser(ValidationPipe) user: User): Promise<{ id: number, name: string }[]> {
-    return this.productsService.getProducts(user, category)
+  @Get('/')
+  getCategorySubCategories(@Query() getCategorySubCategoriesDto: GetProductsDto):  Promise<{
+    products: Product[], 
+    hasMore: boolean
+  }> {
+    return this.productsService.getProducts(getCategorySubCategoriesDto.page, getCategorySubCategoriesDto.rbp, getCategorySubCategoriesDto.searchWord, getCategorySubCategoriesDto.categoryId, getCategorySubCategoriesDto.subCategoryId)
   }
 
   @Get('/:id')

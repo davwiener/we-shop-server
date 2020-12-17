@@ -6,6 +6,10 @@ export class GetProductsDto {
   @ValidateIf(obj => obj.sort)
   sort: Map<string, string>
 
-  category: number;
-  sub_category: number;
+  categoryId: number;
+  subCategoryId: number;
+  page: number;
+  rbp: number;
+  searchWord: string
+
 }

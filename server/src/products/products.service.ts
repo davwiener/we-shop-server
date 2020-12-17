@@ -60,9 +60,25 @@ export class ProductsService {
     }
   }
 
-  getProducts = async (user: User, categoryId: string): Promise<{ id: number, name: string }[]> => {
-    const products = await this.productRepository.find({ where: { category: categoryId }})
-    return products.map(product => ({ id: product.id, name: product.name }))
+  getProducts = async (page?: number, rbp?: number, searchWord?: string, categoryId?: number, subCategoryId?: number): Promise<{
+    products: Product[], 
+    hasMore: boolean
+  }> => {
+    const query = this.productRepository.createQueryBuilder('product').
+    limit(Number(rbp) + 1).
+    offset(rbp * (page -1)).
+    select(['product.id', 'product.name']).
+    where(`product.name LIKE '%${searchWord}%'`)
+    if(subCategoryId > 0) {
+      query.andWhere("product.subCategoryId = :subCategoryId", {subCategoryId})
+    }
+    if(categoryId > 0) {
+      query.andWhere("product.categoryId = :categoryId", {categoryId})
+    } 
+    return query.getMany().then((products: Product[]) => {
+        const hasMore = products.length > Number(rbp)
+        return {products, hasMore}
+      })
   }
 
   getProductById = async (id: number, user: User): Promise<Product> => {
