@@ -81,7 +81,7 @@ export class BrandsService {
       });
     })
 
-    const subCategories = await this.subCategoriesService.getSubCategories();
+    const subCategories = await this.subCategoriesService.getAllSubCategories();
     Object.keys(subCategoriesIdsMap).forEach(key => {
       const subCategory = subCategories.find((cat: SubCategory) => cat.id.toString() === key);
       subCategoriesIdsMap[key].forEach(index => {

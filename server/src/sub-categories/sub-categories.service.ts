@@ -14,8 +14,24 @@ export class SubCategoriesService {
     private categoriesService: CategoriesService
   ) { }
 
-  getSubCategories = async (): Promise<SubCategory[]> => {
+  getAllSubCategories = async (): Promise<SubCategory[]> => {
     return await this.subCategoryRepository.find({ select: ['id', 'name'], order: { name: 'ASC' } })
+  }
+
+  getSubCategories =  async (page?: number, rbp?: number, searchWord?: string, categoryId?: number): Promise<{
+    subCategories: SubCategory[], 
+    hasMore: boolean
+  }> => {
+    return await this.subCategoryRepository.findAndCount({ 
+        take: rbp ,
+        skip: rbp * (page -1),
+        select: ['id', 'name'],
+        order: { name: 'ASC'},
+        where: `SubCategory.name LIKE '%${searchWord}%'`
+      }).then(([subCategories, numberOfcategories]: [SubCategory[], number]) => {
+        const hasMore = subCategories.length === Number(rbp) && subCategories.length < numberOfcategories
+        return {subCategories, hasMore}
+      })
   }
 
   getDetailSubCategories = async (): Promise<SubCategory[]> => {

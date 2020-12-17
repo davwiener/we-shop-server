@@ -6,7 +6,6 @@ import { GetCategoriesDto } from './dto/getCategories.dto';
 import { Product } from 'src/products/product.entity';
 import { GetCategoryProductsDto } from './dto/categoryProducts.dto';
 import { GetCategoryBrandsDto } from './dto/categoryBrands.dto';
-import { GetCategorySubCategoriesDto } from './dto/categorySubCategories.dto';
 import { GetQuery } from 'src/auth/get-query.decorator';
 
 @Controller('categories')
@@ -30,12 +29,6 @@ export class CategoriesController {
   getCategorybrands(@Query() getCategoryBrandsDto: GetCategoryBrandsDto): Promise<{ id: number, name: string }[]> {
     return this.categoryService.getCategoryBrands(getCategoryBrandsDto)
   }
-
-  @Get('/sub_categories')
-  getCategorySubCategories(@Query() getCategorySubCategoriesDto: GetCategorySubCategoriesDto): Promise<{ id: number, name: string }[]> {
-    return this.categoryService.getCategorySubCategories(getCategorySubCategoriesDto)
-  }
-
   @Post()
   @UsePipes(ValidationPipe)
   createCategory(@Body() createCategoryDto: CreateCategoryDto): Promise<Category> {

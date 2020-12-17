@@ -7,7 +7,6 @@ import { GetCategoryProductsDto } from './dto/categoryProducts.dto';
 import { GetCategoryBrandsDto } from './dto/categoryBrands.dto';
 import { Product } from 'src/products/product.entity';
 import * as fs from 'fs';
-import { GetCategorySubCategoriesDto } from './dto/categorySubCategories.dto';
 @Injectable()
 export class CategoriesService {
   constructor(
@@ -67,10 +66,5 @@ createCategory = async (createCategory: CreateCategoryDto): Promise<Category> =>
    const { category } = getCategoryBrands
    const result = await this.categoryRepository.findOne(category, { relations: ['brands'] })
    return result.brands.map(brand => ({ id: brand.id, name: brand.name }))
- }
-
- getCategorySubCategories = async (getCategoryProductsDto: GetCategorySubCategoriesDto): Promise<{ id: number, name: string }[]> => {
-   const result = await this.categoryRepository.findOne(getCategoryProductsDto.id)
-   return result.sub_categories.map(sub_category => ({ id: sub_category.id, name: sub_category.name }))
  }
 }
