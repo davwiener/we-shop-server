@@ -18,17 +18,16 @@ export class SubCategoriesService {
     return await this.subCategoryRepository.find({ select: ['id', 'name'], order: { name: 'ASC' } })
   }
 
-  getSubCategories =  async (page?: number, rbp?: number, searchWord?: string, categoryId?: number): Promise<{
+  getSubCategories =  async (page?: number, rbp?: number, searchWord?: string, categoryId?: string): Promise<{
     subCategories: SubCategory[], 
     hasMore: boolean
   }> => {
     const query = this.subCategoryRepository.createQueryBuilder('subCategory').
     limit(Number(rbp) + 1).
     offset(rbp * (page -1)).
-    select(['subCategory.id', 'subCategory.name']).
     where(`subCategory.name LIKE '%${searchWord}%'`)
-    if(categoryId > 0) {
-      query.andWhere("subCategory.categoryId = :categoryId", {categoryId})
+    if(Number(categoryId) > 0) {
+      query.leftJoinAndSelect("subCategory.category", "category").andWhere("category.id = :id", {id: Number(categoryId)});
     }
     return query.getMany().then((subCategories: SubCategory[]) => {
         const hasMore = subCategories.length > Number(rbp)

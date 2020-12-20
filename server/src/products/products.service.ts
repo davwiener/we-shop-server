@@ -67,13 +67,12 @@ export class ProductsService {
     const query = this.productRepository.createQueryBuilder('product').
     limit(Number(rbp) + 1).
     offset(rbp * (page -1)).
-    select(['product.id', 'product.name']).
     where(`product.name LIKE '%${searchWord}%'`)
     if(subCategoryId > 0) {
-      query.andWhere("product.subCategoryId = :subCategoryId", {subCategoryId})
+      query.leftJoinAndSelect("product.subCategory", "subCategory").andWhere("subCategory.id = :id", {id: Number(subCategoryId)});
     }
     if(categoryId > 0) {
-      query.andWhere("product.categoryId = :categoryId", {categoryId})
+      query.leftJoinAndSelect("product.category", "category").andWhere("category.id = :id", {id: Number(categoryId)});
     } 
     return query.getMany().then((products: Product[]) => {
         const hasMore = products.length > Number(rbp)
