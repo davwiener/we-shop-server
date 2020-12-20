@@ -12,11 +12,11 @@ export class ProductsController {
   constructor(private productsService: ProductsService) {}
 
   @Get('/')
-  getCategorySubCategories(@Query() getCategorySubCategoriesDto: GetProductsDto):  Promise<{
+  getProdeucts(@Query() getProdeuctsDto: GetProductsDto):  Promise<{
     products: Product[], 
     hasMore: boolean
   }> {
-    return this.productsService.getProducts(getCategorySubCategoriesDto.page, getCategorySubCategoriesDto.rbp, getCategorySubCategoriesDto.searchWord, getCategorySubCategoriesDto.categoryId, getCategorySubCategoriesDto.subCategoryId)
+    return this.productsService.getProducts(getProdeuctsDto.page, getProdeuctsDto.rbp, getProdeuctsDto.searchWord, getProdeuctsDto.categoryId, getProdeuctsDto.subCategoryId)
   }
 
   @Get('/:id')

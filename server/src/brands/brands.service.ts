@@ -24,8 +24,25 @@ export class BrandsService {
     private subCategoriesService: SubCategoriesService,
   ) { }
 
-  fetchBrands = async (): Promise<Brand[]> => {
-    return await this.brandRepository.find({ select: ['id', 'name'], order: { name: 'ASC' } })
+  fetchBrands =  async (page?: number, rbp?: number, searchWord?: string, categoryId?: number, subCategoryId?: number): Promise<{
+      brands: Brand[], 
+      hasMore: boolean
+    }> => {
+      const query = this.brandRepository.createQueryBuilder('brand').
+      limit(Number(rbp) + 1).
+      offset(rbp * (page -1)).
+      where(`brand.name LIKE '%${searchWord}%'`)
+      if(subCategoryId > 0) {
+        query.leftJoinAndSelect("brand.subCategory", "subCategory").andWhere("subCategory.id = :id", {id: Number(subCategoryId)});
+      }
+      if(categoryId > 0) {
+        query.leftJoinAndSelect("brand.category", "category").andWhere("category.id = :id", {id: Number(categoryId)});
+      } 
+      return query.getMany().then((brands: Brand[]) => {
+          const hasMore = brands.length > Number(rbp)
+          return {brands, hasMore}
+        })
+    }
   }
 
   fetchDetailBrands = async (): Promise<Brand[]> => {

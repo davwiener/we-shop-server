@@ -3,6 +3,7 @@ import { BrandsService } from './brands.service';
 import { Brand } from './brand.entity';
 import { Model } from 'src/models/models.entity';
 import { CreateBrandDto } from './dto/create-brand.dto';
+import { GetBrandsDto } from './dto/get-brands-dto';
 
 @Controller('brands')
 export class BrandsController {
@@ -10,8 +11,11 @@ export class BrandsController {
   constructor (private brandsService: BrandsService) {}
 
   @Get('/')
-  fetchBrands(): Promise<Brand[]> {
-    return this.brandsService.fetchBrands()
+  getProdeucts(@Query() getBrandsDto: GetBrandsDto):  Promise<{
+    products: Brand[], 
+    hasMore: boolean
+  }> {
+    return this.brandsService.fetchBrands(getBrandsDto.page, getBrandsDto.rbp, getBrandsDto.searchWord, getBrandsDto.categoryId, getBrandsDto.subCategoryId)
   }
 
   @Get('/models')
