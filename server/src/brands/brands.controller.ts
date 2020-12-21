@@ -12,10 +12,11 @@ export class BrandsController {
 
   @Get('/')
   getProdeucts(@Query() getBrandsDto: GetBrandsDto):  Promise<{
-    products: Brand[], 
+    brands: Brand[], 
     hasMore: boolean
   }> {
-    return this.brandsService.fetchBrands(getBrandsDto.page, getBrandsDto.rbp, getBrandsDto.searchWord, getBrandsDto.categoryId, getBrandsDto.subCategoryId)
+    return this.brandsService.fetchBrands(getBrandsDto.page, getBrandsDto.rbp, getBrandsDto.searchWord,
+       getBrandsDto.categoryId, getBrandsDto.subCategoryId)
   }
 
   @Get('/models')

@@ -24,12 +24,30 @@ export class ModelsService {
     private brandsService: BrandsService
   ) { }
 
-  fetchModels = async (): Promise<Model[]> => {
-    return await this.modelsRepository.find({ select: ['id', 'name'], order: { name: 'ASC' } })
+  fetchModels = async (page?: number, rbp?: number, searchWord?: string, categoryId?: number, subCategoryId?: number, brandId?: number): Promise<{
+    models: Model[],
+    hasMore: boolean
+  }> => {
+    const query = this.modelsRepository.createQueryBuilder('model').
+      limit(Number(rbp) + 1).
+      offset(rbp * (page - 1)).
+      where(`model.name LIKE '%${searchWord}%'`)
+    if (brandId > 0) {
+      query.leftJoinAndSelect("model.brand", "brand").andWhere("brand.id = :id", { id: Number(brandId) });
+    }
+    if (subCategoryId > 0) {
+      query.leftJoinAndSelect("model.sub_category", "subCategory").andWhere("subCategory.id = :id", { id: Number(subCategoryId) });
+    }
+    if (categoryId > 0) {
+      query.leftJoinAndSelect("model.category", "category").andWhere("category.id = :id", { id: Number(categoryId) });
+    }
+    return query.getMany().then((models: Model[]) => {
+      const hasMore = models.length > Number(rbp)
+      return { models, hasMore }
+    })
   }
-
   fetchDetailModels = async (): Promise<Model[]> => {
-    return await this.modelsRepository.find({order: { name: 'ASC' },  relations: ['category', 'sub_category', 'brand']})
+    return await this.modelsRepository.find({ order: { name: 'ASC' }, relations: ['category', 'sub_category', 'brand'] })
   }
 
 
@@ -67,7 +85,7 @@ export class ModelsService {
 
         const indexArrayBrand = _.get(brandsIdsMap, entry.manufacturerId, []);
         indexArrayBrand.push(index);
-        const idObjectBrand= {};
+        const idObjectBrand = {};
         idObjectBrand[entry.manufacturerId] = indexArrayBrand;
         brandsIdsMap = {
           ...brandsIdsMap,

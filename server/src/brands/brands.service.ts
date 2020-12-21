@@ -24,30 +24,31 @@ export class BrandsService {
     private subCategoriesService: SubCategoriesService,
   ) { }
 
-  fetchBrands =  async (page?: number, rbp?: number, searchWord?: string, categoryId?: number, subCategoryId?: number): Promise<{
-      brands: Brand[], 
-      hasMore: boolean
-    }> => {
-      const query = this.brandRepository.createQueryBuilder('brand').
+  fetchBrands = async (page?: number, rbp?: number, searchWord?: string, categoryId?: number, subCategoryId?: number): Promise<{
+    brands: Brand[],
+    hasMore: boolean
+  }> => {
+    const query = this.brandRepository.createQueryBuilder('brand').
       limit(Number(rbp) + 1).
-      offset(rbp * (page -1)).
+      offset(rbp * (page - 1)).
       where(`brand.name LIKE '%${searchWord}%'`)
-      if(subCategoryId > 0) {
-        query.leftJoinAndSelect("brand.subCategory", "subCategory").andWhere("subCategory.id = :id", {id: Number(subCategoryId)});
-      }
-      if(categoryId > 0) {
-        query.leftJoinAndSelect("brand.category", "category").andWhere("category.id = :id", {id: Number(categoryId)});
-      } 
-      return query.getMany().then((brands: Brand[]) => {
-          const hasMore = brands.length > Number(rbp)
-          return {brands, hasMore}
-        })
+    if (subCategoryId > 0) {
+      query.leftJoinAndSelect("brand.sub_categories", "sub_category").andWhere("sub_category.id = :id", { id: Number(subCategoryId) });
     }
+    if (categoryId > 0) {
+      query.leftJoinAndSelect("brand.categories", "category").andWhere("category.id = :id", { id: Number(categoryId) });
+    }
+    return query.getMany().then((brands: Brand[]) => {
+      const hasMore = brands.length > Number(rbp)
+      return { brands, hasMore }
+    })
   }
+
+
 
   fetchDetailBrands = async (): Promise<Brand[]> => {
     return await this.brandRepository.find({ order: { name: 'ASC' } })
-  } 
+  }
 
   fetchBrandModels = async (brand: number): Promise<Model[]> => {
     return await this.modelRepository.find({ where: { brand: brand }, select: ['id', 'name'], order: { name: 'ASC' } })
