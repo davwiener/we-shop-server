@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import {Like, Repository } from 'typeorm';
+import { Like, Repository } from 'typeorm';
 import { Product } from './product.entity';
 import { CreateProductDto } from './dto/create-product.dto';
 import { User } from 'src/auth/user.entity';
@@ -8,7 +8,7 @@ import { SearchAuctionsDto } from 'src/auctions/dto/create-auction.dto';
 import { QueryFilterDto } from './dto/query-filter.dto';
 import { Category } from 'src/categories/category.entity';
 import { CategoriesService } from 'src/categories/categories.service';
-import {SubCategoriesService} from 'src/sub-categories/sub-categories.service'
+import { SubCategoriesService } from 'src/sub-categories/sub-categories.service'
 import { SubCategory } from 'src/sub-categories/sub_category.entity';
 import { Model } from 'src/models/models.entity';
 import { ModelsService } from 'src/models/models.service';
@@ -24,7 +24,7 @@ export class ProductsService {
     private categoriesService: CategoriesService,
     private subCategoriesService: SubCategoriesService,
     private modelService: ModelsService
-  ) {}
+  ) { }
 
   haveProductFilters = (searchAuctionDto: SearchAuctionsDto): boolean => {
     if (searchAuctionDto.model || searchAuctionDto.brand || searchAuctionDto.type) {
@@ -40,16 +40,16 @@ export class ProductsService {
    */
   searchProductsInDto = async (searchAuctionDto: SearchAuctionsDto, selection?: string[]): Promise<any[]> => {
     const req: QueryFilterDto = {};
-	  if (searchAuctionDto.model) {
-			req.model = Like("%" + searchAuctionDto.model + "%")
+    if (searchAuctionDto.model) {
+      req.model = Like("%" + searchAuctionDto.model + "%")
     }
     if (searchAuctionDto.brand) {
-			req.brand = Like("%" + searchAuctionDto.brand + "%")
+      req.brand = Like("%" + searchAuctionDto.brand + "%")
     }
     if (searchAuctionDto.type) {
-			req.brand = Like("%" + searchAuctionDto.type + "%")
+      req.brand = Like("%" + searchAuctionDto.type + "%")
     }
-    
+
     if (Object.keys(req).length) {
       if (selection) {
         req.select = selection;
@@ -60,28 +60,33 @@ export class ProductsService {
     }
   }
 
-  getProducts = async (page?: number, rbp?: number, searchWord?: string, categoryId?: number, subCategoryId?: number): Promise<{
-    products: Product[], 
+  getProducts = async (page?: number, rbp?: number, searchWord?: string, categoryId?: number, subCategoryId?: number, brandId?: number): Promise<{
+    products: Product[],
     hasMore: boolean
   }> => {
     const query = this.productRepository.createQueryBuilder('product').
-    limit(Number(rbp) + 1).
-    offset(rbp * (page -1)).
-    where(`product.name LIKE '%${searchWord}%'`)
-    if(subCategoryId > 0) {
-      query.leftJoinAndSelect("product.subCategory", "subCategory").andWhere("subCategory.id = :id", {id: Number(subCategoryId)});
+      limit(Number(rbp) + 1).
+      offset(rbp * (page - 1)).
+      where(`product.name LIKE '%${searchWord}%'`)
+    if (brandId > 0) {
+      query.innerJoin("product.brand", "brand", "brand.id = :id", { id: Number(brandId) })
+    } else if (subCategoryId > 0) {
+      query.innerJoin("product.subCategory", "subCategory", "subCategory.id = :id", { id: Number(subCategoryId) })
+    } else if (categoryId > 0) {
+      query.innerJoin("product.category", "category", "category.id = :id", { id: Number(categoryId) })
     }
-    if(categoryId > 0) {
-      query.leftJoinAndSelect("product.category", "category").andWhere("category.id = :id", {id: Number(categoryId)});
-    } 
     return query.getMany().then((products: Product[]) => {
-        const hasMore = products.length > Number(rbp)
-        return {products, hasMore}
-      })
+      const hasMore = products.length > Number(rbp)
+      return { products, hasMore }
+    })
   }
 
-  getProductById = async (id: number, user: User): Promise<Product> => {
-    return await this.productRepository.findOne({ where: { id, userId: user.id } })
+  getProductById = async (id: number): Promise<Product> => {
+    return await this.productRepository.findOne(
+      {
+        where: { id },
+        relations: ['category', 'subCategory', 'brand', 'model']
+      })
   }
 
   createProduct = async (createProductDto: CreateProductDto): Promise<Product> => {
@@ -103,9 +108,9 @@ export class ProductsService {
     const subCatIdToCat = {}
     categories.forEach(cat => {
       subCategoriesId = subCategoriesId.concat(cat.sub_categories.filter((subCat: SubCategory) => !subCategoriesId.find(id => id === subCat.id)).map
-        ((sc: SubCategory) => { 
+        ((sc: SubCategory) => {
           subCatIdToCat[sc.id] = cat;
-          return sc.id 
+          return sc.id
         }));
     })
     const subCategories = await this.subCategoriesService.getDetailSubCategoriesByIds(subCategoriesId);
@@ -139,13 +144,13 @@ export class ProductsService {
       product.id = products.length + 1;
       product.description = '';
       product.category = model.category
-      product.subCategory = model.sub_category;
+      product.subCategory = model.subCategory;
       product.brand = model.brand;
       product.model = model;
       product.created_at = new Date();
       products.push(product)
     })
     return await this.productRepository.save([])
-   
+
   }
 }

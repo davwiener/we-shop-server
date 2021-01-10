@@ -36,6 +36,14 @@ export class SubCategoriesService {
       })
   }
 
+  getSubCategoryById = async (id: number): Promise<SubCategory> => {
+    return await this.subCategoryRepository.findOne(
+      {
+        where: { id },
+        relations: ['category']
+      })
+  }
+
   getDetailSubCategories = async (): Promise<SubCategory[]> => {
     return await this.subCategoryRepository.find({relations: ["brands", "models", "category"]})
   }

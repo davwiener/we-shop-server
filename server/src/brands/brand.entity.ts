@@ -26,7 +26,7 @@ export class Brand extends BaseEntity {
 
     @ManyToMany(() => SubCategory, sub_categories => sub_categories.brands)
     @JoinTable()
-    sub_categories: SubCategory[];
+    subCategories: SubCategory[];
 
     @OneToMany(() => Model, models => models.brand , { eager: true })
 

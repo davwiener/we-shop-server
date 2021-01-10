@@ -26,7 +26,7 @@ export class Model extends BaseEntity {
         eager: false,
         cascade: true
     })
-    sub_category: SubCategory;
+    subCategory: SubCategory;
 
     @ManyToOne(() => Category, brand => brand.models, {
         eager: false,

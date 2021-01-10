@@ -30,4 +30,10 @@ export class ModelsController {
     return this.modelsService.createModelsFromJson()
   }
   
+  @Get('/full-model')
+  getModelById(
+    @Query('id') id: number,
+    ): Promise<Model> {
+    return this.modelsService.getModelById(id)
+  }
 }

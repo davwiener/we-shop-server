@@ -25,6 +25,13 @@ export class BrandsController {
     return this.brandsService.fetchBrandModels(brand)
   }
 
+  @Get('/full-brand')
+  getBrandById(
+    @Query('id') id: number,
+    ): Promise<Brand> {
+    return this.brandsService.getBrandById(id)
+  }
+
   @Post('/new')
   @UsePipes(ValidationPipe)
   createBrand(@Body() createBrandDto: CreateBrandDto): Promise<Brand> {

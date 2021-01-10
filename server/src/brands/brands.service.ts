@@ -33,9 +33,9 @@ export class BrandsService {
       offset(rbp * (page - 1)).
       where(`brand.name LIKE '%${searchWord}%'`)
     if (subCategoryId > 0) {
-      query.leftJoinAndSelect("brand.sub_categories", "sub_category").andWhere("sub_category.id = :id", { id: Number(subCategoryId) });
+      query.leftJoinAndSelect("brand.subCategories", "subCategory").andWhere("subCategory.id = :id", { id: Number(subCategoryId) });
     }
-    if (categoryId > 0) {
+    else if (categoryId > 0) {
       query.leftJoinAndSelect("brand.categories", "category").andWhere("category.id = :id", { id: Number(categoryId) });
     }
     return query.getMany().then((brands: Brand[]) => {
@@ -45,6 +45,13 @@ export class BrandsService {
   }
 
 
+  getBrandById = async (id: number): Promise<Brand> => {
+    return await this.brandRepository.findOne(
+      {
+        where: { id },
+        relations: ['categories', 'subCategories']
+      })
+  }
 
   fetchDetailBrands = async (): Promise<Brand[]> => {
     return await this.brandRepository.find({ order: { name: 'ASC' } })

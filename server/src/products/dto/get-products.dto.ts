@@ -11,5 +11,5 @@ export class GetProductsDto {
   page: number;
   rbp: number;
   searchWord: string
-
+  brandId: number
 }

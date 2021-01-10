@@ -16,15 +16,15 @@ export class ProductsController {
     products: Product[], 
     hasMore: boolean
   }> {
-    return this.productsService.getProducts(getProdeuctsDto.page, getProdeuctsDto.rbp, getProdeuctsDto.searchWord, getProdeuctsDto.categoryId, getProdeuctsDto.subCategoryId)
+    return this.productsService.getProducts(getProdeuctsDto.page, getProdeuctsDto.rbp, getProdeuctsDto.searchWord,
+       getProdeuctsDto.categoryId, getProdeuctsDto.subCategoryId, getProdeuctsDto.brandId)
   }
 
-  @Get('/:id')
+  @Get('/full-product')
   getProductById(
-    @Param('id') id: number,
-    @GetUser(ValidationPipe) user: User
+    @Query('id') id: number,
     ): Promise<Product> {
-    return this.productsService.getProductById(id, user)
+    return this.productsService.getProductById(id)
   }
 
   @Post('/save')

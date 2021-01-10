@@ -35,10 +35,10 @@ export class ModelsService {
     if (brandId > 0) {
       query.leftJoinAndSelect("model.brand", "brand").andWhere("brand.id = :id", { id: Number(brandId) });
     }
-    if (subCategoryId > 0) {
-      query.leftJoinAndSelect("model.sub_category", "subCategory").andWhere("subCategory.id = :id", { id: Number(subCategoryId) });
+    else if (subCategoryId > 0) {
+      query.leftJoinAndSelect("model.subCategory", "subCategory").andWhere("subCategory.id = :id", { id: Number(subCategoryId) });
     }
-    if (categoryId > 0) {
+    else if (categoryId > 0) {
       query.leftJoinAndSelect("model.category", "category").andWhere("category.id = :id", { id: Number(categoryId) });
     }
     return query.getMany().then((models: Model[]) => {
@@ -50,6 +50,13 @@ export class ModelsService {
     return await this.modelsRepository.find({ order: { name: 'ASC' }, relations: ['category', 'sub_category', 'brand'] })
   }
 
+  getModelById = async (id: number): Promise<Model> => {
+    return await this.modelsRepository.findOne(
+      {
+        where: { id },
+        relations: ['category', 'subCategory', 'brand']
+      })
+  }
 
   createModel = async ({ name, brandId }: CreateModelDto): Promise<Model> => {
     const brand = await this.brandsRepository.findOne(brandId)

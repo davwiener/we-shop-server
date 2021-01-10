@@ -17,6 +17,13 @@ export class SubCategoriesController {
     return this.subCategoryService.createSubCategoryFromJson()
   }
 
+  @Get('/full-sub-category')
+  getSubCategoryById(
+    @Query('id') id: number,
+    ): Promise<SubCategory> {
+    return this.subCategoryService.getSubCategoryById(id)
+  }
+
   @Get('/')
   getCategorySubCategories(@Query() getCategorySubCategoriesDto: GetSubCategoriesDto):  Promise<{
     subCategories: SubCategory[], 
