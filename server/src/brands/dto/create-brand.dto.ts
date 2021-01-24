@@ -5,5 +5,8 @@ export class CreateBrandDto {
     name: string;
 
     @IsNotEmpty()
-    categories: number[];
+    categoryId: number;
+
+    subCategoryId: number;
+
 }

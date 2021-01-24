@@ -11,6 +11,7 @@ import { SubCategoriesService } from 'src/sub-categories/sub-categories.service'
 import { CategoriesService } from 'src/categories/categories.service';
 import { Category } from 'src/categories/category.entity';
 import { SubCategory } from 'src/sub-categories/sub_category.entity';
+import * as moment from 'moment';
 
 @Injectable()
 export class ModelsService {
@@ -58,12 +59,13 @@ export class ModelsService {
       })
   }
 
-  createModel = async ({ name, brandId }: CreateModelDto): Promise<Model> => {
-    const brand = await this.brandsRepository.findOne(brandId)
-    console.log('OMG!!! ====>', brand)
+  createModel = async ({ name, brandId, categoryId, subCategoryId, brand }: CreateModelDto): Promise<Model> => {
     return await this.modelsRepository.save({
-      name,
-      brand
+      name: name,
+      brand: brand ? brand : {id: brandId},
+      category: {id: categoryId},
+      subCategory: {id: subCategoryId},
+      created_at: moment().format('YYYY-MM-DD HH:mm:ss')
     })
   }
   createModelsFromJson = async (): Promise<Model[]> => {

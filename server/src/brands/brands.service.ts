@@ -10,6 +10,7 @@ import { CategoriesService } from 'src/categories/categories.service';
 import { SubCategoriesService } from 'src/sub-categories/sub-categories.service';
 import * as _ from 'lodash'
 import { SubCategory } from 'src/sub-categories/sub_category.entity';
+import * as moment from 'moment';
 
 @Injectable()
 export class BrandsService {
@@ -61,12 +62,21 @@ export class BrandsService {
     return await this.modelRepository.find({ where: { brand: brand }, select: ['id', 'name'], order: { name: 'ASC' } })
   }
 
-  createBrand = async ({ name, categories }: CreateBrandDto): Promise<Brand> => {
-    const cats = await this.categoryRepository.find({ where: { id: In(categories) } })
-    return await this.brandRepository.save({
-      name,
-      categories: cats
-    })
+  createBrand = async ({ name, categoryId, subCategoryId }: CreateBrandDto): Promise<Brand> => {
+    if(subCategoryId) {
+      return await this.brandRepository.save({
+        name,
+        categories: [{ id: categoryId }],
+        subCategories: [{ id: subCategoryId }],
+        created_at: moment().format('YYYY-MM-DD HH:mm:ss')
+      })
+    } else {
+      return await this.brandRepository.save({
+        name,
+        categories: [{ id: categoryId }],
+        created_at: moment().format('YYYY-MM-DD HH:mm:ss')
+      })
+    }
   }
 
   createBrandsFromJson = async (): Promise<Brand[]> => {

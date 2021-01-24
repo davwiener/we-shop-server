@@ -60,11 +60,10 @@ export class AuctionsService {
 			currentPrice: 1,
 			name,
 			status: AuctionStatus.PENDING,
-			categoryId: category,
-			// subCategoryId: subCategory,
-			productId: product, 
+			product: product ,
 			created_at: new Date(),
-			userId: 1
+			description: '',
+			user
 		}
 		return await this.auctionRepository.save(auction)
 	}

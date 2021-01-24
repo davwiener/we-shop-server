@@ -17,9 +17,6 @@ export class Category extends BaseEntity {
     @Column()
     created_at: Date;
 
-    @OneToMany(() => Auction, auction => auction.category, { eager: false })
-    auctions: Auction[];
-
     @OneToMany(() => Product, product => product.category, { eager: false })
     products: Product[];
 

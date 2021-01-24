@@ -13,6 +13,7 @@ import { SubCategory } from 'src/sub-categories/sub_category.entity';
 import { Model } from 'src/models/models.entity';
 import { ModelsService } from 'src/models/models.service';
 import { Brand } from 'src/brands/brand.entity';
+import { BrandsService } from '../brands/brands.service';
 
 @Injectable()
 export class ProductsService {
@@ -23,7 +24,8 @@ export class ProductsService {
     private categoryRepository: Repository<Category>,
     private categoriesService: CategoriesService,
     private subCategoriesService: SubCategoriesService,
-    private modelService: ModelsService
+    private modelService: ModelsService,
+    private brandService: BrandsService,
   ) { }
 
   haveProductFilters = (searchAuctionDto: SearchAuctionsDto): boolean => {
@@ -90,15 +92,39 @@ export class ProductsService {
   }
 
   createProduct = async (createProductDto: CreateProductDto): Promise<Product> => {
-    const { name, description, brandId, modelId } = createProductDto
+    const { productName, description, brand, model, category, subCategory } = createProductDto;
     const created_at = new Date()
-    return await this.productRepository.save({
-      name,
+    let product = {
+      name: productName,
       description,
-      brandId,
-      modelId,
+      category: {id: category.id},
       created_at,
-    })
+      pending: true
+    };
+    if((!brand.id || brand.id < 0)  && brand.name) {
+     const createdBrand = await this.brandService.createBrand({
+       name: brand.name, categoryId: category.id, subCategoryId: subCategory.id
+     })
+      product['brand'] = createdBrand;
+      const createdModel = await this.modelService.createModel({
+        name: model.name, categoryId: category.id, subCategoryId: subCategory.id, brandId: brand.id, brand: createdBrand
+      })
+      product['model'] = createdModel;
+    } else {
+      product['brandId'] = {id: brand.id}
+      if((!model.id || model.id )< 0 && model.name) {
+        const createdModel = await this.modelService.createModel({
+          name: model.name, categoryId: category.id, subCategoryId: subCategory.id, brandId: brand.id
+        })
+        product['model'] = createdModel;
+      } else {
+        product['modelId'] = {id: model.id}
+      }
+    }
+    if(subCategory) {
+      product['subCategory'] = {id: subCategory.id}
+    }
+    return await this.productRepository.save(product)
   }
 
   creatAllProducts = async () => {

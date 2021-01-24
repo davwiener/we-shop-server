@@ -37,7 +37,7 @@ export class Product extends BaseEntity {
   @OneToMany(() => Auction, auction => auction.product, { eager: false })
   auctions: Auction[]
 
-
-
+  @Column()
+  pending: boolean;
 
 }
