@@ -1,4 +1,4 @@
-import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, ManyToOne, Index } from 'typeorm'
+import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, ManyToOne, Index, JoinColumn } from 'typeorm'
 import { AuctionStatus } from './auction-status.enum';
 import { User } from 'src/auth/user.entity';
 import { Product } from 'src/products/product.entity';
@@ -26,7 +26,7 @@ export class Auction extends BaseEntity {
     price_levels: string;
 
     @Column()
-    @Index()
+    @Index() 
     status: AuctionStatus;
 
     @Column()
@@ -45,9 +45,6 @@ export class Auction extends BaseEntity {
 
     @ManyToOne(() => User, user => user.auctions, { eager: false })
     user: User;
-
-    @ManyToOne(() => Category, category => category.auctions, { eager: false })
-    category: Category
 
     @ManyToOne(() => Product, product => product.auctions, { eager: false })
     product: Product

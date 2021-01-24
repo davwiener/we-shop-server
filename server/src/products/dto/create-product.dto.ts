@@ -1,19 +1,18 @@
 import { IsNotEmpty } from 'class-validator'
 import { Index } from 'typeorm';
-
+export type Item = { name: string, id: number, selectedItem?: string };
 export class CreateProductDto {
     @IsNotEmpty()
-    @Index()
-    name: string;
+    productName: string;
 
-    @IsNotEmpty()
     description: string;
 
-    @IsNotEmpty()
-    @Index()
-    brandId: string;
+    brand: Item;
+
+    model: Item;
+
+    category: Item;
 
     @IsNotEmpty()
-    @Index()
-    modelId: string;
+    subCategory: Item;
 }

@@ -1,5 +1,6 @@
 import { IsNotEmpty, ValidateIf, IsArray } from 'class-validator'
 import { CreateProductDto } from 'src/products/dto/create-product.dto';
+import { Product } from 'src/products/product.entity';
 import { PriceLevels } from '../auction.entity';
 
 
@@ -10,7 +11,7 @@ export class CreateAuctionDto {
     name: string;
     category: string
     subCategory: string
-    product: number
+    product: Product
 }
 
 export class SearchAuctionsDto {  

@@ -11,6 +11,7 @@ import { SubCategoriesService } from 'src/sub-categories/sub-categories.service'
 import { CategoriesService } from 'src/categories/categories.service';
 import { Category } from 'src/categories/category.entity';
 import { SubCategory } from 'src/sub-categories/sub_category.entity';
+import * as moment from 'moment';
 
 @Injectable()
 export class ModelsService {
@@ -24,21 +25,47 @@ export class ModelsService {
     private brandsService: BrandsService
   ) { }
 
-  fetchModels = async (): Promise<Model[]> => {
-    return await this.modelsRepository.find({ select: ['id', 'name'], order: { name: 'ASC' } })
+  fetchModels = async (page?: number, rbp?: number, searchWord?: string, categoryId?: number, subCategoryId?: number, brandId?: number): Promise<{
+    models: Model[],
+    hasMore: boolean
+  }> => {
+    const query = this.modelsRepository.createQueryBuilder('model').
+      limit(Number(rbp) + 1).
+      offset(rbp * (page - 1)).
+      where(`model.name LIKE '%${searchWord}%'`)
+    if (brandId > 0) {
+      query.leftJoinAndSelect("model.brand", "brand").andWhere("brand.id = :id", { id: Number(brandId) });
+    }
+    else if (subCategoryId > 0) {
+      query.leftJoinAndSelect("model.subCategory", "subCategory").andWhere("subCategory.id = :id", { id: Number(subCategoryId) });
+    }
+    else if (categoryId > 0) {
+      query.leftJoinAndSelect("model.category", "category").andWhere("category.id = :id", { id: Number(categoryId) });
+    }
+    return query.getMany().then((models: Model[]) => {
+      const hasMore = models.length > Number(rbp)
+      return { models, hasMore }
+    })
   }
-
   fetchDetailModels = async (): Promise<Model[]> => {
-    return await this.modelsRepository.find({order: { name: 'ASC' },  relations: ['category', 'sub_category', 'brand']})
+    return await this.modelsRepository.find({ order: { name: 'ASC' }, relations: ['category', 'sub_category', 'brand'] })
   }
 
+  getModelById = async (id: number): Promise<Model> => {
+    return await this.modelsRepository.findOne(
+      {
+        where: { id },
+        relations: ['category', 'subCategory', 'brand']
+      })
+  }
 
-  createModel = async ({ name, brandId }: CreateModelDto): Promise<Model> => {
-    const brand = await this.brandsRepository.findOne(brandId)
-    console.log('OMG!!! ====>', brand)
+  createModel = async ({ name, brandId, categoryId, subCategoryId, brand }: CreateModelDto): Promise<Model> => {
     return await this.modelsRepository.save({
-      name,
-      brand
+      name: name,
+      brand: brand ? brand : {id: brandId},
+      category: {id: categoryId},
+      subCategory: {id: subCategoryId},
+      created_at: moment().format('YYYY-MM-DD HH:mm:ss')
     })
   }
   createModelsFromJson = async (): Promise<Model[]> => {
@@ -67,7 +94,7 @@ export class ModelsService {
 
         const indexArrayBrand = _.get(brandsIdsMap, entry.manufacturerId, []);
         indexArrayBrand.push(index);
-        const idObjectBrand= {};
+        const idObjectBrand = {};
         idObjectBrand[entry.manufacturerId] = indexArrayBrand;
         brandsIdsMap = {
           ...brandsIdsMap,

@@ -10,6 +10,7 @@ import { CategoriesService } from 'src/categories/categories.service';
 import { SubCategoriesService } from 'src/sub-categories/sub-categories.service';
 import * as _ from 'lodash'
 import { SubCategory } from 'src/sub-categories/sub_category.entity';
+import * as moment from 'moment';
 
 @Injectable()
 export class BrandsService {
@@ -24,24 +25,58 @@ export class BrandsService {
     private subCategoriesService: SubCategoriesService,
   ) { }
 
-  fetchBrands = async (): Promise<Brand[]> => {
-    return await this.brandRepository.find({ select: ['id', 'name'], order: { name: 'ASC' } })
+  fetchBrands = async (page?: number, rbp?: number, searchWord?: string, categoryId?: number, subCategoryId?: number): Promise<{
+    brands: Brand[],
+    hasMore: boolean
+  }> => {
+    const query = this.brandRepository.createQueryBuilder('brand').
+      limit(Number(rbp) + 1).
+      offset(rbp * (page - 1)).
+      where(`brand.name LIKE '%${searchWord}%'`)
+    if (subCategoryId > 0) {
+      query.leftJoinAndSelect("brand.subCategories", "subCategory").andWhere("subCategory.id = :id", { id: Number(subCategoryId) });
+    }
+    else if (categoryId > 0) {
+      query.leftJoinAndSelect("brand.categories", "category").andWhere("category.id = :id", { id: Number(categoryId) });
+    }
+    return query.getMany().then((brands: Brand[]) => {
+      const hasMore = brands.length > Number(rbp)
+      return { brands, hasMore }
+    })
+  }
+
+
+  getBrandById = async (id: number): Promise<Brand> => {
+    return await this.brandRepository.findOne(
+      {
+        where: { id },
+        relations: ['categories', 'subCategories']
+      })
   }
 
   fetchDetailBrands = async (): Promise<Brand[]> => {
     return await this.brandRepository.find({ order: { name: 'ASC' } })
-  } 
+  }
 
   fetchBrandModels = async (brand: number): Promise<Model[]> => {
     return await this.modelRepository.find({ where: { brand: brand }, select: ['id', 'name'], order: { name: 'ASC' } })
   }
 
-  createBrand = async ({ name, categories }: CreateBrandDto): Promise<Brand> => {
-    const cats = await this.categoryRepository.find({ where: { id: In(categories) } })
-    return await this.brandRepository.save({
-      name,
-      categories: cats
-    })
+  createBrand = async ({ name, categoryId, subCategoryId }: CreateBrandDto): Promise<Brand> => {
+    if(subCategoryId) {
+      return await this.brandRepository.save({
+        name,
+        categories: [{ id: categoryId }],
+        subCategories: [{ id: subCategoryId }],
+        created_at: moment().format('YYYY-MM-DD HH:mm:ss')
+      })
+    } else {
+      return await this.brandRepository.save({
+        name,
+        categories: [{ id: categoryId }],
+        created_at: moment().format('YYYY-MM-DD HH:mm:ss')
+      })
+    }
   }
 
   createBrandsFromJson = async (): Promise<Brand[]> => {
@@ -81,7 +116,7 @@ export class BrandsService {
       });
     })
 
-    const subCategories = await this.subCategoriesService.getSubCategories();
+    const subCategories = await this.subCategoriesService.getAllSubCategories();
     Object.keys(subCategoriesIdsMap).forEach(key => {
       const subCategory = subCategories.find((cat: SubCategory) => cat.id.toString() === key);
       subCategoriesIdsMap[key].forEach(index => {

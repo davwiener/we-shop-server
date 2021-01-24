@@ -24,11 +24,11 @@ export class SubCategory extends BaseEntity {
     })
     category: SubCategory;
 
-    @ManyToMany(() => Brand, brand => brand.sub_categories)
+    @ManyToMany(() => Brand, brand => brand.subCategories)
     @JoinTable()
     brands: Brand[]
 
-    @OneToMany(() => Model, models => models.sub_category)
+    @OneToMany(() => Model, models => models.subCategory)
     models: Model[];
 
     @OneToMany(() => Product, product => product.category, { eager: false })

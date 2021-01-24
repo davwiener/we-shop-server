@@ -1,6 +1,6 @@
 import { ValidateIf } from 'class-validator'
 
-export class GetProductsDto {
+export class GetBrandsDto {
   filter: string;
 
   @ValidateIf(obj => obj.sort)
@@ -8,8 +8,9 @@ export class GetProductsDto {
 
   categoryId: number;
   subCategoryId: number;
+
   page: number;
   rbp: number;
   searchWord: string
-  brandId: number
+
 }

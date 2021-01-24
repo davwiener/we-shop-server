@@ -1,7 +1,8 @@
-import { Controller, Logger, Get, Post, UsePipes, ValidationPipe, Body } from '@nestjs/common';
+import { Controller, Logger, Get, Post, UsePipes, ValidationPipe, Body, Query } from '@nestjs/common';
 import { ModelsService } from './models.service';
 import { Model } from './models.entity';
 import { CreateModelDto } from './dto/create-model.dto';
+import { GetModelsDto } from './dto/get-models.dto';
 
 @Controller('models')
 export class ModelsController {
@@ -9,8 +10,12 @@ export class ModelsController {
   constructor (private modelsService: ModelsService) {}
 
   @Get('/')
-  fetchModels(): Promise<Model[]> {
-    return this.modelsService.fetchModels()
+  getProdeucts(@Query() getBrandsDto: GetModelsDto):  Promise<{
+    models: Model[], 
+    hasMore: boolean
+  }> {
+    return this.modelsService.fetchModels(getBrandsDto.page, getBrandsDto.rbp, getBrandsDto.searchWord,
+       getBrandsDto.categoryId, getBrandsDto.subCategoryId, getBrandsDto.brandId)
   }
 
   @Post('/new')
@@ -25,4 +30,10 @@ export class ModelsController {
     return this.modelsService.createModelsFromJson()
   }
   
+  @Get('/full-model')
+  getModelById(
+    @Query('id') id: number,
+    ): Promise<Model> {
+    return this.modelsService.getModelById(id)
+  }
 }
