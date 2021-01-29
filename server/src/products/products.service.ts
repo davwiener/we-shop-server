@@ -162,6 +162,7 @@ export class ProductsService {
       product.subCategory = br.subCategory;
       product.brand = br;
       product.created_at = new Date();
+      product.pending = false;
       products.push(product)
     });
     models.forEach(model => {
@@ -174,9 +175,10 @@ export class ProductsService {
       product.brand = model.brand;
       product.model = model;
       product.created_at = new Date();
+      product.pending = false;
       products.push(product)
     })
-    return await this.productRepository.save([])
+    return await this.productRepository.save(products);
 
   }
 }

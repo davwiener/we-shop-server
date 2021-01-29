@@ -50,7 +50,6 @@ createCategory = async (createCategory: CreateCategoryDto): Promise<Category> =>
       name: entry.text,
       created_at: new Date()
   }))
-  obj = [];
   console.log('here');
   return await this.categoryRepository.save(obj);
 }

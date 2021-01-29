@@ -29,13 +29,13 @@ async function bootstrap() {
         return;
     }
     const categoriesService = app.get<CategoriesService>(CategoriesService)
-    categoriesService.createCategoryFromJson();
+    await categoriesService.createCategoryFromJson();
     const subCategoriesService = app.get<SubCategoriesService>(SubCategoriesService)
-    subCategoriesService.createSubCategoryFromJson();
+    await subCategoriesService.createSubCategoryFromJson();
     const brandsService = app.get<BrandsService>(BrandsService)
-    brandsService.createBrandsFromJson();
+    await brandsService.createBrandsFromJson();
     const modelsService = app.get<ModelsService>(ModelsService)
-    modelsService.createModelsFromJson();
+    await modelsService.createModelsFromJson();
     if (args[1] === 'products') {
       const productsService = app.get<ProductsService>(ProductsService)
       productsService.creatAllProducts();

@@ -48,7 +48,7 @@ export class ModelsService {
     })
   }
   fetchDetailModels = async (): Promise<Model[]> => {
-    return await this.modelsRepository.find({ order: { name: 'ASC' }, relations: ['category', 'sub_category', 'brand'] })
+    return await this.modelsRepository.find({ order: { name: 'ASC' }, relations: ['category', 'subCategory', 'brand'] })
   }
 
   getModelById = async (id: number): Promise<Model> => {
@@ -118,7 +118,7 @@ export class ModelsService {
     Object.keys(subCategoriesIdsMap).forEach(key => {
       const subCategory = subCategories.find((cat: SubCategory) => cat.id.toString() === key);
       subCategoriesIdsMap[key].forEach(index => {
-        obj[index].sub_category = subCategory;
+        obj[index].subCategory = subCategory;
       });
     })
 

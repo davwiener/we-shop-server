@@ -120,8 +120,8 @@ export class BrandsService {
     Object.keys(subCategoriesIdsMap).forEach(key => {
       const subCategory = subCategories.find((cat: SubCategory) => cat.id.toString() === key);
       subCategoriesIdsMap[key].forEach(index => {
-        obj[index].sub_categories = _.get(obj[index], 'subCategories.length') ?
-          obj[index].sub_categories.push(subCategory) : [subCategory];
+        obj[index].subCategories = _.get(obj[index], 'subCategories.length') ?
+          obj[index].subCategories.push(subCategory) : [subCategory];
       });
     })
 

@@ -19,9 +19,9 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
-    "build-data-base": "NODE_ENV=development nest start --watch -- buildDataBase",
-    "build-data-base-products": "NODE_ENV=development nest start --watch -- buildDataBase products",
-    "build-data-base-only-products": "NODE_ENV=development nest start --watch -- buildDataBase onlyProducts"
+    "build-data-base": "nest start --debug --watch -- buildDataBase",
+    "build-data-base-products": "nest start --debug --watch -- buildDataBase products",
+    "build-data-base-only-products": "nest start --debug --watch -- buildDataBase onlyProducts"
 
   },
   "dependencies": {
